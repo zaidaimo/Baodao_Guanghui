@@ -26,7 +26,7 @@ public class Camera_Right : MonoBehaviour
     private void OnMouseDown()
     {
         //這邊是攝影機平移
-        cam.transform.Translate(new Vector3(5,0,0));
+        cam.transform.Translate(new Vector3(8,0,0));
         //如果攝影機到空物件的位置，改攝影機位置
         if(cam.transform.position == b.position)
         {

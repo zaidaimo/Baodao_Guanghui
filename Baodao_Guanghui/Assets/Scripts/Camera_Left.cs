@@ -23,7 +23,7 @@ public class Camera_Left : MonoBehaviour
     }
     private void OnMouseDown()
     {
-        cam.transform.Translate(new Vector3(-5, 0, 0));
+        cam.transform.Translate(new Vector3(-8, 0, 0));
         if (cam.transform.position == b.position)
         {
             cam.transform.position = Vec;
