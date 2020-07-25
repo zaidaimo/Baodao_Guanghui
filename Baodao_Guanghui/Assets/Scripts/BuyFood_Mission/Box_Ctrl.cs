@@ -22,11 +22,11 @@ public class Box_Ctrl : MonoBehaviour
     {
         if (Input.GetKey(KeyCode.A))
         {
-            transform.localPosition += new Vector3(-50, 0, 0) * Time.deltaTime;
+            transform.localPosition += new Vector3(-30, 0, 0) * Time.deltaTime;
         }
         if (Input.GetKey(KeyCode.D))
         {
-            transform.localPosition += new Vector3(50, 0, 0) * Time.deltaTime;
+            transform.localPosition += new Vector3(30, 0, 0) * Time.deltaTime;
         }
     }
 }
