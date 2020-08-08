@@ -19,15 +19,18 @@ public class Camera_Left : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
-    }
-    private void OnMouseDown()
-    {
-        cam.transform.Translate(new Vector3(-8, 0, 0));
-        if (cam.transform.position == b.position)
+        if (Input.GetMouseButtonDown(0))
         {
-            cam.transform.position = Vec;
+            cam.transform.position = new Vector3(-18.97f, 0, 0);
         }
-
     }
+    //private void OnMouseDown()
+    //{
+        //cam.transform.Translate(new Vector3(-10, 0, 0));
+        //if (cam.transform.position == b.position)
+        //{
+            //cam.transform.position = Vec;
+        //}
+
+    //}
 }

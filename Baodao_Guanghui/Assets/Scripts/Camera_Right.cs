@@ -21,17 +21,22 @@ public class Camera_Right : MonoBehaviour
     void Update()
     {
         
+        if (Input.GetMouseButtonDown(0))
+        {
+            cam.transform.position = new Vector3(18.96f, 0, 0);
+        }
 
     }
-    private void OnMouseDown()
-    {
-        //這邊是攝影機平移
-        cam.transform.Translate(new Vector3(8,0,0));
-        //如果攝影機到空物件的位置，改攝影機位置
-        if(cam.transform.position == b.position)
-        {
-            cam.transform.position = Vec;//攝影機到設定位置
-        }
-    }
+
+    //private void OnMouseDown()
+    //{
+    //這邊是攝影機平移
+    //cam.transform.Translate(new Vector3(10,0,0));
+    //如果攝影機到空物件的位置，改攝影機位置
+    //if(cam.transform.position == b.position)
+    //{
+    //cam.transform.position = Vec;//攝影機到設定位置
+    //}
+    //}
 }
 
