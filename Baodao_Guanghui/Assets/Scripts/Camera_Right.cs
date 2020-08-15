@@ -21,11 +21,10 @@ public class Camera_Right : MonoBehaviour
     void Update()
     {
         
-        if (Input.GetMouseButtonDown(0))
-        {
-            cam.transform.position = new Vector3(18.96f, 0, 0);
-        }
-
+    }
+    public void Cam_Right()
+    {
+        cam.transform.Translate(new Vector3(18f, 0, 0));
     }
 
     //private void OnMouseDown()
