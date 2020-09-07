@@ -8,19 +8,34 @@ public class SpawnMeat : MonoBehaviour
     public Transform[] SpawnPoints;  //生成一個座標的陣列
     public float spawnTime = 1f;  //1秒生成一次蔬菜
     public GameObject[] Meats;
-
-    public bool isGame;  //是否正在進行遊戲
-
+    public Player script;
+    public static bool isGame;  //是否正在進行遊戲
 
     private void Start()
     {
-        InvokeRepeating("SpawnMeats", spawnTime, spawnTime);  //反覆呼叫 (1秒生成,每1秒生成一次)
-        isGame = true;//現在正在遊戲中
+        isGame = true;
+        if(isGame==true)
+        {
+            InvokeRepeating("CreateMeats", spawnTime, spawnTime);  //反覆呼叫 (1秒生成,每1秒生成一次)
+        }
     }
 
-    void SpawnMeats()  //隨機位置 生成想要的物件
+    private void Update()
     {
-        if (isGame == true)
+        if(isGame==false)
+        {
+            CancelInvoke();
+        }
+    }
+    public void StartDrop()
+    {
+        InvokeRepeating("CreateMeats", spawnTime, spawnTime);  //反覆呼叫 (1秒生成,每1秒生成一次)
+        
+    }
+
+    void CreateMeats()  //隨機位置 生成想要的物件
+    {
+        if(isGame == true)
         {
             int spawnIndex = Random.Range(0, SpawnPoints.Length);  //擴充陣列時 隨機生成範圍改至與 重生點數量 相同
             int meatIndex = Random.Range(0, Meats.Length);

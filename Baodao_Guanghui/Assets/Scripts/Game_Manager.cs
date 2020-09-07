@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 
 public class Game_Manager : MonoBehaviour
@@ -17,8 +18,13 @@ public class Game_Manager : MonoBehaviour
         
     }
 
-    public void Go_BuyFood()
+    public void Go_BuyMeat()
     {
         SceneManager.LoadScene(3);
+    }
+
+    public void Go_HotFried()
+    {
+        SceneManager.LoadScene(2);
     }
 }

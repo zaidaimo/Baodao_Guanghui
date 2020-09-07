@@ -5,13 +5,16 @@ using UnityEngine.UI;
 
 public class Veg_Base : MonoBehaviour
 {
-    public Rigidbody2D Veg_rig = null;  //給肉鋼體
-    
+    public Rigidbody2D Veg_rig = null;  //給鋼體
+    public float DestroyTime;
+
+    public PressPlayer script;
     public bool isGame;
 
     private void Start()
     {
-        
+        print("遊戲開始");
+        Destroy(gameObject, DestroyTime);
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
