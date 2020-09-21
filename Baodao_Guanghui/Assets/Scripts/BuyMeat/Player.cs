@@ -57,8 +57,6 @@ public class Player : MonoBehaviour
     public Text Meat_Total_Score_T;
     #endregion
 
-    public Money script;
-
     // Start is called before the first frame update
     void Start()
     {

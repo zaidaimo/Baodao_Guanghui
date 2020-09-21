@@ -6,7 +6,7 @@ using UnityEngine.UI;
 public class SpawnVeg : MonoBehaviour
 {
     public Transform[] SpawnPoints;  //生成一個座標的陣列
-    public float spawnTime = 2f;  //兩秒生成一次蔬菜
+    public float spawnTime = 1f;  //兩秒生成一次蔬菜
     public GameObject[] Vegs;
     public PressPlayer script;
     public static bool isGame;  //是否正在進行遊戲
@@ -19,7 +19,6 @@ public class SpawnVeg : MonoBehaviour
             InvokeRepeating("CreateVegs", spawnTime, spawnTime);  //反覆呼叫 (1秒生成,每1秒生成一次)
         }
     }
-
     private void Update()
     {
         if (isGame == false)
@@ -27,13 +26,11 @@ public class SpawnVeg : MonoBehaviour
             CancelInvoke();
         }
     }
-
     public void StartCreate()
     {
-        InvokeRepeating("SpawnVegs", spawnTime, spawnTime);  //反覆呼叫 (1秒生成,每1秒生成一次)
+        InvokeRepeating("CreateVegs", spawnTime, spawnTime);  //反覆呼叫 (1秒生成,每1秒生成一次)
 
     }
-
     void CreateVegs()  //隨機位置 生成想要的物件
     {
         if (isGame == true)

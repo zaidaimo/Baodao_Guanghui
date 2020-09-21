@@ -17,13 +17,10 @@ public class Veg_Base : MonoBehaviour
         Destroy(gameObject, DestroyTime);
     }
 
-    private void OnCollisionEnter2D(Collision2D collision)
+    private void OnMouseDown()
     {
-        if (collision.gameObject.name == "Box")  //如果肉碰到的物件是箱子
-        {
-            Destroy(gameObject);
-            Debug.Log("菜銷毀");
-
-        }
+        Destroy(gameObject);
+        Debug.Log("菜銷毀");
     }
+
 }

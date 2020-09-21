@@ -65,6 +65,10 @@ public class PressPlayer : MonoBehaviour
             Create[a].StartCreate();  //呼叫StartCreate()功能
 
         }
+        Nowtime = 60;  //開始時間定義為60秒
+        Nowtime_T.text = Nowtime.ToString();  //顯示時間剩幾秒
+        Invoke("GameCountDown", 1.0f);  //每一秒呼叫一次 GameCountDown()
+
     }
     #region 過關條件
     void HowMany_Buy()  //過關條件
@@ -78,6 +82,74 @@ public class PressPlayer : MonoBehaviour
     }
     #endregion
 
+    public void GameCountDown()  //開始倒數計時
+    {
+        Nowtime--;  //從60秒開始遞減
+        Nowtime_T.text = Nowtime.ToString();  //顯示時間剩幾秒
+        if (Nowtime == 0)  //時間到0秒時,遊戲結束
+        {
+            print("End Game");
+            EndGame();
+        }
+        else
+        {   //時間不為0秒時,跳下一次的遞減
+            Invoke("GameCountDown", 1.0f);
+        }
+    }
+
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.gameObject.tag == "Sweet potato leaves")  //如果接到的物件是魷魚 && isGame == true
+        {
+            if (Player_Get1 < Ran_Num1)
+            {
+                print("項目一的肉加1");
+                GetAdd(1, 0, 0, 0);
+                Debug.Log("項目一的肉銷毀");
+
+            }
+            else
+            {
+                GetAdd(0, 0, 0, 1); //多接錯的肉+1
+                Player_Get1 = Ran_Num1; //數值維持不變
+            }
+        }
+        if (collision.gameObject.tag == "Water spinach")  //如果接到的物件是牛肉 
+        {
+            if (Player_Get2 < Ran_Num2)
+            {
+                print("項目二的肉加1");
+                GetAdd(0, 1, 0, 0);
+                Debug.Log("項目二的肉銷毀");
+            }
+            else
+            {
+                GetAdd(0, 0, 0, 1); //多接錯的肉+1
+                Player_Get2 = Ran_Num2; //數值維持不變
+            }
+
+        }
+        if (collision.gameObject.tag == "Shallots")  //如果接到的物件是豬排
+        {
+            if (Player_Get3 < Ran_Num3)
+            {
+                print("項目三的肉加1");
+                GetAdd(0, 0, 1, 0);
+                Debug.Log("項目三的肉銷毀");
+            }
+            else
+            {
+                GetAdd(0, 0, 0, 1); //多接錯的肉+1
+                Player_Get3 = Ran_Num3; //數值維持不變
+            }
+
+        }
+        else if (collision.gameObject.tag == "Others2")  //如果接到的物件是其他肉
+        {
+            print("接錯的肉加1");
+            GetAdd(0, 0, 0, 1);
+        }
+    }
     public void GetAdd(int Get_Add1, int Get_Add2, int Get_Add3, int Get_Wrong)  //每接到一個肉+1
     {
         Player_Get1 += Get_Add1;  //每接到項目一的肉+1
@@ -107,13 +179,18 @@ public class PressPlayer : MonoBehaviour
         Player_Wrong += Get_Wrong;  //接錯的肉+1
         Player_Wrong_T.text = Player_Wrong.ToString();  //將接錯的肉 轉為字串顯示
 
+        EndGame();
+    }
+
+    public void EndGame()
+    {
         if (Ran_Num1 == Player_Get1 && Ran_Num2 == Player_Get2 && Ran_Num3 == Player_Get3)
         {
             /*for (int a = 0; a < Drop.Length; a++)  //結束遊戲時將肉取消顯示
             {
                 Drop[a].isGame = false;
             }*/
-            
+
             SpawnVeg.isGame = false;
             Note.SetActive(true);
         }
