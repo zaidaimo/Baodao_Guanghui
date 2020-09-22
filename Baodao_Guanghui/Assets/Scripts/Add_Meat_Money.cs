@@ -9,6 +9,7 @@ public class Add_Meat_Money : MonoBehaviour
     public GameObject simp_refri;
     public GameObject Not_Enough;
     public float DestroyTime;
+    public GameObject Shop;
 
     void Start()
     {
@@ -24,18 +25,28 @@ public class Add_Meat_Money : MonoBehaviour
 
     public void simp_refri_Sure_to_buy()
     {
-        if (Money.PocketMoney >= 20)
+        if (Money.PocketMoney >= 2000)
         {
-            Money.PocketMoney = Money.PocketMoney - 1;
+            Money.PocketMoney = Money.PocketMoney - 2000;
             GetComponent<Text>().text = Money.PocketMoney.ToString();
 
             simp_refri.SetActive(true);
-
+            Shop.SetActive(false);
         }
         else
         {
-            Not_Enough.SetActive(true);
-            Destroy(Not_Enough, DestroyTime);
+            if (!Not_Enough.activeInHierarchy)
+            { 
+                Not_Enough.SetActive(true);
+            }
+            else
+            {
+                Not_Enough.SetActive(false);
+            }
+
+                
+            //Destroy(Not_Enough, DestroyTime);
+           
             print("餘額不足");
         }
 
