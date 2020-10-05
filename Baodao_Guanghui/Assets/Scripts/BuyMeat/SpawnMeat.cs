@@ -6,7 +6,7 @@ using UnityEngine.UI;
 public class SpawnMeat : MonoBehaviour
 {
     public Transform[] SpawnPoints;  //生成一個座標的陣列
-    public float spawnTime = 1f;  //1秒生成一次蔬菜
+    public float spawnTime = 0.05f;  //1秒生成一塊肉
     public GameObject[] Meats;
     public Player script;
     public static bool isGame;  //是否正在進行遊戲
