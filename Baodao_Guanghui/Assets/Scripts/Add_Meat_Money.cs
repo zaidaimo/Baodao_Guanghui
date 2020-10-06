@@ -5,7 +5,7 @@ using UnityEngine.UI;
 
 public class Add_Meat_Money : MonoBehaviour
 {
-    //public GameObject origin_refri;
+    public GameObject origin_refri;
     public GameObject simp_refri;  //普通冰箱
     public GameObject adv_refri;  //進階冰箱
     public GameObject highlevel_refri;  //高階冰箱
@@ -54,7 +54,7 @@ public class Add_Meat_Money : MonoBehaviour
             simp_refri.SetActive(true);
             adv_refri.SetActive(false);
             highlevel_refri.SetActive(false);
-            //origin_refri.SetActive(false);
+            origin_refri.SetActive(false);
 
             simp_refri_Sure.SetActive(false);
             Shop.SetActive(false);
@@ -77,7 +77,7 @@ public class Add_Meat_Money : MonoBehaviour
             adv_refri.SetActive(true);
             simp_refri.SetActive(false);
             highlevel_refri.SetActive(false);
-            //origin_refri.SetActive(false);
+            origin_refri.SetActive(false);
 
             adv_refri_Sure.SetActive(false);
             Shop.SetActive(false);
@@ -100,7 +100,7 @@ public class Add_Meat_Money : MonoBehaviour
             highlevel_refri.SetActive(true);
             adv_refri.SetActive(false);
             simp_refri.SetActive(false);
-            //origin_refri.SetActive(false);
+            origin_refri.SetActive(false);
 
             highlevel_refri_Sure.SetActive(false);
             Shop.SetActive(false);

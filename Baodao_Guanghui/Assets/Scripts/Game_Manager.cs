@@ -6,18 +6,11 @@ using UnityEngine.SceneManagement;
 
 public class Game_Manager : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
-
+    public GameObject Menu;
+    public GameObject Shop;
+    public GameObject Picture;
+    public GameObject Left;
+    public GameObject Right;
     public void Go_BuyMeat()
     {
         SceneManager.LoadScene(3);
@@ -27,4 +20,6 @@ public class Game_Manager : MonoBehaviour
     {
         SceneManager.LoadScene(2);
     }
+
+    
 }
