@@ -32,10 +32,12 @@ public class Add_Meat_Money : MonoBehaviour
     public GameObject Not_Enough;
     public GameObject Shop;  //商店介面
 
+    
     void Start()
     {
         Money.PocketMoney = Money.PocketMoney + Player.Meat_Total_Score;
         GetComponent<Text>().text = Money.PocketMoney.ToString();
+
     }
 
     // Update is called once per frame
