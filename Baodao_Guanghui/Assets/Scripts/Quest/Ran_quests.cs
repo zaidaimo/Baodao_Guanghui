@@ -5,7 +5,7 @@ using UnityEngine;
 public class Ran_quests : MonoBehaviour
 {
     //public GameObject Quest;
-    public float DestroyTime;
+    //public float DestroyTime;
     public float spawnTime = 1; //只需花一秒生成
 
     public Transform[] QuestPoints;  //生成一個座標的陣列
@@ -17,7 +17,7 @@ public class Ran_quests : MonoBehaviour
         isGame = true;
         if (isGame == true)
         {
-            InvokeRepeating("RanQuestion", spawnTime, 10);  //反覆呼叫 (1秒生成,每300秒生成一次)
+            InvokeRepeating("RanQuestion", spawnTime, 300);  //反覆呼叫 (1秒生成,每300秒生成一次)
         }
     }
 
