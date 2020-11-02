@@ -31,8 +31,13 @@ public class Add_Meat_Money : MonoBehaviour
 
     public GameObject Not_Enough;
     public GameObject Shop;  //商店介面
-
     
+    public GameObject Bulb;  //達到一定條件即可做菜
+    public GameObject kongshingtsai_kitchen;
+    public GameObject diguayeah_kitchen;
+    public GameObject tsaibonun_kitchen;
+    public GameObject konbaogiding_kitchen;
+
     void Start()
     {
         Money.PocketMoney = Money.PocketMoney + Player.Meat_Total_Score;
@@ -252,5 +257,19 @@ public class Add_Meat_Money : MonoBehaviour
             print("餘額不足");
             Not_Enough.SetActive(true);
         }
+    }
+
+    public void Kongsingtsai()  //空心菜
+    {
+        if (Money.PocketMoney >= 200)
+        {
+            Bulb.SetActive(true);
+        }
+        else
+        {
+            print("餘額不足");
+            Not_Enough.SetActive(true);
+        }
+
     }
 }
