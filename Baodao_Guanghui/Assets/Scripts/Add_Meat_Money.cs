@@ -32,11 +32,15 @@ public class Add_Meat_Money : MonoBehaviour
     public GameObject Not_Enough;
     public GameObject Shop;  //商店介面
     
-    public GameObject Bulb;  //達到一定條件即可做菜
-    public GameObject kongshingtsai_kitchen;
-    public GameObject diguayeah_kitchen;
-    public GameObject tsaibonun_kitchen;
-    public GameObject konbaogiding_kitchen;
+    public GameObject bulb_konsingtsai;  //達到一定條件即可做菜
+    public GameObject bulb_diguayeah;
+    public GameObject bulb_tsaibonun;
+    public GameObject bulb_kongbaogiding;
+
+    
+    //public GameObject diguayeah_kitchen;
+    //public GameObject tsaibonun_kitchen;
+    //public GameObject kongbaogiding_kitchen;
 
     void Start()
     {
@@ -48,7 +52,8 @@ public class Add_Meat_Money : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-
+        Kongsingtsai();
+        Diguayeah();
     }
 
     public void simp_refri_Sure_to_buy()  //普通冰箱
@@ -263,12 +268,50 @@ public class Add_Meat_Money : MonoBehaviour
     {
         if (Money.PocketMoney >= 200)
         {
-            Bulb.SetActive(true);
+            bulb_konsingtsai.SetActive(true);
         }
         else
         {
-            print("餘額不足");
-            Not_Enough.SetActive(true);
+            bulb_konsingtsai.SetActive(false);
+        }
+
+    }
+
+    public void Diguayeah()  //地瓜葉
+    {
+        if (Money.PocketMoney >= 500)
+        {
+            bulb_diguayeah.SetActive(true);
+        }
+        else
+        {
+            bulb_diguayeah.SetActive(false);
+        }
+
+    }
+
+    public void Tsaibonun()  //菜圃但
+    {
+        if (Money.PocketMoney >= 1000)
+        {
+            bulb_tsaibonun.SetActive(true);
+        }
+        else
+        {
+            bulb_tsaibonun.SetActive(false);
+        }
+
+    }
+
+    public void Kongbaogiding()  //宮保雞丁
+    {
+        if (Money.PocketMoney >= 1500)
+        {
+            bulb_kongbaogiding.SetActive(true);
+        }
+        else
+        {
+            bulb_kongbaogiding.SetActive(false);
         }
 
     }
