@@ -17,7 +17,7 @@ public class Ran_quests : MonoBehaviour
         isGame = true;
         if (isGame == true)
         {
-            InvokeRepeating("RanQuestion", spawnTime, 300);  //反覆呼叫 (1秒生成,每300秒生成一次)
+            InvokeRepeating("RanQuestion", spawnTime, 1);  //反覆呼叫 (1秒生成,每300秒生成一次)
         }
     }
 

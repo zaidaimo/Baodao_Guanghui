@@ -5,7 +5,7 @@ using UnityEngine.UI;
 
 public static class Money //獨立的
 {
-    public static int PocketMoney;  //Money在背景程序中的零用
+    public static int PocketMoney=100000;  //Money在背景程序中的零用
 
 
 }

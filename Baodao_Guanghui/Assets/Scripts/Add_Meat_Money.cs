@@ -5,6 +5,7 @@ using UnityEngine.UI;
 
 public class Add_Meat_Money : MonoBehaviour
 {
+    #region 第一頁 冰箱
     public GameObject origin_refri;
     public GameObject simp_refri;  //普通冰箱
     public GameObject adv_refri;  //進階冰箱
@@ -13,6 +14,16 @@ public class Add_Meat_Money : MonoBehaviour
     public GameObject adv_refri_Sure;
     public GameObject highlevel_refri_Sure;
 
+    public GameObject simp_refri_Buy_Btn;
+    public GameObject adv_refri_Buy_Btn;
+    public GameObject highlevel_refri_Buy_Btn;
+
+    public GameObject use_simp_refri;
+    public GameObject use_adv_refri;
+    public GameObject use_highlevel_refri;
+    #endregion
+
+    #region 第二頁 魚缸
     public GameObject origin_fish;
     public GameObject simp_Fish;  //普通魚缸
     public GameObject adv_Fish;  //進階魚缸
@@ -21,6 +32,16 @@ public class Add_Meat_Money : MonoBehaviour
     public GameObject adv_Fish_Sure;
     public GameObject highlevel_Fish_Sure;
 
+    public GameObject simp_fish_Buy_Btn;
+    public GameObject adv_fish_Buy_Btn;
+    public GameObject highlevel_fish_Buy_Btn;
+
+    public GameObject use_simp_fish;
+    public GameObject use_adv_fish;
+    public GameObject use_highlevel_fish;
+    #endregion
+
+    #region 第三頁 桌子
     public GameObject origin_table;
     public GameObject simp_table;  //圓桌
     public GameObject adv_table;  //方桌
@@ -28,25 +49,56 @@ public class Add_Meat_Money : MonoBehaviour
     public GameObject simp_table_Sure;
     public GameObject adv_table_Sure;
     public GameObject highlevel_table_Sure;
+    #endregion
+
+    #region 櫃台
+    public GameObject origin_counter;
+    public GameObject simp_counter;  //裝飾櫃台
+    public GameObject mid_counter;  //大理石櫃台
+    public GameObject simp_counter_Sure;
+    public GameObject mid_counter_Sure;
+    #endregion
+
+    #region 桌飾
+    public GameObject Money_Cat;  //招財貓
+    public GameObject Money_Cat_Sure;
+    public GameObject gold_frog;  //金蟾蜍
+    public GameObject gold_frog_Sure;
+    #endregion
+
+    #region 壁飾
+    public GameObject money_god;  //金蟾蜍
+    public GameObject money_god_Sure;
+    public GameObject tsun;  //春
+    public GameObject tsun_Sure;
+    public GameObject fu;  //福
+    public GameObject fu_Sure;
+    public GameObject plaque1;  //招財進寶
+    public GameObject plaque1_Sure;
+    public GameObject plaque2;  //千克萬來
+    public GameObject plaque2_Sure;
+    public GameObject plaque3;  //金蟾蜍
+    public GameObject plaque3_Sure;
+    public GameObject plaque4;  //金蟾蜍
+    public GameObject plaque4_Sure;
+    public GameObject plaque5;  //金蟾蜍
+    public GameObject plaque5_Sure;
+    #endregion
 
     public GameObject Not_Enough;
     public GameObject Shop;  //商店介面
     
+    #region 達到一定條件即可做菜
     public GameObject bulb_konsingtsai;  //達到一定條件即可做菜
     public GameObject bulb_diguayeah;
     public GameObject bulb_tsaibonun;
     public GameObject bulb_kongbaogiding;
-
-    
-    //public GameObject diguayeah_kitchen;
-    //public GameObject tsaibonun_kitchen;
-    //public GameObject kongbaogiding_kitchen;
+    #endregion
 
     void Start()
     {
         Money.PocketMoney = Money.PocketMoney + Player.Meat_Total_Score;
         GetComponent<Text>().text = Money.PocketMoney.ToString();
-
     }
 
     // Update is called once per frame
@@ -55,7 +107,7 @@ public class Add_Meat_Money : MonoBehaviour
         Kongsingtsai();
         Diguayeah();
     }
-
+    #region 第一頁 買冰箱
     public void simp_refri_Sure_to_buy()  //普通冰箱
     {
         if (Money.PocketMoney >= 2000)
@@ -69,7 +121,9 @@ public class Add_Meat_Money : MonoBehaviour
             origin_refri.SetActive(false);
 
             simp_refri_Sure.SetActive(false);
-            Shop.SetActive(false);
+            Shop.SetActive(false);  //關閉商店
+            simp_refri_Buy_Btn.SetActive(false);  //購買按鈕關閉
+            use_simp_refri.SetActive(true);  //套用按鈕開啟
         }
         else
         {
@@ -77,6 +131,16 @@ public class Add_Meat_Money : MonoBehaviour
             Not_Enough.SetActive(true);
         }
 
+    }
+
+    public void to_use_simp_refri()
+    {
+        simp_refri.SetActive(true);
+        adv_refri.SetActive(false);
+        highlevel_refri.SetActive(false);
+        origin_refri.SetActive(false);
+
+        Shop.SetActive(false);  //關閉商店
     }
 
     public void adv_refri_Sure_to_buy()  //進階冰箱
@@ -93,6 +157,8 @@ public class Add_Meat_Money : MonoBehaviour
 
             adv_refri_Sure.SetActive(false);
             Shop.SetActive(false);
+            adv_refri_Buy_Btn.SetActive(false);  //購買按鈕關閉
+            use_adv_refri.SetActive(true);  //套用按鈕開啟
         }
         else
         {
@@ -100,6 +166,16 @@ public class Add_Meat_Money : MonoBehaviour
             Not_Enough.SetActive(true);
         }
 
+    }
+
+    public void to_use_adv_refri()
+    {
+        adv_refri.SetActive(true);
+        simp_refri.SetActive(false);
+        highlevel_refri.SetActive(false);
+        origin_refri.SetActive(false);
+
+        Shop.SetActive(false);  //關閉商店
     }
 
     public void highlevel_refri_Sure_to_buy()  //高階冰箱
@@ -116,6 +192,8 @@ public class Add_Meat_Money : MonoBehaviour
 
             highlevel_refri_Sure.SetActive(false);
             Shop.SetActive(false);
+            highlevel_refri_Buy_Btn.SetActive(false);  //購買按鈕關閉
+            use_highlevel_refri.SetActive(true);  //套用按鈕開啟
         }
         else
         {
@@ -125,6 +203,18 @@ public class Add_Meat_Money : MonoBehaviour
 
     }
 
+    public void to_use_highlevel_refri()
+    {
+        highlevel_refri.SetActive(true);
+        adv_refri.SetActive(false);
+        simp_refri.SetActive(false);
+        origin_refri.SetActive(false);
+
+        Shop.SetActive(false);  //關閉商店
+    }
+    #endregion
+
+    #region 第二頁 魚缸
     public void simp_Fish_Sure_to_buy()  //普通水族箱
     {
         if (Money.PocketMoney >= 2000)
@@ -139,6 +229,8 @@ public class Add_Meat_Money : MonoBehaviour
 
             simp_Fish_Sure.SetActive(false);
             Shop.SetActive(false);
+            simp_fish_Buy_Btn.SetActive(false);  //購買按鈕關閉
+            use_simp_fish.SetActive(true);  //套用按鈕開啟
         }
         else
         {
@@ -146,6 +238,16 @@ public class Add_Meat_Money : MonoBehaviour
             Not_Enough.SetActive(true);
         }
 
+    }
+
+    public void to_use_simp_fish()
+    {
+        simp_Fish.SetActive(true);
+        adv_Fish.SetActive(false);
+        highlevel_Fish.SetActive(false);
+        origin_fish.SetActive(false);
+
+        Shop.SetActive(false);  //關閉商店
     }
 
     public void adv_Fish_Sure_to_buy()  //進階水族箱
@@ -162,6 +264,8 @@ public class Add_Meat_Money : MonoBehaviour
 
             adv_Fish_Sure.SetActive(false);
             Shop.SetActive(false);
+            adv_fish_Buy_Btn.SetActive(false);  //購買按鈕關閉
+            use_adv_fish.SetActive(true);  //套用按鈕開啟
         }
         else
         {
@@ -169,6 +273,16 @@ public class Add_Meat_Money : MonoBehaviour
             Not_Enough.SetActive(true);
         }
 
+    }
+
+    public void to_use_adv_fish()
+    {
+        adv_Fish.SetActive(true);
+        simp_Fish.SetActive(false);
+        highlevel_Fish.SetActive(false);
+        origin_fish.SetActive(false);
+
+        Shop.SetActive(false);  //關閉商店
     }
 
     public void highlevel_Fish_Sure_to_buy()  //高級水族箱
@@ -185,6 +299,8 @@ public class Add_Meat_Money : MonoBehaviour
 
             highlevel_Fish_Sure.SetActive(false);
             Shop.SetActive(false);
+            highlevel_fish_Buy_Btn.SetActive(false);  //購買按鈕關閉
+            use_highlevel_fish.SetActive(true);  //套用按鈕開啟
         }
         else
         {
@@ -194,14 +310,26 @@ public class Add_Meat_Money : MonoBehaviour
 
     }
 
+    public void to_use_highlevel_fish()
+    {
+        highlevel_Fish.SetActive(true);
+        simp_Fish.SetActive(false);
+        adv_Fish.SetActive(false);
+        origin_fish.SetActive(false);
+
+        Shop.SetActive(false);  //關閉商店
+    }
+    #endregion
+
+    #region 第三頁 桌子
+
     public void simp_table_Sure_to_buy()  //圓桌
     {
         if (Money.PocketMoney >= 800)
         {
             Money.PocketMoney = Money.PocketMoney - 800;
             GetComponent<Text>().text = Money.PocketMoney.ToString();
-
-
+             
             simp_table.SetActive(true);
             highlevel_table.SetActive(false);
             adv_table.SetActive(false);
@@ -224,8 +352,7 @@ public class Add_Meat_Money : MonoBehaviour
         {
             Money.PocketMoney = Money.PocketMoney - 800;
             GetComponent<Text>().text = Money.PocketMoney.ToString();
-
-
+             
             adv_table.SetActive(true);
             highlevel_table.SetActive(false);
             simp_table.SetActive(false);
@@ -241,14 +368,13 @@ public class Add_Meat_Money : MonoBehaviour
         }
     }
 
-    public void highlevel_table_Sure_to_buy()  //方桌
+    public void highlevel_table_Sure_to_buy()  //會轉桌
     {
         if (Money.PocketMoney >= 1500)
         {
             Money.PocketMoney = Money.PocketMoney - 1500;
             GetComponent<Text>().text = Money.PocketMoney.ToString();
-
-
+             
             adv_table.SetActive(false);
             highlevel_table.SetActive(true);
             simp_table.SetActive(false);
@@ -263,7 +389,305 @@ public class Add_Meat_Money : MonoBehaviour
             Not_Enough.SetActive(true);
         }
     }
+    #endregion
+    
+    #region 櫃台
+    public void simp_counter_Sure_to_buy()  //有裝飾櫃台
+    {
+        if (Money.PocketMoney >= 5000)
+        {
+            Money.PocketMoney = Money.PocketMoney - 5000;
+            GetComponent<Text>().text = Money.PocketMoney.ToString();
+             
+            origin_counter.SetActive(false);
+            simp_counter.SetActive(true);
+            mid_counter.SetActive(false);
+             
+            simp_counter_Sure.SetActive(false);
+            Shop.SetActive(false);
+        }
+        else
+        {
+            print("餘額不足");
+            Not_Enough.SetActive(true);
+        }
+    }
 
+    public void mid_counter_Sure_to_buy()  //有裝飾櫃台
+    {
+        if (Money.PocketMoney >= 10000)
+        {
+            Money.PocketMoney = Money.PocketMoney - 10000;
+            GetComponent<Text>().text = Money.PocketMoney.ToString();
+             
+            origin_counter.SetActive(false);
+            simp_counter.SetActive(false);
+            mid_counter.SetActive(true);
+             
+            mid_counter_Sure.SetActive(false);
+            Shop.SetActive(false);
+        }
+        else
+        {
+            print("餘額不足");
+            Not_Enough.SetActive(true);
+        }
+    }
+    #endregion
+
+    #region 桌飾
+    public void Money_Cat_Sure_to_buy()  //招財貓
+    {
+        if (Money.PocketMoney >= 500)
+        {
+            Money.PocketMoney = Money.PocketMoney - 500;
+            GetComponent<Text>().text = Money.PocketMoney.ToString();
+             
+            gold_frog.SetActive(false);
+            Money_Cat.SetActive(true);
+             
+            Money_Cat_Sure.SetActive(false);
+            Shop.SetActive(false);
+        }
+        else
+        {
+            print("餘額不足");
+            Not_Enough.SetActive(true);
+        }
+    }
+
+    public void gold_frog_Sure_to_buy()  //招財貓
+    {
+        if (Money.PocketMoney >= 500)
+        {
+            Money.PocketMoney = Money.PocketMoney - 500;
+            GetComponent<Text>().text = Money.PocketMoney.ToString();
+             
+            gold_frog.SetActive(true);
+            Money_Cat.SetActive(false);
+             
+            gold_frog_Sure.SetActive(false);
+            Shop.SetActive(false);
+        }
+        else
+        {
+            print("餘額不足");
+            Not_Enough.SetActive(true);
+        }
+    }
+    #endregion
+    
+    #region 壁飾
+    public void money_god_Sure_to_buy()  //招財貓
+    {
+        if (Money.PocketMoney >= 800)
+        {
+            Money.PocketMoney = Money.PocketMoney - 800;
+            GetComponent<Text>().text = Money.PocketMoney.ToString();
+
+            money_god.SetActive(true);
+            tsun.SetActive(false);
+            fu.SetActive(false); 
+            plaque1.SetActive(false);
+            plaque2.SetActive(false);
+            plaque3.SetActive(false);
+            plaque4.SetActive(false);
+            plaque5.SetActive(false);
+
+            money_god_Sure.SetActive(false);
+            Shop.SetActive(false);
+        }
+        else
+        {
+            print("餘額不足");
+            Not_Enough.SetActive(true);
+        }
+    }
+
+    public void tsun_Sure_to_buy()  //招財貓
+    {
+        if (Money.PocketMoney >= 100)
+        {
+            Money.PocketMoney = Money.PocketMoney - 100;
+            GetComponent<Text>().text = Money.PocketMoney.ToString();
+
+            money_god.SetActive(false);
+            tsun.SetActive(true);
+            fu.SetActive(false);
+            plaque1.SetActive(false);
+            plaque2.SetActive(false);
+            plaque3.SetActive(false);
+            plaque4.SetActive(false);
+            plaque5.SetActive(false);
+
+            tsun_Sure.SetActive(false);
+            Shop.SetActive(false);
+        }
+        else
+        {
+            print("餘額不足");
+            Not_Enough.SetActive(true);
+        }
+    }
+
+    public void fu_Sure_to_buy()  //招財貓
+    {
+        if (Money.PocketMoney >= 100)
+        {
+            Money.PocketMoney = Money.PocketMoney - 100;
+            GetComponent<Text>().text = Money.PocketMoney.ToString();
+
+            money_god.SetActive(false);
+            tsun.SetActive(false);
+            fu.SetActive(true);
+            plaque1.SetActive(false);
+            plaque2.SetActive(false);
+            plaque3.SetActive(false);
+            plaque4.SetActive(false);
+            plaque5.SetActive(false);
+
+            fu_Sure.SetActive(false);
+            Shop.SetActive(false);
+        }
+        else
+        {
+            print("餘額不足");
+            Not_Enough.SetActive(true);
+        }
+    }
+
+    public void plaque1_Sure_to_buy()  //招財貓
+    {
+        if (Money.PocketMoney >= 1000)
+        {
+            Money.PocketMoney = Money.PocketMoney - 100;
+            GetComponent<Text>().text = Money.PocketMoney.ToString();
+
+            money_god.SetActive(false);
+            tsun.SetActive(false);
+            fu.SetActive(false);
+            plaque1.SetActive(true);
+            plaque2.SetActive(false);
+            plaque3.SetActive(false);
+            plaque4.SetActive(false);
+            plaque5.SetActive(false);
+
+            plaque1_Sure.SetActive(false);
+            Shop.SetActive(false);
+        }
+        else
+        {
+            print("餘額不足");
+            Not_Enough.SetActive(true);
+        }
+    }
+
+    public void plaque2_Sure_to_buy()  //招財貓
+    {
+        if (Money.PocketMoney >= 1000)
+        {
+            Money.PocketMoney = Money.PocketMoney - 1000;
+            GetComponent<Text>().text = Money.PocketMoney.ToString();
+
+            money_god.SetActive(false);
+            tsun.SetActive(false);
+            fu.SetActive(false);
+            plaque1.SetActive(false);
+            plaque2.SetActive(true);
+            plaque3.SetActive(false);
+            plaque4.SetActive(false);
+            plaque5.SetActive(false);
+
+            plaque2_Sure.SetActive(false);
+            Shop.SetActive(false);
+        }
+        else
+        {
+            print("餘額不足");
+            Not_Enough.SetActive(true);
+        }
+    }
+
+    public void plaque3_Sure_to_buy()  //招財貓
+    {
+        if (Money.PocketMoney >= 1000)
+        {
+            Money.PocketMoney = Money.PocketMoney - 1000;
+            GetComponent<Text>().text = Money.PocketMoney.ToString();
+
+            money_god.SetActive(false);
+            tsun.SetActive(false);
+            fu.SetActive(false);
+            plaque1.SetActive(false);
+            plaque2.SetActive(false);
+            plaque3.SetActive(true);
+            plaque4.SetActive(false);
+            plaque5.SetActive(false);
+
+            plaque3_Sure.SetActive(false);
+            Shop.SetActive(false);
+        }
+        else
+        {
+            print("餘額不足");
+            Not_Enough.SetActive(true);
+        }
+    }
+
+    public void plaque4_Sure_to_buy()  //招財貓
+    {
+        if (Money.PocketMoney >= 1000)
+        {
+            Money.PocketMoney = Money.PocketMoney - 1000;
+            GetComponent<Text>().text = Money.PocketMoney.ToString();
+
+            money_god.SetActive(false);
+            tsun.SetActive(false);
+            fu.SetActive(false);
+            plaque1.SetActive(false);
+            plaque2.SetActive(false);
+            plaque3.SetActive(false);
+            plaque4.SetActive(true);
+            plaque5.SetActive(false);
+
+            plaque4_Sure.SetActive(false);
+            Shop.SetActive(false);
+        }
+        else
+        {
+            print("餘額不足");
+            Not_Enough.SetActive(true);
+        }
+    }
+
+    public void plaque5_Sure_to_buy()  //招財貓
+    {
+        if (Money.PocketMoney >= 1000)
+        {
+            Money.PocketMoney = Money.PocketMoney - 1000;
+            GetComponent<Text>().text = Money.PocketMoney.ToString();
+
+            money_god.SetActive(false);
+            tsun.SetActive(false);
+            fu.SetActive(false);
+            plaque1.SetActive(false);
+            plaque2.SetActive(false);
+            plaque3.SetActive(false);
+            plaque4.SetActive(false);
+            plaque5.SetActive(true);
+
+            plaque5_Sure.SetActive(false);
+            Shop.SetActive(false);
+        }
+        else
+        {
+            print("餘額不足");
+            Not_Enough.SetActive(true);
+        }
+    }
+    #endregion
+
+    #region 頁面切換
     public void Kongsingtsai()  //空心菜
     {
         if (Money.PocketMoney >= 200)
@@ -315,4 +739,5 @@ public class Add_Meat_Money : MonoBehaviour
         }
 
     }
+    #endregion
 }
