@@ -25,7 +25,7 @@ public class Type_Writer_Effect : MonoBehaviour
         foreach (var item in showStr.ToCharArray())  //轉為char的類型
         {
             showText.text += item;  //顯示文字
-            yield return new WaitForSeconds(0.1f);
+            yield return new WaitForSeconds(0.06f);
         }
     }
 }
