@@ -7,7 +7,7 @@ public class meatboss_base : MonoBehaviour
     public Rigidbody2D Guest_rig = null;  //給肉鋼體
     public float DestroyTime;
 
-    public GameObject meatboss_say;
+    //public GameObject meatboss_say;
     //public Player script;
     public bool isGame;  //是否正在進行遊戲
 
@@ -19,7 +19,7 @@ public class meatboss_base : MonoBehaviour
 
     private void OnMouseDown()
     {
-        meatboss_say.SetActive(true);
+        //meatboss_say.SetActive(true);
 
         
     }
