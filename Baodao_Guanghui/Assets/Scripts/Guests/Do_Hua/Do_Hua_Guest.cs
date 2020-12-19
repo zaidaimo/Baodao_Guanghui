@@ -13,15 +13,18 @@ public class Do_Hua_Guest : MonoBehaviour
     public GameObject Shop;
     public GameObject Picture;
 
+    public static bool isGame;  //是否正在進行遊戲
     private void Start()
     {
         print("遊戲開始");
-        Destroy(gameObject, DestroyTime);
+        //Destroy(gameObject, DestroyTime);
+        
     }
     private void OnMouseDown()
     {
         Do_Hua_Quiz.SetActive(true);
         //Destroy(gameObject);
+        Spawn_Guest.isGame = false;
 
         Right.SetActive(false);
         Left.SetActive(false);
