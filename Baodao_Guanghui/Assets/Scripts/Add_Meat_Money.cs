@@ -985,4 +985,10 @@ public class Add_Meat_Money : MonoBehaviour
 
     }
     #endregion
+
+    public void Right_Dishes()
+    {
+        Money.PocketMoney = Money.PocketMoney+100;
+        GetComponent<Text>().text = Money.PocketMoney.ToString();
+    }
 }

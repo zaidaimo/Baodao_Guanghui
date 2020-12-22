@@ -14,11 +14,12 @@ public class Ro_Tan_Guest : MonoBehaviour
     public GameObject Picture;
 
     public static bool isGame;  //是否正在進行遊戲
+
     private void OnMouseDown()
     {
         Ro_Tan_Quiz.SetActive(true);
-        //Destroy(gameObject);
-        Spawn_Guest.isGame = false;
+        Destroy(gameObject);
+        //Spawn_Guest1.isGame = false;
 
         Right.SetActive(false);
         Left.SetActive(false);
