@@ -19,7 +19,7 @@ public class Mein_Bao_Guest : MonoBehaviour
     {
         Mein_Bao_Quiz.SetActive(true);
         Destroy(gameObject);
-        Spawn_Guest2.isGame = false;
+        //Spawn_Guest2.isGame = false;
 
         Right.SetActive(false);
         Left.SetActive(false);
