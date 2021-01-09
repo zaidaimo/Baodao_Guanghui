@@ -6,25 +6,40 @@ ScriptsOnlyBuild:
     - Camera_Left
     - Camera_Right
     - CloseHowPlayMeat
+    - Do_Hua_Guest
+    - Do_Hua_Quiz
+    - G_Pai_Guest
     - GameStart
     - Game_Manager
+    - Game_teaching
     - Go_To_Diguayeah
     - Go_To_Konsingtasi
     - Go_To_Tsaibonun
-    - HowPlayMeat
     - LongPressEffect
     - Meat_Base
+    - Mein_Bao_Guest
     - NPC_Hint
+    - Part_Time_Guest
     - Player
+    - Player_Quiz
     - PointMeat
     - Press_GameStart
-    - Quest01
-    - Quest_Base
-    - Ran_quests
+    - Ran_explanation
+    - Ran_quest
+    - Ro_Tan_Guest
     - SceneChanges
     - Settings
+    - Shop_Guest
     - SpawnMeat
-    - Spawn_Guest
+    - Spawn_Guest1
+    - Spawn_Guest2
+    - Spawn_Guest3
+    - Spawn_Guest4
+    - Spawn_Guest5
+    - Spawn_Teach
+    - Teacher_Guest
+    - Tsai_Tan_Guest
+    - Tsai_Tan_Quiz
     - Type_Writer_Effect
     - Type_Writer_Effect2
     - Type_Writer_Effect3
@@ -36,7 +51,12 @@ ScriptsOnlyBuild:
     - Type_Writer_Effect9
     - check_menu
     - close_menu
-    - meatboss_base
+    - expanation_Base
+    - sc1_zoom
+    - sc2_zoom
+    - sc3_zoom
+    - sc4_zoom
+    - sc5_zoom
     Unity.2D.Tilemap.Editor.dll:
     - UnityEditor.Tilemaps.GridPaintingState
     - UnityEditor.Tilemaps.GridPaletteBrushes
@@ -48,12 +68,19 @@ ScriptsOnlyBuild:
     - Unity.Cloud.Collaborate.UserInterface.WindowCache
     Unity.Rider.Editor.dll:
     - Packages.Rider.Editor.UnitTesting.CallbackData
+    UnityEditor.Graphs.dll:
+    - UnityEditor.Graphs.AnimationBlendTree.Graph
+    - UnityEditor.Graphs.AnimationBlendTree.GraphGUI
+    - UnityEditor.Graphs.AnimationStateMachine.Graph
+    - UnityEditor.Graphs.AnimationStateMachine.GraphGUI
+    - UnityEditor.Graphs.AnimatorControllerTool
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
     - UnityEditor.TestTools.TestRunner.TestListCacheData
     - UnityEditor.TestTools.TestRunner.TestRun.TestJobDataHolder
     UnityEngine.UI.dll:
     - UnityEngine.EventSystems.EventSystem
+    - UnityEngine.EventSystems.EventTrigger
     - UnityEngine.EventSystems.StandaloneInputModule
     - UnityEngine.UI.Button
     - UnityEngine.UI.CanvasScaler
@@ -89,25 +116,25 @@ ScriptsOnlyBuild:
     - Class: 104
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 11816}
-    - Class: 114
       Script: {instanceID: 11818}
     - Class: 114
-      Script: {instanceID: 11840}
+      Script: {instanceID: 11820}
     - Class: 114
-      Script: {instanceID: 12076}
+      Script: {instanceID: 11844}
     - Class: 114
-      Script: {instanceID: 12552}
+      Script: {instanceID: 12082}
     - Class: 114
-      Script: {instanceID: 13084}
+      Script: {instanceID: 12570}
     - Class: 114
-      Script: {instanceID: 13386}
+      Script: {instanceID: 13344}
     - Class: 114
-      Script: {instanceID: 13648}
+      Script: {instanceID: 13426}
     - Class: 114
-      Script: {instanceID: 14066}
+      Script: {instanceID: 13692}
     - Class: 114
-      Script: {instanceID: 14070}
+      Script: {instanceID: 14126}
+    - Class: 114
+      Script: {instanceID: 71272}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -146,19 +173,21 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 11818}
     - Class: 114
-      Script: {instanceID: 11840}
+      Script: {instanceID: 11820}
     - Class: 114
-      Script: {instanceID: 12076}
+      Script: {instanceID: 11844}
     - Class: 114
-      Script: {instanceID: 12552}
+      Script: {instanceID: 12082}
     - Class: 114
-      Script: {instanceID: 12594}
+      Script: {instanceID: 12570}
     - Class: 114
-      Script: {instanceID: 13172}
+      Script: {instanceID: 12616}
     - Class: 114
-      Script: {instanceID: 13648}
+      Script: {instanceID: 13204}
     - Class: 114
-      Script: {instanceID: 14070}
+      Script: {instanceID: 13692}
+    - Class: 114
+      Script: {instanceID: 14126}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -192,13 +221,13 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 48
       Script: {instanceID: 0}
-    - Class: 50
-      Script: {instanceID: 0}
     - Class: 60
       Script: {instanceID: 0}
     - Class: 61
       Script: {instanceID: 0}
     - Class: 68
+      Script: {instanceID: 0}
+    - Class: 74
       Script: {instanceID: 0}
     - Class: 81
       Script: {instanceID: 0}
@@ -206,72 +235,106 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 83
       Script: {instanceID: 0}
+    - Class: 91
+      Script: {instanceID: 0}
+    - Class: 95
+      Script: {instanceID: 0}
     - Class: 104
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 11816}
-    - Class: 114
       Script: {instanceID: 11818}
     - Class: 114
-      Script: {instanceID: 11840}
+      Script: {instanceID: 11820}
     - Class: 114
-      Script: {instanceID: 11878}
+      Script: {instanceID: 11824}
     - Class: 114
-      Script: {instanceID: 12022}
+      Script: {instanceID: 11844}
     - Class: 114
-      Script: {instanceID: 12076}
+      Script: {instanceID: 11882}
     - Class: 114
-      Script: {instanceID: 12144}
+      Script: {instanceID: 12026}
     - Class: 114
-      Script: {instanceID: 12216}
+      Script: {instanceID: 12042}
     - Class: 114
-      Script: {instanceID: 12324}
+      Script: {instanceID: 12082}
     - Class: 114
-      Script: {instanceID: 12436}
+      Script: {instanceID: 12150}
     - Class: 114
-      Script: {instanceID: 12488}
+      Script: {instanceID: 12154}
     - Class: 114
-      Script: {instanceID: 12552}
+      Script: {instanceID: 12224}
     - Class: 114
-      Script: {instanceID: 12616}
+      Script: {instanceID: 12336}
     - Class: 114
-      Script: {instanceID: 12642}
+      Script: {instanceID: 12408}
     - Class: 114
-      Script: {instanceID: 12804}
+      Script: {instanceID: 12454}
     - Class: 114
-      Script: {instanceID: 12806}
+      Script: {instanceID: 12506}
     - Class: 114
-      Script: {instanceID: 12960}
+      Script: {instanceID: 12570}
     - Class: 114
-      Script: {instanceID: 13084}
+      Script: {instanceID: 12594}
     - Class: 114
-      Script: {instanceID: 13294}
+      Script: {instanceID: 12638}
     - Class: 114
-      Script: {instanceID: 13336}
+      Script: {instanceID: 12664}
     - Class: 114
-      Script: {instanceID: 13386}
+      Script: {instanceID: 12732}
     - Class: 114
-      Script: {instanceID: 13634}
+      Script: {instanceID: 12772}
     - Class: 114
-      Script: {instanceID: 13648}
+      Script: {instanceID: 12796}
     - Class: 114
-      Script: {instanceID: 13672}
+      Script: {instanceID: 12832}
+    - Class: 114
+      Script: {instanceID: 12834}
+    - Class: 114
+      Script: {instanceID: 12990}
+    - Class: 114
+      Script: {instanceID: 13116}
+    - Class: 114
+      Script: {instanceID: 13206}
+    - Class: 114
+      Script: {instanceID: 13210}
+    - Class: 114
+      Script: {instanceID: 13280}
+    - Class: 114
+      Script: {instanceID: 13332}
+    - Class: 114
+      Script: {instanceID: 13376}
+    - Class: 114
+      Script: {instanceID: 13426}
+    - Class: 114
+      Script: {instanceID: 13440}
+    - Class: 114
+      Script: {instanceID: 13676}
+    - Class: 114
+      Script: {instanceID: 13680}
+    - Class: 114
+      Script: {instanceID: 13692}
+    - Class: 114
+      Script: {instanceID: 13716}
     - Class: 114
       Script: {instanceID: 13792}
     - Class: 114
-      Script: {instanceID: 13890}
+      Script: {instanceID: 13866}
     - Class: 114
-      Script: {instanceID: 14058}
+      Script: {instanceID: 14074}
     - Class: 114
-      Script: {instanceID: 14070}
+      Script: {instanceID: 14112}
     - Class: 114
-      Script: {instanceID: 14090}
+      Script: {instanceID: 14126}
     - Class: 114
-      Script: {instanceID: 14108}
-    - Class: 114
-      Script: {instanceID: 14138}
+      Script: {instanceID: 14146}
     - Class: 114
       Script: {instanceID: 14152}
+    - Class: 114
+      Script: {instanceID: 14166}
+    - Class: 114
+      Script: {instanceID: 14196}
+    - Class: 114
+      Script: {instanceID: 14210}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -313,36 +376,40 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 81
       Script: {instanceID: 0}
+    - Class: 82
+      Script: {instanceID: 0}
+    - Class: 83
+      Script: {instanceID: 0}
     - Class: 104
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 11816}
-    - Class: 114
       Script: {instanceID: 11818}
     - Class: 114
-      Script: {instanceID: 11840}
+      Script: {instanceID: 11820}
     - Class: 114
-      Script: {instanceID: 12076}
+      Script: {instanceID: 11844}
     - Class: 114
-      Script: {instanceID: 12552}
+      Script: {instanceID: 12082}
     - Class: 114
-      Script: {instanceID: 12644}
+      Script: {instanceID: 12570}
     - Class: 114
-      Script: {instanceID: 12710}
+      Script: {instanceID: 12666}
     - Class: 114
-      Script: {instanceID: 12716}
+      Script: {instanceID: 12734}
     - Class: 114
-      Script: {instanceID: 12744}
+      Script: {instanceID: 12740}
     - Class: 114
-      Script: {instanceID: 12896}
+      Script: {instanceID: 12768}
     - Class: 114
-      Script: {instanceID: 13386}
+      Script: {instanceID: 12924}
     - Class: 114
-      Script: {instanceID: 13648}
+      Script: {instanceID: 13426}
     - Class: 114
-      Script: {instanceID: 13672}
+      Script: {instanceID: 13692}
     - Class: 114
-      Script: {instanceID: 14070}
+      Script: {instanceID: 13716}
+    - Class: 114
+      Script: {instanceID: 14126}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -385,39 +452,49 @@ ScriptsOnlyBuild:
     - Class: 104
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 11816}
-    - Class: 114
       Script: {instanceID: 11818}
     - Class: 114
-      Script: {instanceID: 11840}
+      Script: {instanceID: 11820}
     - Class: 114
-      Script: {instanceID: 12002}
+      Script: {instanceID: 11844}
     - Class: 114
-      Script: {instanceID: 12076}
+      Script: {instanceID: 12006}
     - Class: 114
-      Script: {instanceID: 12138}
+      Script: {instanceID: 12082}
     - Class: 114
-      Script: {instanceID: 12506}
+      Script: {instanceID: 12144}
     - Class: 114
-      Script: {instanceID: 12552}
+      Script: {instanceID: 12360}
     - Class: 114
-      Script: {instanceID: 12856}
+      Script: {instanceID: 12430}
     - Class: 114
-      Script: {instanceID: 13184}
+      Script: {instanceID: 12524}
     - Class: 114
-      Script: {instanceID: 13386}
+      Script: {instanceID: 12570}
     - Class: 114
-      Script: {instanceID: 13404}
+      Script: {instanceID: 12884}
     - Class: 114
-      Script: {instanceID: 13648}
+      Script: {instanceID: 12944}
     - Class: 114
-      Script: {instanceID: 13940}
+      Script: {instanceID: 13092}
     - Class: 114
-      Script: {instanceID: 14070}
+      Script: {instanceID: 13220}
     - Class: 114
-      Script: {instanceID: 14110}
+      Script: {instanceID: 13426}
     - Class: 114
-      Script: {instanceID: 14128}
+      Script: {instanceID: 13446}
+    - Class: 114
+      Script: {instanceID: 13692}
+    - Class: 114
+      Script: {instanceID: 13942}
+    - Class: 114
+      Script: {instanceID: 13994}
+    - Class: 114
+      Script: {instanceID: 14126}
+    - Class: 114
+      Script: {instanceID: 14168}
+    - Class: 114
+      Script: {instanceID: 14186}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -455,6 +532,12 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
     className: Text
+  - hash:
+      serializedVersion: 2
+      Hash: e42402cf327db4c899d9e172b20cafc3
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: G_Pai_Guest
   - hash:
       serializedVersion: 2
       Hash: 4bc4346a71a8df53a6b106f68ef3a190
@@ -520,7 +603,13 @@ ScriptsOnlyBuild:
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
-    className: Quest_Base
+    className: expanation_Base
+  - hash:
+      serializedVersion: 2
+      Hash: d03803b74414b1a5e9fe4a476e587cee
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Tsai_Tan_Quiz
   - hash:
       serializedVersion: 2
       Hash: fd8b23ad3c9e81bc85b197495bc510ac
@@ -571,6 +660,12 @@ ScriptsOnlyBuild:
     className: GridLayoutGroup
   - hash:
       serializedVersion: 2
+      Hash: 05537081f457394bcd45c5dad8b7c441
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Spawn_Guest4
+  - hash:
+      serializedVersion: 2
       Hash: 8aa3d6ccbcb54ee8db6c1229854adaaa
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
@@ -601,6 +696,18 @@ ScriptsOnlyBuild:
     className: PhysicsRaycaster
   - hash:
       serializedVersion: 2
+      Hash: 8100b966a9fb569401ee7ec5e51ece2f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Teacher_Quiz
+  - hash:
+      serializedVersion: 2
+      Hash: 5f1470d25b698d3c6263bd2bdd734b99
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: G_Pai_Quiz
+  - hash:
+      serializedVersion: 2
       Hash: bd3cf68c8964d3c66d1c43f4f98508c9
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
@@ -619,16 +726,22 @@ ScriptsOnlyBuild:
     className: RectMask2D
   - hash:
       serializedVersion: 2
-      Hash: f8cc35662dde114013dde7683d5a866f
+      Hash: 05537081f457394bcd45c5dad8b7c441
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
-    className: Spawn_Guest
+    className: Spawn_Guest1
   - hash:
       serializedVersion: 2
       Hash: 6980e81ddc615a861309d2d659cc3760
     assemblyName: Unity.TextMeshPro.dll
     namespaceName: TMPro
     className: TMP_SubMeshUI
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: sc3_zoom
   - hash:
       serializedVersion: 2
       Hash: 381f52f39c4156a11a49b1986c623ac8
@@ -641,6 +754,18 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: AnimationPlayableAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 66d3808f159c1c84ec093af52e212655
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Part_Time_Guest
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: sc2_zoom
   - hash:
       serializedVersion: 2
       Hash: aba7b2852ef61d175dd9602e7723d5e5
@@ -679,6 +804,12 @@ ScriptsOnlyBuild:
     className: EventSystem
   - hash:
       serializedVersion: 2
+      Hash: a69d43aaf56e7eba6d3c55d077d03762
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Shop_Quiz
+  - hash:
+      serializedVersion: 2
       Hash: 0fb27be807aa299702f28ad0bcad1f46
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
@@ -689,6 +820,12 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: Shop
+  - hash:
+      serializedVersion: 2
+      Hash: ecef5cc8d5734a81e4b35feb9358b9c8
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Spawn_Teach
   - hash:
       serializedVersion: 2
       Hash: 5cc439bf63c0539d39588e69465ac2ab
@@ -733,7 +870,13 @@ ScriptsOnlyBuild:
     className: SpawnMeat
   - hash:
       serializedVersion: 2
-      Hash: 800b86d8ab9ce3e70a64ce7cdf934807
+      Hash: bf20a5c75d209e04e91b066948f135f0
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Tsai_Tan_Guest
+  - hash:
+      serializedVersion: 2
+      Hash: aa349a92ade3ed39c7ef9dd48b30c700
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: Player
@@ -749,6 +892,18 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: Meat_Base
+  - hash:
+      serializedVersion: 2
+      Hash: 05537081f457394bcd45c5dad8b7c441
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Spawn_Guest2
+  - hash:
+      serializedVersion: 2
+      Hash: 05537081f457394bcd45c5dad8b7c441
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Spawn_Guest3
   - hash:
       serializedVersion: 2
       Hash: 12d42ec021e1ca8afd72c92e6c063e34
@@ -787,6 +942,12 @@ ScriptsOnlyBuild:
     className: TMP_SpriteAnimator
   - hash:
       serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: sc1_zoom
+  - hash:
+      serializedVersion: 2
       Hash: 4401eb990a7a41ae1aad70ae15b139b7
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
@@ -811,10 +972,16 @@ ScriptsOnlyBuild:
     className: TextContainer
   - hash:
       serializedVersion: 2
-      Hash: 67aac68abcf5269a68407037c0d9b204
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
-    className: Ran_quests
+    className: sc4_zoom
+  - hash:
+      serializedVersion: 2
+      Hash: 2e2c15d7ec4ae236c281dc923cd95832
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Ran_explanation
   - hash:
       serializedVersion: 2
       Hash: c1d728126ff1918728036c59106d32b2
@@ -829,6 +996,18 @@ ScriptsOnlyBuild:
     className: Press_GameStart
   - hash:
       serializedVersion: 2
+      Hash: 0974ac8c15257eaec7013dd94a393ca5
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Teacher_Guest
+  - hash:
+      serializedVersion: 2
+      Hash: 95c3430b9339618ae51355174f9984c3
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Do_Hua_Guest
+  - hash:
+      serializedVersion: 2
       Hash: 3164bc883ff663a5cdb32d1ef7e7c0c5
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
@@ -839,6 +1018,12 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: Type_Writer_Effect6
+  - hash:
+      serializedVersion: 2
+      Hash: 6263bd5c5af4bcb2d0829f82eac650b0
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Shop_Guest
   - hash:
       serializedVersion: 2
       Hash: a1deb96146b0066d55a746ebadd232dd
@@ -857,6 +1042,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: SignalReceiver
+  - hash:
+      serializedVersion: 2
+      Hash: d8f87b72b1efa53d127913055d950078
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Ran_quest
   - hash:
       serializedVersion: 2
       Hash: 3164bc883ff663a5cdb32d1ef7e7c0c5
@@ -901,6 +1092,12 @@ ScriptsOnlyBuild:
     className: Game_Manager
   - hash:
       serializedVersion: 2
+      Hash: 8785b0f45e085e17635af4dfb8902cdf
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Ro_Tan_Guest
+  - hash:
+      serializedVersion: 2
       Hash: 63df94cdfd6d365163aada3758508716
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
@@ -931,6 +1128,12 @@ ScriptsOnlyBuild:
     className: Go_To_Diguayeah
   - hash:
       serializedVersion: 2
+      Hash: 5178cf73b5c9978365ec1beeff9af0f8
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Game_teaching
+  - hash:
+      serializedVersion: 2
       Hash: ae83e830e7a90c0aff918c4c2e520825
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
@@ -949,6 +1152,18 @@ ScriptsOnlyBuild:
     className: SceneChanges
   - hash:
       serializedVersion: 2
+      Hash: c4c4545d75873506a42e573cdd2eed32
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Part_Time_Quiz
+  - hash:
+      serializedVersion: 2
+      Hash: e0d42146d2aca7a9a81a22cdb9f61f84
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Do_Hua_Quiz
+  - hash:
+      serializedVersion: 2
       Hash: e469f64a28f834387ccb5db019d87a14
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
@@ -959,6 +1174,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: MarkerTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 05537081f457394bcd45c5dad8b7c441
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Spawn_Guest5
   - hash:
       serializedVersion: 2
       Hash: d791aa6007fa3640be1164ea75bb087d
@@ -979,7 +1200,19 @@ ScriptsOnlyBuild:
     className: Setting_Debug
   - hash:
       serializedVersion: 2
-      Hash: fbd00bd5f37640dc76ce7bd5a62c243e
+      Hash: c7401f8af7678693e14c398487ef4d13
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Ro_Tan_Quiz
+  - hash:
+      serializedVersion: 2
+      Hash: 156692778153d0f804e938219e33203a
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: sc5_zoom
+  - hash:
+      serializedVersion: 2
+      Hash: 8eb3e4379badd52712404126659f45d0
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: meatboss_base
@@ -1063,6 +1296,12 @@ ScriptsOnlyBuild:
     className: NPC_Hint
   - hash:
       serializedVersion: 2
+      Hash: 653d0065e71ed1bfe20283b8156a0e32
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Mein_Bao_Quiz
+  - hash:
+      serializedVersion: 2
       Hash: 4f57b6e302ec0e385d7e906539622252
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
@@ -1091,6 +1330,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: SignalEmitter
+  - hash:
+      serializedVersion: 2
+      Hash: 06fa53a52b049ecf2c3285860f87593c
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Mein_Bao_Guest
   - hash:
       serializedVersion: 2
       Hash: 0c05f2bfb402def3f0a85a62a2323c7f
@@ -1127,6 +1372,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: PlayableTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Player_Quiz
   platform: 13
   scenePathNames:
   - "Assets/Scenes/\u6B61\u8FCE\u9801.unity"
@@ -1134,4 +1385,4 @@ ScriptsOnlyBuild:
   - "Assets/Scenes/\u71B1\u7092\u5E97.unity"
   - "Assets/Scenes/\u8CB7\u8089\u4EFB\u52D9.unity"
   - Assets/Scenes/Quest.unity
-  playerPath: D:/GitHub_works/Baodao_Guanghui/Baodao_Guanghui/testing.apk
+  playerPath: D:/GitHub_works/Baodao_Guanghui/Baodao_Guanghui/Bao3.apk

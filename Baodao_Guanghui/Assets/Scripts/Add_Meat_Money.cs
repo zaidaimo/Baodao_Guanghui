@@ -136,7 +136,7 @@ public class Add_Meat_Money : MonoBehaviour
 
     void Start()
     {
-        Money.PocketMoney = Money.PocketMoney + Player.Meat_Total_Score;
+        Money.PocketMoney = Money.PocketMoney + Player.Meat_Total_Score + Player_Quiz.Quiz_Total_Score;
         GetComponent<Text>().text = Money.PocketMoney.ToString();
     }
 
@@ -933,9 +933,22 @@ public class Add_Meat_Money : MonoBehaviour
     #endregion
 
     #region 頁面切換
+
+    public void Tsaibonun()  //菜圃但
+    {
+        if (Money.PocketMoney >= 500)
+        {
+            bulb_tsaibonun.SetActive(true);
+        }
+        else
+        {
+            bulb_tsaibonun.SetActive(false);
+        }
+
+    }
     public void Kongsingtsai()  //空心菜
     {
-        if (Money.PocketMoney >= 200)
+        if (Money.PocketMoney >= 5000)
         {
             bulb_konsingtsai.SetActive(true);
         }
@@ -948,7 +961,7 @@ public class Add_Meat_Money : MonoBehaviour
 
     public void Diguayeah()  //地瓜葉
     {
-        if (Money.PocketMoney >= 500)
+        if (Money.PocketMoney >= 10000)
         {
             bulb_diguayeah.SetActive(true);
         }
@@ -959,22 +972,11 @@ public class Add_Meat_Money : MonoBehaviour
 
     }
 
-    public void Tsaibonun()  //菜圃但
-    {
-        if (Money.PocketMoney >= 1000)
-        {
-            bulb_tsaibonun.SetActive(true);
-        }
-        else
-        {
-            bulb_tsaibonun.SetActive(false);
-        }
-
-    }
+    
 
     public void Kongbaogiding()  //宮保雞丁
     {
-        if (Money.PocketMoney >= 1500)
+        if (Money.PocketMoney >= 20000)
         {
             bulb_kongbaogiding.SetActive(true);
         }

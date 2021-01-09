@@ -21,5 +21,20 @@ public class Game_Manager : MonoBehaviour
         SceneManager.LoadScene(2);
     }
 
-    
+    public void IsGame_False()
+    {
+        Spawn_Guest1.isGame = false;
+        Spawn_Guest2.isGame = false;
+        Spawn_Guest3.isGame = false;
+        Spawn_Guest4.isGame = false;
+    }
+
+    public void IsGame_True()
+    {
+        Spawn_Guest1.isGame = true;
+        Spawn_Guest2.isGame = true;
+        Spawn_Guest3.isGame = true;
+        Spawn_Guest4.isGame = true;
+    }
+
 }
