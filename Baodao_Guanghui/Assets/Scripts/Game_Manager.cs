@@ -37,4 +37,8 @@ public class Game_Manager : MonoBehaviour
         Spawn_Guest4.isGame = true;
     }
 
+    public void Go_Tsai_bo_nun()
+    {
+        SceneManager.LoadScene(5);
+    }
 }

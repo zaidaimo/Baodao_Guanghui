@@ -16,7 +16,7 @@ public class Spawn_Guest2: MonoBehaviour
         isGame = true;
         if (isGame == true)
         {
-            InvokeRepeating("CreateGuests", spawnTime, 35);  //反覆呼叫 (1秒生成,每1秒生成一次)
+            InvokeRepeating("CreateGuests", spawnTime, 50);  //反覆呼叫 (1秒生成,每1秒生成一次)
         }
     }
 
@@ -29,7 +29,7 @@ public class Spawn_Guest2: MonoBehaviour
     }
     public void StartDrop()
     {
-        InvokeRepeating("CreateGuests", spawnTime, 35);  //反覆呼叫 (1秒生成,每1秒生成一次)
+        InvokeRepeating("CreateGuests", spawnTime, 50);  //反覆呼叫 (1秒生成,每1秒生成一次)
 
     }
 

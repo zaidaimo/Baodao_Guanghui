@@ -7663,7 +7663,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   SpawnPoints:
   - {fileID: 225112333}
-  spawnTime: 7.6
+  spawnTime: 4.6
   Guests:
   - {fileID: 292927747}
   - {fileID: 399787367}
@@ -21245,7 +21245,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   SpawnPoints:
   - {fileID: 606834580}
-  spawnTime: 6.2
+  spawnTime: 3.2
   Guests:
   - {fileID: 112651143}
   - {fileID: 1236835640}
@@ -32214,7 +32214,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   SpawnPoints:
   - {fileID: 919499448}
-  spawnTime: 8.9
+  spawnTime: 5.9
   Guests:
   - {fileID: 2269654730829358384}
   - {fileID: 1766941447}
@@ -43954,6 +43954,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1258430305}
   - component: {fileID: 1258430304}
+  - component: {fileID: 1258430306}
+  - component: {fileID: 1258430307}
   m_Layer: 0
   m_Name: "\u5EDA\u623F-\u80CC\u666F"
   m_TagString: Untagged
@@ -44026,6 +44028,44 @@ Transform:
   m_Father: {fileID: 1737240122}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1258430306
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1258430303}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 917313c7b6f9dc14fafd41510da875d8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!61 &1258430307
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1258430303}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 19.2, y: 10.8}
+    newSize: {x: 19.2, y: 10.8}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 19.2, y: 10.8}
+  m_EdgeRadius: 0
 --- !u!1 &1259460639
 GameObject:
   m_ObjectHideFlags: 0
@@ -56369,7 +56409,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 272161c8df825fa4dada299df55928f4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  spawnTime: 5
+  spawnTime: 20
   explanationPoints:
   - {fileID: 1596308801}
   explanation:
@@ -59617,7 +59657,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   SpawnPoints:
   - {fileID: 1689302754}
-  spawnTime: 10.7
+  spawnTime: 7.7
   Guests:
   - {fileID: 880606395}
   - {fileID: 1914886451}
@@ -74526,7 +74566,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   SpawnPoints:
   - {fileID: 2143822954}
-  spawnTime: 10.4
+  spawnTime: 6.4
   Guests:
   - {fileID: 2269654730829358384}
   - {fileID: 1766941447}
