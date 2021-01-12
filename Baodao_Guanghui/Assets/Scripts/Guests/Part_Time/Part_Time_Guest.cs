@@ -15,6 +15,11 @@ public class Part_Time_Guest : MonoBehaviour
 
     public static bool isGame;  //是否正在進行遊戲
 
+    private void Start()
+    {
+        print("遊戲開始");
+        //Destroy(gameObject, DestroyTime);
+    }
     private void OnMouseDown()
     {
         Part_Time_Quiz.SetActive(true);

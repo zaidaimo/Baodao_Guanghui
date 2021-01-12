@@ -12,7 +12,7 @@ public class Type_Writer_Effect9 : MonoBehaviour
     private void Start()
     {
         showText = GetComponent<Text>(); //偵測想要的文字
-        showStr = "嗯！為了零用錢，我也要好好努力了呢！";  //想要的文字
+        showStr = "嗯！我也要好好努力了呢！";  //想要的文字
 
         StartCoroutine(TypeText());  //開啟TypeText()
 

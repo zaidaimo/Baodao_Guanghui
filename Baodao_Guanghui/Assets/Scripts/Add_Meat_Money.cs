@@ -136,7 +136,7 @@ public class Add_Meat_Money : MonoBehaviour
 
     void Start()
     {
-        Money.PocketMoney = Money.PocketMoney + Player.Meat_Total_Score + Player_Quiz.Quiz_Total_Score;
+        Money.PocketMoney = Money.PocketMoney + Player.Meat_Total_Score + Player_Quiz.Quiz_Total_Score+ simp_.Simple_Guest_Total_Score;
         GetComponent<Text>().text = Money.PocketMoney.ToString();
     }
 
