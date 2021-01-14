@@ -19,7 +19,7 @@ public class expanation_Base : MonoBehaviour
         simp_guest_sp.SetActive(false);
         //simp_Guest.SetActive(false);
         mid_guest_sp.SetActive(true);
-        mid_Guest.SetActive(true);
+        //mid_Guest.SetActive(true);
 
         //Left.SetActive(true);
     }

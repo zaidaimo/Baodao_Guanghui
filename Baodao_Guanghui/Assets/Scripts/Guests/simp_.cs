@@ -12,6 +12,8 @@ public class simp_ : MonoBehaviour
         print("遊戲開始");
         Destroy(gameObject, DestroyTime);
     }
+
+    
     private void OnMouseDown()
     {
         Money.PocketMoney = Money.PocketMoney + 100;

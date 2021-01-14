@@ -137,12 +137,14 @@ public class Add_Meat_Money : MonoBehaviour
     void Start()
     {
         Money.PocketMoney = Money.PocketMoney + Player.Meat_Total_Score + Player_Quiz.Quiz_Total_Score+ simp_.Simple_Guest_Total_Score;
+        //現有零用錢 = 已擁有的零用錢 + 接肉獲得的錢 + 驚嘆號獲得的錢 + 點擊簡單客人獲得的錢
         GetComponent<Text>().text = Money.PocketMoney.ToString();
     }
 
     // Update is called once per frame
     void Update()
     {
+        //Money.PocketMoney = Money.PocketMoney + Player.Meat_Total_Score + Player_Quiz.Quiz_Total_Score + simp_.Simple_Guest_Total_Score;
         Kongsingtsai();
         Diguayeah();
     }
