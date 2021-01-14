@@ -6,9 +6,9 @@ using UnityEngine.SceneManagement;
 public class expanation_Base : MonoBehaviour
 {
     public GameObject simp_guest_sp;
-    public GameObject simp_Guest;
+    //public GameObject simp_Guest;
     public GameObject mid_guest_sp;
-    public GameObject mid_Guest;
+    //public GameObject mid_Guest;
 
     //public GameObject Left;
     public void OnMouseDown()

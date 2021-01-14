@@ -10,9 +10,8 @@ GameObject:
   m_Component:
   - component: {fileID: 7848720960666736027}
   - component: {fileID: 7848720960666736024}
-  - component: {fileID: 7848720960666736026}
   - component: {fileID: 7848720960666736037}
-  - component: {fileID: 7848720960666736036}
+  - component: {fileID: -6118291496286871917}
   m_Layer: 0
   m_Name: "\u9A5A\u5606\u865F"
   m_TagString: Untagged
@@ -85,26 +84,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &7848720960666736026
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7848720960666736025}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9fd7ad8149505d64fb072ad3ecc37f97, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  simp_guest_sp: {fileID: 4466055855056469823, guid: d1364e6814a937c4dbbf123cbd5250af,
-    type: 3}
-  simp_Guest: {fileID: 8081808426075025017, guid: 4f1f1b75a8403704594f385fb72a3568,
-    type: 3}
-  mid_guest_sp: {fileID: 8059345459341034288, guid: 5ff2d03f897f7c04fb960ec68f84413e,
-    type: 3}
-  mid_Guest: {fileID: 5677592645591910034, guid: b9a9d3aa435cf5d49941705a3d3b21c1,
-    type: 3}
 --- !u!60 &7848720960666736037
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -197,7 +176,7 @@ PolygonCollider2D:
       - {x: 0.79999995, y: -1.31}
       - {x: 0.82, y: -1.29}
       - {x: 0.84999996, y: -1.22}
---- !u!114 &7848720960666736036
+--- !u!114 &-6118291496286871917
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -206,49 +185,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 7848720960666736025}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Script: {fileID: 11500000, guid: 9fd7ad8149505d64fb072ad3ecc37f97, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Navigation:
-    m_Mode: 3
-    m_SelectOnUp: {fileID: 0}
-    m_SelectOnDown: {fileID: 0}
-    m_SelectOnLeft: {fileID: 0}
-    m_SelectOnRight: {fileID: 0}
-  m_Transition: 1
-  m_Colors:
-    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
-    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
-    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
-    m_ColorMultiplier: 1
-    m_FadeDuration: 0.1
-  m_SpriteState:
-    m_HighlightedSprite: {fileID: 0}
-    m_PressedSprite: {fileID: 0}
-    m_SelectedSprite: {fileID: 0}
-    m_DisabledSprite: {fileID: 0}
-  m_AnimationTriggers:
-    m_NormalTrigger: Normal
-    m_HighlightedTrigger: Highlighted
-    m_PressedTrigger: Pressed
-    m_SelectedTrigger: Selected
-    m_DisabledTrigger: Disabled
-  m_Interactable: 1
-  m_TargetGraphic: {fileID: 0}
-  m_OnClick:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: Quest_Base, Assembly-CSharp
-        m_MethodName: OnMouseDown
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+  simp_guest_sp: {fileID: 6197540289127340448, guid: 77b8d01872eaacf409da9e776eeb5528,
+    type: 3}
+  mid_guest_sp: {fileID: 6290153785530197738, guid: e446058c370257b4084677d6dcf1e1d7,
+    type: 3}

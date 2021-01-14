@@ -9,14 +9,21 @@ public class simp_ : MonoBehaviour
     public float DestroyTime;
     private void Start()
     {
-        print("遊戲開始");
+        
         Destroy(gameObject, DestroyTime);
     }
 
     
     private void OnMouseDown()
     {
-        Money.PocketMoney = Money.PocketMoney + 100;
+        PressGetMoney();
         Destroy(gameObject);
     }
+
+    private void PressGetMoney()
+    {
+        Money.PocketMoney = Money.PocketMoney + 100;
+        //GetComponent<Text>().text = Money.PocketMoney.ToString();
+    }
+
 }
