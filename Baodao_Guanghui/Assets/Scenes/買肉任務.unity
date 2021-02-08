@@ -969,6 +969,7 @@ GameObject:
   - component: {fileID: 183557445}
   - component: {fileID: 183557446}
   - component: {fileID: 183557447}
+  - component: {fileID: 183557448}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -1095,6 +1096,9 @@ MonoBehaviour:
   Lamb_Sound: {fileID: 28108830}
   Pig_muscle_Sound: {fileID: 1751996951}
   Chicken_breast_Sound: {fileID: 115929613}
+  Ani: {fileID: 0}
+  Player_Right_Ani: {fileID: 0}
+  Player_Wrong_Ani: {fileID: 0}
 --- !u!68 &183557446
 EdgeCollider2D:
   m_ObjectHideFlags: 0
@@ -1140,6 +1144,25 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 7
+--- !u!95 &183557448
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 183557442}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: bdacb2cb2eaaab544a38b2486c5677e5, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &190676760
 GameObject:
   m_ObjectHideFlags: 0

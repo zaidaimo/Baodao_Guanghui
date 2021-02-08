@@ -5,6 +5,7 @@ using UnityEngine.UI;
 
 public class Player : MonoBehaviour
 {
+    
     #region 隨機產生需購買的數量 將需購買數量的 顯示轉為 字串
     public int Ran_Num1;  //隨機產生需購買的數量
     public Text Ran_Num_T1;  //將需購買數量的 顯示轉為 字串
@@ -36,7 +37,7 @@ public class Player : MonoBehaviour
     public GameObject Left_Btn;
     public float MoveSpeed;
     #endregion
-
+    
     public Meat_Base camera_touch;  //遊戲結束時無法再點擊畫面
     public SpawnMeat[] Drop;  //陣列
     public Button Right, Left;
@@ -55,7 +56,7 @@ public class Player : MonoBehaviour
 
     public static int Meat_Total_Score;
     public Text Meat_Total_Score_T;
-
+    
     //public AudioSource Right_Meat_Sound;
     //public AudioSource Wrong_Meat_Sound;
     public AudioSource Note_Open_Sound;
@@ -67,6 +68,10 @@ public class Player : MonoBehaviour
     public AudioSource Lamb_Sound;
     public AudioSource Pig_muscle_Sound;
     public AudioSource Chicken_breast_Sound;
+    
+    public Animator Ani;
+    public Animator Player_Right_Ani;
+    public Animator Player_Wrong_Ani;
 
     #endregion
 
@@ -133,12 +138,14 @@ public class Player : MonoBehaviour
                 GetAdd(1, 0, 0, 0);
                 Debug.Log("項目一的肉銷毀");
                 Dried_squid_Sound.Play();
+                Ani.SetTrigger("Right");
             }
             else
             {
                 GetAdd(0, 0, 0, 1); //多接錯的肉+1
                 Player_Get1 = Ran_Num1; //數值維持不變
                 Dried_squid_Sound.Play();
+                Ani.SetTrigger("Wrong");
             }
         }
         if (collision.gameObject.tag == "Beef")  //如果接到的物件是牛肉 
@@ -149,12 +156,14 @@ public class Player : MonoBehaviour
                 GetAdd(0, 1, 0, 0);
                 Debug.Log("項目二的肉銷毀");
                 Beef_Sound.Play();
+                Ani.SetTrigger("Right");
             }
             else
             {
                 GetAdd(0, 0, 0, 1); //多接錯的肉+1
                 Player_Get2 = Ran_Num2; //數值維持不變
                 Beef_Sound.Play();
+                Ani.SetTrigger("Wrong");
             }
             
         }
@@ -166,12 +175,14 @@ public class Player : MonoBehaviour
                 GetAdd(0, 0, 1, 0);
                 Debug.Log("項目三的肉銷毀");
                 Pai_Gu_Sound.Play();
+                Ani.SetTrigger("Right");
             }
             else
             {
                 GetAdd(0, 0, 0, 1); //多接錯的肉+1
                 Player_Get3 = Ran_Num3; //數值維持不變
                 Pai_Gu_Sound.Play();
+                Ani.SetTrigger("Wrong");
             }
 
         }
@@ -180,24 +191,28 @@ public class Player : MonoBehaviour
             print("接錯的肉加1");
             GetAdd(0, 0, 0, 1);
             Fish_Sound.Play();
+            Ani.SetTrigger("Wrong");
         }
         if (collision.gameObject.tag == "Lamb")
         {
             print("接錯的肉加1");
             GetAdd(0, 0, 0, 1);
             Lamb_Sound.Play();
+            Ani.SetTrigger("Wrong");
         }
         if (collision.gameObject.tag == "Pig muscle")
         {
             print("接錯的肉加1");
             GetAdd(0, 0, 0, 1);
             Pig_muscle_Sound.Play();
+            Ani.SetTrigger("Wrong");
         }
         else if(collision.gameObject.tag == "Chicken breast")  //如果接到的物件是其他肉
         {
             print("接錯的肉加1");
             GetAdd(0, 0, 0, 1);
             Chicken_breast_Sound.Play();
+            Ani.SetTrigger("Wrong");
         }
     }
 
