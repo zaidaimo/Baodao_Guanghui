@@ -68,13 +68,14 @@ public class Player : MonoBehaviour
     public AudioSource Lamb_Sound;
     public AudioSource Pig_muscle_Sound;
     public AudioSource Chicken_breast_Sound;
-    
-    public Animator Ani;
-    public Animator Player_Right_Ani;
-    public Animator Player_Wrong_Ani;
+
+
 
     #endregion
 
+    public Animator Ani;
+    public Animator Player_Right_Ani;
+    public Animator Player_Wrong_Ani;
     // Start is called before the first frame update
     void Start()
     {
@@ -90,6 +91,7 @@ public class Player : MonoBehaviour
         }
 
         //camera_touch.isGame = true;  //遊戲開始時 可點擊畫面
+        Ani = GetComponent<Animator>();
     }
 
     #region 過關條件
