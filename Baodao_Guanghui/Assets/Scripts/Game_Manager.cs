@@ -40,5 +40,6 @@ public class Game_Manager : MonoBehaviour
     public void Make_TsaiPuDan()
     {
         SceneManager.LoadScene(5);
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }
 }
