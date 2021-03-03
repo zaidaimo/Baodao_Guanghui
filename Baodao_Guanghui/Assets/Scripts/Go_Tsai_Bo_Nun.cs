@@ -9,4 +9,6 @@ public class Go_Tsai_Bo_Nun : MonoBehaviour
     {
         SceneManager.LoadScene(5);
     }
+
+   
 }

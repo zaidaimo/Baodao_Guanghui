@@ -10,7 +10,7 @@ public class simp_ : MonoBehaviour
     private void Start()
     {
         
-        Destroy(gameObject, DestroyTime);
+        //Destroy(gameObject, DestroyTime);
     }
 
     
