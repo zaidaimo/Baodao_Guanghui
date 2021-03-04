@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class sc1_zoom : MonoBehaviour
 {
-    Vector2 targetPosition = new Vector2(250,250);   // 目標位置
+    Vector2 targetPosition = new Vector2(150,157);   // 目標位置
     Vector2 currentVelocity = Vector2.zero;     // 當前速度，這個值由你每次呼叫這個函式時被修改
     float maxSpeed = 120f;    // 選擇允許你限制的最大速度
     float smoothTime = 3f;      // 達到目標大約花費的時間。 一個較小的值將更快達到目標。

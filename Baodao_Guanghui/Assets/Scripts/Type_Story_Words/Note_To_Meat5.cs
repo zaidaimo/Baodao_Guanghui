@@ -13,7 +13,7 @@ public class Note_To_Meat5 : MonoBehaviour
     private void Start()
     {
         showText = GetComponent<Text>(); //偵測想要的文字
-        showStr = "輝：爸爸我啊，剛剛在倉庫點貨的時候發現肉好像快不夠用了所以可以拜託小光妳去市場幫我跑一趟補點貨進來嗎？多的錢給妳當零用錢！？";  //想要的文字
+        showStr = "輝：爸爸我啊，剛剛在倉庫點貨的時候發現肉好像快不夠用了！";  //想要的文字
 
         StartCoroutine(TypeText());  //開啟TypeText()
 

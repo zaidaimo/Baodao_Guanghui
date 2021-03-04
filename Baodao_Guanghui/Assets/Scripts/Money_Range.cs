@@ -14,7 +14,11 @@ public class Money_Range : MonoBehaviour
     //public GameObject bulb_diguayeah;
     //public GameObject bulb_kongbaogiding;
     #endregion
-    public GameObject Next8;
+    
+    public GameObject Left;
+    public GameObject Right;
+    public GameObject Left1;
+    public GameObject Right1;
     void Update()
     {
         //Money.PocketMoney = Money.PocketMoney + Player.Meat_Total_Score + Player_Quiz.Quiz_Total_Score + simp_.Simple_Guest_Total_Score;
@@ -28,22 +32,32 @@ public class Money_Range : MonoBehaviour
         {
             bulb_BuyMeat.SetActive(true);
             bulb_tsaibonun.SetActive(false);
-            
+            //Left.SetActive(true);
+            //Right.SetActive(false);
+            //Left1.SetActive(false);
+            //Right1.SetActive(true);
+
+
         }
-        else
+        else if (Money.PocketMoney > 1500)
         {
             //bulb_BuyMeat.SetActive(false);
+            
         }
 
     }
 
-    public void Note_Meat()  //解鎖買肉
+    public void Note_Meat()  //普通客人
     {
         if (Money.PocketMoney >= 2000)
         {
             
             Simp.SetActive(false);
             Mid.SetActive(true);
+            //Left.SetActive(true);
+            //Right.SetActive(false);
+            //Left1.SetActive(false);
+            //Right1.SetActive(true);
         }
         else
         {
@@ -56,6 +70,12 @@ public class Money_Range : MonoBehaviour
         if (Money.PocketMoney > 2500)
         {
             bulb_tsaibonun.SetActive(true);
+            Simp.SetActive(false);
+            Mid.SetActive(true);
+            //Left.SetActive(true);
+            //Right.SetActive(true);
+            //Left1.SetActive(true);
+            //Right1.SetActive(true);
         }
         else
         {
