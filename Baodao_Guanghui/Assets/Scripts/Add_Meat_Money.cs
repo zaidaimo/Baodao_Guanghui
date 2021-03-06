@@ -939,7 +939,7 @@ public class Add_Meat_Money : MonoBehaviour
 
     public void BuyMeat()  //菜圃但
     {
-        if (Money.PocketMoney >= 1500)
+        if (Money.PocketMoney >= 21500)
         {
             bulb_tsaibonun.SetActive(true);
         }
@@ -951,7 +951,7 @@ public class Add_Meat_Money : MonoBehaviour
     }
     public void Tsaibonun()  //菜圃但
     {
-        if (Money.PocketMoney >= 2500)
+        if (Money.PocketMoney >= 22500)
         {
             bulb_tsaibonun.SetActive(true);
         }

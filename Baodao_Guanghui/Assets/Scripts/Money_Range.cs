@@ -28,7 +28,7 @@ public class Money_Range : MonoBehaviour
     }
     public void BuyMeat()  //解鎖買肉
     {
-        if (Money.PocketMoney == 1500)
+        if (Money.PocketMoney == 21500)
         {
             bulb_BuyMeat.SetActive(true);
             bulb_tsaibonun.SetActive(false);
@@ -39,7 +39,7 @@ public class Money_Range : MonoBehaviour
 
 
         }
-        else if (Money.PocketMoney > 1500)
+        else if (Money.PocketMoney > 21500)
         {
             //bulb_BuyMeat.SetActive(false);
             
@@ -49,7 +49,7 @@ public class Money_Range : MonoBehaviour
 
     public void Note_Meat()  //普通客人
     {
-        if (Money.PocketMoney >= 2000)
+        if (Money.PocketMoney >= 22000)
         {
             
             Simp.SetActive(false);
@@ -67,7 +67,7 @@ public class Money_Range : MonoBehaviour
     }
     public void Tsaibonun()  //菜圃但
     {
-        if (Money.PocketMoney > 2500)
+        if (Money.PocketMoney > 22500)
         {
             bulb_tsaibonun.SetActive(true);
             Simp.SetActive(false);
