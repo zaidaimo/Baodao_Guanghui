@@ -19,6 +19,7 @@ public class Game_Manager : MonoBehaviour
     public void Go_HotFried()
     {
         SceneManager.LoadScene(2);
+        //SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
 
     public void IsGame_False()
