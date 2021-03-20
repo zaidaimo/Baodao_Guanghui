@@ -19,10 +19,10 @@ public class Money_Range : MonoBehaviour
     public GameObject Right;
     public GameObject Left1;
     public GameObject Right1;
-    public GameObject Meat_Lock;
-    public GameObject Kitchen_Lock;
-    public GameObject Meat_Teaching;
-    public GameObject Meat_Start;
+    //public GameObject Meat_Lock;
+    //public GameObject Kitchen_Lock;
+    //public GameObject Meat_Teaching;
+    //public GameObject Meat_Start;
     void Update()
     {
         //Money.PocketMoney = Money.PocketMoney + Player.Meat_Total_Score + Player_Quiz.Quiz_Total_Score + simp_.Simple_Guest_Total_Score;
@@ -35,7 +35,7 @@ public class Money_Range : MonoBehaviour
         if (Money.PocketMoney == 21500)
         {
             bulb_BuyMeat.SetActive(true);
-            bulb_tsaibonun.SetActive(false);
+            //bulb_tsaibonun.SetActive(false);
             //Left.SetActive(true);
             //Right.SetActive(false);
             //Left1.SetActive(false);

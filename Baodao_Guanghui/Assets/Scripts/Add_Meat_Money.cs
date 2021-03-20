@@ -127,13 +127,7 @@ public class Add_Meat_Money : MonoBehaviour
     public GameObject Not_Enough;
     public GameObject Shop;  //商店介面
 
-    #region 達到一定條件即可做菜
-    public GameObject bulb_BuyMeat;
-    public GameObject bulb_tsaibonun;
-    public GameObject bulb_konsingtsai;  //達到一定條件即可做菜
-    public GameObject bulb_diguayeah;
-    public GameObject bulb_kongbaogiding;
-    #endregion
+    
 
     void Start()
     {
@@ -146,8 +140,7 @@ public class Add_Meat_Money : MonoBehaviour
     void Update()
     {
         //Money.PocketMoney = Money.PocketMoney + Player.Meat_Total_Score + Player_Quiz.Quiz_Total_Score + simp_.Simple_Guest_Total_Score;
-        BuyMeat();
-        Tsaibonun();
+        
     }
     #region 第一頁 買冰箱
     public void simp_refri_Sure_to_buy()  //普通冰箱
@@ -935,74 +928,7 @@ public class Add_Meat_Money : MonoBehaviour
     }
     #endregion
 
-    #region 頁面切換
-
-    public void BuyMeat()  //菜圃但
-    {
-        if (Money.PocketMoney >= 21500)
-        {
-            bulb_tsaibonun.SetActive(true);
-        }
-        else
-        {
-            //bulb_tsaibonun.SetActive(false);
-        }
-
-    }
-    public void Tsaibonun()  //菜圃但
-    {
-        if (Money.PocketMoney >= 22500)
-        {
-            bulb_tsaibonun.SetActive(true);
-        }
-        else
-        {
-            //bulb_tsaibonun.SetActive(false);
-        }
-
-    }
-    public void Kongsingtsai()  //空心菜
-    {
-        if (Money.PocketMoney >= 50000)
-        {
-            bulb_konsingtsai.SetActive(true);
-        }
-        else
-        {
-            //bulb_konsingtsai.SetActive(false);
-        }
-
-    }
-
-    public void Diguayeah()  //地瓜葉
-    {
-        if (Money.PocketMoney >= 100000)
-        {
-            bulb_diguayeah.SetActive(true);
-        }
-        else
-        {
-            //bulb_diguayeah.SetActive(false);
-        }
-
-    }
-
     
-
-    public void Kongbaogiding()  //宮保雞丁
-    {
-        if (Money.PocketMoney >= 200000)
-        {
-            bulb_kongbaogiding.SetActive(true);
-        }
-        else
-        {
-            //bulb_kongbaogiding.SetActive(false);
-        }
-
-    }
-    #endregion
-
     public void Right_Dishes()
     {
         Money.PocketMoney = Money.PocketMoney+100;
