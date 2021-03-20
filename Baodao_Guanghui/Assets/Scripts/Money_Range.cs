@@ -59,8 +59,9 @@ public class Money_Range : MonoBehaviour
     {
         if (Money.PocketMoney >= 22000)
         {
-            
-            Simp.SetActive(false);
+
+            //Simp.SetActive(false);
+            Destroy(Simp);
             Mid.SetActive(true);
             //Left.SetActive(true);
             //Right.SetActive(false);

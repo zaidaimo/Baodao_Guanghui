@@ -6,7 +6,7 @@ using UnityEngine.UI;
 public class simp_ : MonoBehaviour
 {
     public static int Simple_Guest_Total_Score;
-    public float DestroyTime;
+    public float DestroyTime=5;
     private void Start()
     { 
         Destroy(gameObject, DestroyTime);
