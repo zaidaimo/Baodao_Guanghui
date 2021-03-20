@@ -8,8 +8,7 @@ public class simp_ : MonoBehaviour
     public static int Simple_Guest_Total_Score;
     public float DestroyTime;
     private void Start()
-    {
-        
+    { 
         Destroy(gameObject, DestroyTime);
     }
 

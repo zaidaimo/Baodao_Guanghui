@@ -339,7 +339,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: -103, y: -265}
-  m_SizeDelta: {x: 135, y: 135}
+  m_SizeDelta: {x: 249, y: 270}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &22187573
 MonoBehaviour:
@@ -428,8 +428,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -2932601332128308466, guid: 6e2d2f9e5367daa418b610aba2601090,
-    type: 3}
+  m_Sprite: {fileID: 21300000, guid: 1d503080ba6106744b9f6f1900d55dc5, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -2886,7 +2885,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: -103, y: -265}
-  m_SizeDelta: {x: 135, y: 135}
+  m_SizeDelta: {x: 245, y: 267}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &219509720
 MonoBehaviour:
@@ -3023,8 +3022,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -2825654571425520929, guid: 6e2d2f9e5367daa418b610aba2601090,
-    type: 3}
+  m_Sprite: {fileID: 21300000, guid: 2f446d13657543f4e81d2b271231ff5b, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -5862,6 +5860,7 @@ GameObject:
   - component: {fileID: 484434395}
   - component: {fileID: 484434394}
   - component: {fileID: 484434393}
+  - component: {fileID: 484434396}
   m_Layer: 5
   m_Name: water
   m_TagString: Untagged
@@ -5926,6 +5925,25 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 5.4641447}
   m_SizeDelta: {x: 1100, y: 723}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!95 &484434396
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 484434392}
+  m_Enabled: 0
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: f556f02c61375b44cbe93a405c6eda6e, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &517928523
 GameObject:
   m_ObjectHideFlags: 0
@@ -11111,7 +11129,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: -103, y: -265}
-  m_SizeDelta: {x: 135, y: 135}
+  m_SizeDelta: {x: 249, y: 267}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1042138840
 MonoBehaviour:
@@ -11176,8 +11194,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 6525119080757319694, guid: 6e2d2f9e5367daa418b610aba2601090,
-    type: 3}
+  m_Sprite: {fileID: 21300000, guid: a6276284d5e3f68418793ca8906d12b2, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -12498,6 +12515,18 @@ MonoBehaviour:
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1847671311}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
         m_CallState: 2
 --- !u!114 &1172019470
 MonoBehaviour:
@@ -17458,7 +17487,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: -103, y: -265}
-  m_SizeDelta: {x: 135, y: 135}
+  m_SizeDelta: {x: 249, y: 270}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1592623391
 MonoBehaviour:
@@ -17547,8 +17576,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 2461831370762045760, guid: 6e2d2f9e5367daa418b610aba2601090,
-    type: 3}
+  m_Sprite: {fileID: 21300000, guid: 1d503080ba6106744b9f6f1900d55dc5, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -19839,6 +19867,7 @@ GameObject:
   - component: {fileID: 1847671314}
   - component: {fileID: 1847671313}
   - component: {fileID: 1847671312}
+  - component: {fileID: 1847671315}
   m_Layer: 5
   m_Name: water
   m_TagString: Untagged
@@ -19903,6 +19932,25 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 5.4641447}
   m_SizeDelta: {x: 1100, y: 723}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!95 &1847671315
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1847671311}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: f74b88dacec787340a1a0cf2c17d99b0, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &1893443462
 GameObject:
   m_ObjectHideFlags: 0
@@ -20930,7 +20978,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &2093700931
 RectTransform:
   m_ObjectHideFlags: 0

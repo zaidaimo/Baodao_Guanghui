@@ -7,10 +7,9 @@ public class simp_Do : MonoBehaviour
 {
     public static int Simple_Guest_Total_Score;
     public float DestroyTime;
-    public GameObject Do_Take_Dish;
+    public GameObject Money1;
     private void Start()
-    {
-        
+    { 
         Destroy(gameObject, DestroyTime);
     }
 
@@ -19,7 +18,7 @@ public class simp_Do : MonoBehaviour
     {
         //PressGetMoney();
         Destroy(gameObject);
-        Do_Take_Dish.SetActive(true);
+        Money1.SetActive(true);
     }
 
     private void PressGetMoney()
