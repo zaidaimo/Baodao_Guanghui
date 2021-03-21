@@ -13,13 +13,13 @@ public class simp_ : MonoBehaviour
     }
 
     
-    private void OnMouseDown()
+    public void OnMouseDown()
     {
         PressGetMoney();
         Destroy(gameObject);
     }
 
-    private void PressGetMoney()
+    public void PressGetMoney()
     {
         Money.PocketMoney = Money.PocketMoney + 100;
         //GetComponent<Text>().text = Money.PocketMoney.ToString();

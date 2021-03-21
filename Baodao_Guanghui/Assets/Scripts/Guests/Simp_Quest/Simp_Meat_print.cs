@@ -4,23 +4,19 @@ using UnityEngine;
 
 public class Simp_Meat_print : MonoBehaviour
 {
-    public float DestroyTime;
+    public float DestroyTime=5;
     public GameObject Meat_Take_Dish;
     private void Start()
     {
-        Destroy(gameObject, DestroyTime);
+        //Destroy(gameObject, DestroyTime);
     }
 
 
     private void OnMouseDown()
     {
-        PressGetMoney();
+        //PressGetMoney();
         Destroy(gameObject);
-        //Meat_Take_Dish.SetActive(true);
+        Meat_Take_Dish.SetActive(true);
     }
-    private void PressGetMoney()
-    {
-        Money.PocketMoney = Money.PocketMoney + 100;
-        //GetComponent<Text>().text = Money.PocketMoney.ToString();
-    }
+    
 }

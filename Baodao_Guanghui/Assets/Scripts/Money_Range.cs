@@ -10,19 +10,14 @@ public class Money_Range : MonoBehaviour
     public GameObject bulb_tsaibonun;
     public GameObject Simp;
     public GameObject Mid;
-    //public GameObject bulb_konsingtsai;  //達到一定條件即可做菜
-    //public GameObject bulb_diguayeah;
-    //public GameObject bulb_kongbaogiding;
+    
     #endregion
     
-    public GameObject Left;
-    public GameObject Right;
-    public GameObject Left1;
-    public GameObject Right1;
-    //public GameObject Meat_Lock;
-    //public GameObject Kitchen_Lock;
-    //public GameObject Meat_Teaching;
-    //public GameObject Meat_Start;
+    //public GameObject Left;
+    //public GameObject Right;
+    //public GameObject Left1;
+    //public GameObject Right1;
+    
     void Update()
     {
         //Money.PocketMoney = Money.PocketMoney + Player.Meat_Total_Score + Player_Quiz.Quiz_Total_Score + simp_.Simple_Guest_Total_Score;
@@ -45,7 +40,6 @@ public class Money_Range : MonoBehaviour
            // Meat_Teaching.SetActive(true);
             //Meat_Start.SetActive(true);
 
-
         }
         else if (Money.PocketMoney > 21500)
         {
@@ -60,8 +54,7 @@ public class Money_Range : MonoBehaviour
         if (Money.PocketMoney >= 22000)
         {
 
-            //Simp.SetActive(false);
-            Destroy(Simp);
+            Simp.SetActive(false);
             Mid.SetActive(true);
             //Left.SetActive(true);
             //Right.SetActive(false);
@@ -96,45 +89,5 @@ public class Money_Range : MonoBehaviour
         }
 
     }
-    public void Kongsingtsai()  //空心菜
-    {
-        if (Money.PocketMoney >= 50000)
-        {
-            //bulb_konsingtsai.SetActive(true);
-        }
-        else
-        {
-            //bulb_konsingtsai.SetActive(false);
-        }
-
-    }
-
-    public void Diguayeah()  //地瓜葉
-    {
-        if (Money.PocketMoney >= 100000)
-        {
-           // bulb_diguayeah.SetActive(true);
-        }
-        else
-        {
-            //bulb_diguayeah.SetActive(false);
-        }
-
-    }
-
-    public void Kongbaogiding()  //宮保雞丁
-    {
-        if (Money.PocketMoney >= 200000)
-        {
-            //bulb_kongbaogiding.SetActive(true);
-        }
-        else
-        {
-            //bulb_kongbaogiding.SetActive(false);
-        }
-
-    }
-
-
     
 }
