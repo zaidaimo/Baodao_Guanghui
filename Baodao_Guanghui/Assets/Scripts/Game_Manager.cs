@@ -6,7 +6,12 @@ using UnityEngine.SceneManagement;
 
 public class Game_Manager : MonoBehaviour
 {
-    public GameObject Menu;
+    //public GameObject Table1;//宣告一個物件(不想被刪除的場景)。
+    //public GameObject Table2;
+    //public GameObject Table3;
+    //public GameObject Table4;
+
+    //public GameObject Menu;
     public GameObject Shop;
     public GameObject Picture;
     public GameObject Left;
@@ -30,8 +35,11 @@ public class Game_Manager : MonoBehaviour
     public void Go_HotFried()
     {
         SceneManager.LoadScene(2);
-        
+        //DontDestroyOnLoad(Table1);//載入時不銷毀(不想被刪除的物件);
         //async.allowSceneActivation = true;
+        //DontDestroyOnLoad(Table2);
+        //DontDestroyOnLoad(Table3);
+        //DontDestroyOnLoad(Table4);
 
     }
 
