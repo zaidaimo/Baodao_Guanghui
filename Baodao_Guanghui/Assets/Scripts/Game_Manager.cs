@@ -43,6 +43,11 @@ public class Game_Manager : MonoBehaviour
 
     }
 
+    public void Go_Tsai_Story()
+    {
+        SceneManager.LoadScene(6);
+    }
+
     public void IsGame_False()
     {
         Spawn_Guest1.isGame = false;

@@ -10,14 +10,15 @@ public class Money_Range : MonoBehaviour
     public GameObject bulb_tsaibonun;
     public GameObject Simp;
     public GameObject Mid;
-    
+    public GameObject Simp_Guest;
+    public GameObject Mid_Guest;
     #endregion
-    
+
     //public GameObject Left;
     //public GameObject Right;
     //public GameObject Left1;
     //public GameObject Right1;
-    
+
     void Update()
     {
         //Money.PocketMoney = Money.PocketMoney + Player.Meat_Total_Score + Player_Quiz.Quiz_Total_Score + simp_.Simple_Guest_Total_Score;
@@ -56,6 +57,8 @@ public class Money_Range : MonoBehaviour
 
             Simp.SetActive(false);
             Mid.SetActive(true);
+            Simp_Guest.SetActive(false);
+            Mid_Guest.SetActive(true);
             //Left.SetActive(true);
             //Right.SetActive(false);
             //Left1.SetActive(false);

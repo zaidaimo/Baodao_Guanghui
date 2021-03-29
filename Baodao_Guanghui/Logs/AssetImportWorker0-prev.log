@@ -15,11 +15,11 @@ D:/GitHub_works/Baodao_Guanghui/Baodao_Guanghui
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-56629
+57412
 Successfully changed project path to: D:/GitHub_works/Baodao_Guanghui/Baodao_Guanghui
 D:/GitHub_works/Baodao_Guanghui/Baodao_Guanghui
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 24.40 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 24.48 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.2.7f1 (c53830e277f1)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.2.7f1/Editor/Data/Resources/UnitySubsystems
@@ -35,68 +35,357 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.2.7f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.2.7f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.2.7f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56244
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56696
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.2.7f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.2.7f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002117 seconds.
+Registered in 0.002027 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 31.94 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 25.41 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.465 seconds
+- Completed reload, in  1.468 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.000429 seconds.
+Registered in 0.000420 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.30 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.32 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.675 seconds
+- Completed reload, in  0.677 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 0.28 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.30 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1327 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 63.0 MB.
 System memory in use after: 63.1 MB.
 
 Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 1778.
-Total: 1.897600 ms (FindLiveObjects: 0.172700 ms CreateObjectMapping: 0.034400 ms MarkObjects: 1.630900 ms  DeleteObjects: 0.058700 ms)
+Total: 1.616000 ms (FindLiveObjects: 0.197700 ms CreateObjectMapping: 0.034300 ms MarkObjects: 1.336000 ms  DeleteObjects: 0.047000 ms)
 
 ========================================================================
 Received Import Request.
+  path: Assets/Prefabs/QuestSpawnPoint/Q16_蛋白_2.prefab
+  artifactKey: Guid(e673c069e416d754987b96b59715f18c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/QuestSpawnPoint/Q16_蛋白_2.prefab using Guid(e673c069e416d754987b96b59715f18c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e34b0e60a2d7b63981d11e4fc0758d3') in 0.052915 seconds
+  Import took 0.055806 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000185 seconds.
+  path: Assets/Prefabs/QuestSpawnPoint/Q24_豆干_2.prefab
+  artifactKey: Guid(fb278bf0531ebaf4884b9709948c1ef8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/QuestSpawnPoint/Q24_豆干_2.prefab using Guid(fb278bf0531ebaf4884b9709948c1ef8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc4de39f442d0fd3a9f41ed83371c489') in 0.011162 seconds
+  Import took 0.013759 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000183 seconds.
+  path: Assets/Prefabs/QuestSpawnPoint/SCRIPT.prefab
+  artifactKey: Guid(1ee4385ef2810634bb1effbfd9cfad5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/QuestSpawnPoint/SCRIPT.prefab using Guid(1ee4385ef2810634bb1effbfd9cfad5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc3e7d6206f9dee0b6b84be6c765dc8c') in 0.002173 seconds
+  Import took 0.003961 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000142 seconds.
+  path: Assets/Prefabs/QuestSpawnPoint/Q15_米酒_4.prefab
+  artifactKey: Guid(2a08e0645d68fb943bd831970c9c4c8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/QuestSpawnPoint/Q15_米酒_4.prefab using Guid(2a08e0645d68fb943bd831970c9c4c8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b484d77d11dba84a9b37023a304e385f') in 0.010999 seconds
+  Import took 0.013264 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000172 seconds.
+  path: Assets/Prefabs/QuestSpawnPoint/Q13_醬油膏_3.prefab
+  artifactKey: Guid(6e54ea81c16a787429278ccbc67a7e45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/QuestSpawnPoint/Q13_醬油膏_3.prefab using Guid(6e54ea81c16a787429278ccbc67a7e45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1b0f1d9f8e00e34144a4e7d9e003d6b') in 0.011352 seconds
+  Import took 0.013951 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000170 seconds.
+  path: Assets/Prefabs/QuestSpawnPoint/Q17_鹽巴_3.prefab
+  artifactKey: Guid(f61966bb58e9ac044802cadc2f87da7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/QuestSpawnPoint/Q17_鹽巴_3.prefab using Guid(f61966bb58e9ac044802cadc2f87da7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea7155979e519f7d290e745a327bdb3c') in 0.010509 seconds
+  Import took 0.012811 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000198 seconds.
+  path: Assets/Prefabs/QuestSpawnPoint/Q14_香菜_1.prefab
+  artifactKey: Guid(38058679bd2d10c4981c8a54824e64de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/QuestSpawnPoint/Q14_香菜_1.prefab using Guid(38058679bd2d10c4981c8a54824e64de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77c3d105130a2efe7708f5d79e51813a') in 0.010942 seconds
+  Import took 0.013650 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000222 seconds.
+  path: Assets/Prefabs/QuestSpawnPoint/Q22_蛋黃_1.prefab
+  artifactKey: Guid(5b7208ead015c5a43bdd32a45fb07207) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/QuestSpawnPoint/Q22_蛋黃_1.prefab using Guid(5b7208ead015c5a43bdd32a45fb07207) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3baff0d34f0c4e6c626cf389746376cf') in 0.010850 seconds
+  Import took 0.013507 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000175 seconds.
+  path: Assets/Prefabs/QuestSpawnPoint/Q23_豆腐_4.prefab
+  artifactKey: Guid(c2306d2330e00e446aca764822834682) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/QuestSpawnPoint/Q23_豆腐_4.prefab using Guid(c2306d2330e00e446aca764822834682) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cda7e06cb1e359cfb507bb9055373123') in 0.010975 seconds
+  Import took 0.013853 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000178 seconds.
+  path: Assets/Prefabs/QuestSpawnPoint/Q19_絞肉_4.prefab
+  artifactKey: Guid(4e1ab7154c34ff54c85adf55f8fab898) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/QuestSpawnPoint/Q19_絞肉_4.prefab using Guid(4e1ab7154c34ff54c85adf55f8fab898) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2ccdcc1f42fa84dd3c079b39123a447') in 0.010646 seconds
+  Import took 0.012932 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000185 seconds.
+  path: Assets/Prefabs/QuestSpawnPoint/Q20_排骨_2.prefab
+  artifactKey: Guid(165ddbcc3b14d9148a55b7004c162e9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/QuestSpawnPoint/Q20_排骨_2.prefab using Guid(165ddbcc3b14d9148a55b7004c162e9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96087bcc6ef21af8c2bbc385691a9483') in 0.011558 seconds
+  Import took 0.014236 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000145 seconds.
+  path: Assets/Prefabs/QuestSpawnPoint/Q21_乾魷魚_3.prefab
+  artifactKey: Guid(9e4b1212b95cb7d41ae43f333b43aa3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/QuestSpawnPoint/Q21_乾魷魚_3.prefab using Guid(9e4b1212b95cb7d41ae43f333b43aa3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '059e5a8db33fec42ca03d43139b471b1') in 0.011304 seconds
+  Import took 0.013975 seconds .
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 0.90 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 37.6 MB.
+System memory in use after: 37.7 MB.
+
+Unloading 2 unused Assets to reduce memory usage. Loaded Objects now: 1780.
+Total: 2.778300 ms (FindLiveObjects: 0.334700 ms CreateObjectMapping: 0.046100 ms MarkObjects: 2.374800 ms  DeleteObjects: 0.020800 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 56.695791 seconds.
   path: Assets/Elements/筆記選項2.png
   artifactKey: Guid(a7e7d9a2561a25049af240740da113c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Elements/筆記選項2.png using Guid(a7e7d9a2561a25049af240740da113c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73595e314b461adc272cb3eac52657c9') in 0.119947 seconds
-  Import took 0.122122 seconds .
+Start importing Assets/Elements/筆記選項2.png using Guid(a7e7d9a2561a25049af240740da113c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67279e71abbd63358d5152ffc810ec49') in 0.060620 seconds
+  Import took 0.063254 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 14.165465 seconds.
-  path: Assets/Scenes/Quest.unity
-  artifactKey: Guid(b7a1de34218b81f42a5d8fbe6eb8fd07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Quest.unity using Guid(b7a1de34218b81f42a5d8fbe6eb8fd07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35cb695e8418a802d709648dfe7676d5') in 0.001505 seconds
-  Import took 0.003617 seconds .
+  Time since last request: 24.999400 seconds.
+  path: Assets/Elements/筆記選項2.png
+  artifactKey: Guid(a7e7d9a2561a25049af240740da113c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Elements/筆記選項2.png using Guid(a7e7d9a2561a25049af240740da113c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd463ef0c0b278946e3c1208ab8141003') in 0.062860 seconds
+  Import took 0.065117 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.009024 seconds.
-  path: Assets/Scenes/Quest.unity
-  artifactKey: Guid(b7a1de34218b81f42a5d8fbe6eb8fd07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Quest.unity using Guid(b7a1de34218b81f42a5d8fbe6eb8fd07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35cb695e8418a802d709648dfe7676d5') in 0.000963 seconds
-  Import took 0.002445 seconds .
+  Time since last request: 38.720425 seconds.
+  path: Assets/Prefabs/QuestSpawnPoint/Q13_醬油膏_3.prefab
+  artifactKey: Guid(6e54ea81c16a787429278ccbc67a7e45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/QuestSpawnPoint/Q13_醬油膏_3.prefab using Guid(6e54ea81c16a787429278ccbc67a7e45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0dd5d4b442963fc972d19fec447b7685') in 0.010665 seconds
+  Import took 0.013070 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 46.248683 seconds.
+  path: Assets/Prefabs/QuestSpawnPoint/Q14_香菜_1.prefab
+  artifactKey: Guid(38058679bd2d10c4981c8a54824e64de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/QuestSpawnPoint/Q14_香菜_1.prefab using Guid(38058679bd2d10c4981c8a54824e64de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc515422f1aaf9aeacc1e860f900fee1') in 0.009624 seconds
+  Import took 0.012112 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 16.429072 seconds.
+  path: Assets/Prefabs/QuestSpawnPoint/Q15_米酒_4.prefab
+  artifactKey: Guid(2a08e0645d68fb943bd831970c9c4c8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/QuestSpawnPoint/Q15_米酒_4.prefab using Guid(2a08e0645d68fb943bd831970c9c4c8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ea29ab197e9c24b824021348a03abfb') in 0.009907 seconds
+  Import took 0.012420 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 26.198771 seconds.
+  path: Assets/Prefabs/QuestSpawnPoint/Q16_蛋白_2.prefab
+  artifactKey: Guid(e673c069e416d754987b96b59715f18c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/QuestSpawnPoint/Q16_蛋白_2.prefab using Guid(e673c069e416d754987b96b59715f18c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ba8b6b299161d6eab8f2dc80b52531e') in 0.010144 seconds
+  Import took 0.012465 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 22.760128 seconds.
+  path: Assets/Prefabs/QuestSpawnPoint/Q17_鹽巴_3.prefab
+  artifactKey: Guid(f61966bb58e9ac044802cadc2f87da7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/QuestSpawnPoint/Q17_鹽巴_3.prefab using Guid(f61966bb58e9ac044802cadc2f87da7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '438044be56728e28b213ef431ed7d96e') in 0.009446 seconds
+  Import took 0.011841 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 42.169863 seconds.
+  path: Assets/Prefabs/QuestSpawnPoint/Q19_絞肉_4.prefab
+  artifactKey: Guid(4e1ab7154c34ff54c85adf55f8fab898) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/QuestSpawnPoint/Q19_絞肉_4.prefab using Guid(4e1ab7154c34ff54c85adf55f8fab898) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '304e948d01fcae0fb678f798919cb00c') in 0.009748 seconds
+  Import took 0.012135 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 29.123350 seconds.
+  path: Assets/Prefabs/QuestSpawnPoint/Q20_排骨_2.prefab
+  artifactKey: Guid(165ddbcc3b14d9148a55b7004c162e9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/QuestSpawnPoint/Q20_排骨_2.prefab using Guid(165ddbcc3b14d9148a55b7004c162e9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ab22cdc8001dfe74cba0c615c7fb918') in 0.009627 seconds
+  Import took 0.012038 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 19.501488 seconds.
+  path: Assets/Prefabs/QuestSpawnPoint/Q21_乾魷魚_3.prefab
+  artifactKey: Guid(9e4b1212b95cb7d41ae43f333b43aa3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/QuestSpawnPoint/Q21_乾魷魚_3.prefab using Guid(9e4b1212b95cb7d41ae43f333b43aa3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9602a39771f033dd381547d53fbb300b') in 0.009447 seconds
+  Import took 0.011808 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 15.915030 seconds.
+  path: Assets/Prefabs/QuestSpawnPoint/Q22_蛋黃_1.prefab
+  artifactKey: Guid(5b7208ead015c5a43bdd32a45fb07207) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/QuestSpawnPoint/Q22_蛋黃_1.prefab using Guid(5b7208ead015c5a43bdd32a45fb07207) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b475e1c1406bd00bdfd7e975a7504e1') in 0.010340 seconds
+  Import took 0.012790 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.027955 seconds.
+  path: Assets/Prefabs/QuestSpawnPoint/Q22_蛋黃_1.prefab
+  artifactKey: Guid(5b7208ead015c5a43bdd32a45fb07207) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/QuestSpawnPoint/Q22_蛋黃_1.prefab using Guid(5b7208ead015c5a43bdd32a45fb07207) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18a1c5c290ad43149de043d9d9ee8057') in 0.009960 seconds
+  Import took 0.012434 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 39.496203 seconds.
+  path: Assets/Prefabs/QuestSpawnPoint/Q22_蛋黃_1.prefab
+  artifactKey: Guid(5b7208ead015c5a43bdd32a45fb07207) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/QuestSpawnPoint/Q22_蛋黃_1.prefab using Guid(5b7208ead015c5a43bdd32a45fb07207) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '811e50b710af93def29670f1a572fa02') in 0.009486 seconds
+  Import took 0.011819 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 27.917117 seconds.
+  path: Assets/Prefabs/QuestSpawnPoint/Q23_豆腐_4.prefab
+  artifactKey: Guid(c2306d2330e00e446aca764822834682) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/QuestSpawnPoint/Q23_豆腐_4.prefab using Guid(c2306d2330e00e446aca764822834682) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b9ab363c4572f9142078b166001fba5') in 0.009595 seconds
+  Import took 0.012094 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 17.727974 seconds.
+  path: Assets/Prefabs/QuestSpawnPoint/Q24_豆干_2.prefab
+  artifactKey: Guid(fb278bf0531ebaf4884b9709948c1ef8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/QuestSpawnPoint/Q24_豆干_2.prefab using Guid(fb278bf0531ebaf4884b9709948c1ef8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '375ff90707702d79e832372ab7aa56bc') in 0.009310 seconds
+  Import took 0.011866 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.213384 seconds.
+  path: Assets/Prefabs/QuestSpawnPoint/Q14_香菜_1.prefab
+  artifactKey: Guid(38058679bd2d10c4981c8a54824e64de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/QuestSpawnPoint/Q14_香菜_1.prefab using Guid(38058679bd2d10c4981c8a54824e64de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d92eca65c28ebe3330c634d215555bd') in 0.009995 seconds
+  Import took 0.012381 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.002138 seconds.
+  path: Assets/Prefabs/QuestSpawnPoint/Q14_香菜_1.prefab
+  artifactKey: Guid(38058679bd2d10c4981c8a54824e64de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/QuestSpawnPoint/Q14_香菜_1.prefab using Guid(38058679bd2d10c4981c8a54824e64de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5459876272b2c6ece768803d166c62f9') in 0.010178 seconds
+  Import took 0.012651 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.440708 seconds.
+  path: Assets/Prefabs/QuestSpawnPoint/Q14_香菜_1.prefab
+  artifactKey: Guid(38058679bd2d10c4981c8a54824e64de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/QuestSpawnPoint/Q14_香菜_1.prefab using Guid(38058679bd2d10c4981c8a54824e64de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39353d03977c1aeaad84be507fd7ac1f') in 0.009449 seconds
+  Import took 0.011973 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000507 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.33 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.649 seconds
+Platform modules already initialized, skipping
+Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.28 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1325 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 66.2 MB.
+System memory in use after: 66.3 MB.
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1790.
+Total: 1.600700 ms (FindLiveObjects: 0.146500 ms CreateObjectMapping: 0.032900 ms MarkObjects: 1.404000 ms  DeleteObjects: 0.016200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000441 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.33 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.662 seconds
+Platform modules already initialized, skipping
+Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.25 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1325 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 66.3 MB.
+System memory in use after: 66.4 MB.
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1793.
+Total: 1.473600 ms (FindLiveObjects: 0.168800 ms CreateObjectMapping: 0.030500 ms MarkObjects: 1.262500 ms  DeleteObjects: 0.011000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Import Request.
+  Time since last request: 42.888749 seconds.
+  path: Assets/Scenes/熱炒店.unity
+  artifactKey: Guid(ec2f4d0dd8c08704d912e53d7b253765) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/熱炒店.unity using Guid(ec2f4d0dd8c08704d912e53d7b253765) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c8ea7f1f0a9f54c40712199b453652e') in 0.008090 seconds
+  Import took 0.010498 seconds .
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
