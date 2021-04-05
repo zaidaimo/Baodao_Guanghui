@@ -97,11 +97,11 @@ public class Player : MonoBehaviour
     #region 過關條件
     void HowMany_Buy()  //過關條件
     {
-        Ran_Num1 = Random.Range(2, 6);  //產生要購買的數量1~5
+        Ran_Num1 = Random.Range(2, 5);  //產生要購買的數量1~4
         Ran_Num_T1.text = Ran_Num1.ToString();  //將數字轉為字串顯示
-        Ran_Num2 = Random.Range(2, 6);
+        Ran_Num2 = Random.Range(2, 5);
         Ran_Num_T2.text = Ran_Num2.ToString();
-        Ran_Num3 = Random.Range(2, 6);
+        Ran_Num3 = Random.Range(2, 5);
         Ran_Num_T3.text = Ran_Num3.ToString();
     }
     #endregion

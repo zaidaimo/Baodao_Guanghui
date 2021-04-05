@@ -5,15 +5,10 @@ ScriptsOnlyBuild:
     - BuyMeat_Start
     - Camera_Left
     - Camera_Right
-    - CloseHowPlayMeat
     - Do_Hua_Guest
     - G_Pai_Guest
     - GameStart
     - Game_Manager
-    - Game_teaching
-    - Go_To_Diguayeah
-    - Go_To_Konsingtasi
-    - Go_To_Tsaibonun
     - Go_Tsai_Bo_Nun
     - LongPressEffect
     - Meat_Base
@@ -23,6 +18,7 @@ ScriptsOnlyBuild:
     - Meat_To_Cook4
     - Meat_To_Cook5
     - Mein_Bao_Guest
+    - Mid_Take_Finish
     - Money_Range
     - NPC_Hint
     - Note_To_Meat
@@ -47,17 +43,49 @@ ScriptsOnlyBuild:
     - SceneChanges
     - Settings
     - Shop_Guest
+    - Simp_Dohua_print
+    - Simp_Gpai_print
+    - Simp_Meat_print
+    - Simp_Mein_print
+    - Simp_Part_print
+    - Simp_Shop_print
     - Simp_Spawn_Guest_1
     - Simp_Spawn_Guest_2
     - Simp_Spawn_Guest_3
     - Simp_Spawn_Guest_4
+    - Simp_Teacher_print
+    - Simp_Tsai_print
+    - Simple_Destroy
     - SpawnMeat
     - Spawn_Guest1
     - Spawn_Guest2
     - Spawn_Guest3
     - Spawn_Guest4
-    - Spawn_Teach
+    - Teach_Text1
     - Teacher_Guest
+    - Teaching
+    - Tsai_Memory1
+    - Tsai_Memory10
+    - Tsai_Memory11
+    - Tsai_Memory12
+    - Tsai_Memory13
+    - Tsai_Memory14
+    - Tsai_Memory15
+    - Tsai_Memory16
+    - Tsai_Memory17
+    - Tsai_Memory18
+    - Tsai_Memory19
+    - Tsai_Memory2
+    - Tsai_Memory20
+    - Tsai_Memory21
+    - Tsai_Memory22
+    - Tsai_Memory3
+    - Tsai_Memory4
+    - Tsai_Memory5
+    - Tsai_Memory6
+    - Tsai_Memory7
+    - Tsai_Memory8
+    - Tsai_Memory9
     - Tsai_Pu_Dan_Zoom1
     - Tsai_Pu_Dan_Zoom2
     - Tsai_Pu_Dan_Zoom3
@@ -88,7 +116,9 @@ ScriptsOnlyBuild:
     - UnityEditor.Tilemaps.GridPaletteBrushes
     - UnityEditor.Tilemaps.GridPalettes
     - UnityEditor.Tilemaps.SceneViewGridManager
+    - UnityEditor.Tilemaps.SceneViewOpenTilePaletteHelper
     - UnityEditor.Tilemaps.TileDragAndDropManager
+    - UnityEditor.Tilemaps.TilemapPrefabStageHelper
     Unity.CollabProxy.Editor.dll:
     - Unity.Cloud.Collaborate.UserInterface.CollaborateWindow
     - Unity.Cloud.Collaborate.UserInterface.WindowCache
@@ -108,7 +138,6 @@ ScriptsOnlyBuild:
     - UnityEditor.TestTools.TestRunner.TestRun.TestJobDataHolder
     UnityEngine.UI.dll:
     - UnityEngine.EventSystems.EventSystem
-    - UnityEngine.EventSystems.EventTrigger
     - UnityEngine.EventSystems.StandaloneInputModule
     - UnityEngine.UI.Button
     - UnityEngine.UI.CanvasScaler
@@ -146,19 +175,21 @@ ScriptsOnlyBuild:
     - Class: 104
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 11818}
+      Script: {instanceID: 1456}
     - Class: 114
-      Script: {instanceID: 11846}
+      Script: {instanceID: 1458}
     - Class: 114
-      Script: {instanceID: 12092}
+      Script: {instanceID: 2010}
     - Class: 114
-      Script: {instanceID: 12326}
+      Script: {instanceID: 2894}
     - Class: 114
-      Script: {instanceID: 12592}
+      Script: {instanceID: 3106}
     - Class: 114
-      Script: {instanceID: 13740}
+      Script: {instanceID: 3314}
     - Class: 114
-      Script: {instanceID: 14186}
+      Script: {instanceID: 3372}
+    - Class: 114
+      Script: {instanceID: 3784}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 157
@@ -195,25 +226,25 @@ ScriptsOnlyBuild:
     - Class: 104
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 11818}
+      Script: {instanceID: 1456}
     - Class: 114
-      Script: {instanceID: 11820}
+      Script: {instanceID: 1458}
     - Class: 114
-      Script: {instanceID: 11846}
+      Script: {instanceID: 1460}
     - Class: 114
-      Script: {instanceID: 12092}
+      Script: {instanceID: 1520}
     - Class: 114
-      Script: {instanceID: 12592}
+      Script: {instanceID: 2894}
     - Class: 114
-      Script: {instanceID: 13378}
+      Script: {instanceID: 3106}
     - Class: 114
-      Script: {instanceID: 13388}
+      Script: {instanceID: 3314}
     - Class: 114
-      Script: {instanceID: 13472}
+      Script: {instanceID: 3372}
     - Class: 114
-      Script: {instanceID: 13740}
+      Script: {instanceID: 3784}
     - Class: 114
-      Script: {instanceID: 14186}
+      Script: {instanceID: 4048}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -250,23 +281,23 @@ ScriptsOnlyBuild:
     - Class: 104
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 11818}
+      Script: {instanceID: 1456}
     - Class: 114
-      Script: {instanceID: 11820}
+      Script: {instanceID: 1458}
     - Class: 114
-      Script: {instanceID: 11846}
+      Script: {instanceID: 1460}
     - Class: 114
-      Script: {instanceID: 12092}
+      Script: {instanceID: 2894}
     - Class: 114
-      Script: {instanceID: 12592}
+      Script: {instanceID: 3000}
     - Class: 114
-      Script: {instanceID: 12638}
+      Script: {instanceID: 3106}
     - Class: 114
-      Script: {instanceID: 13244}
+      Script: {instanceID: 3372}
     - Class: 114
-      Script: {instanceID: 13740}
+      Script: {instanceID: 3784}
     - Class: 114
-      Script: {instanceID: 14186}
+      Script: {instanceID: 3950}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -300,6 +331,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 48
       Script: {instanceID: 0}
+    - Class: 58
+      Script: {instanceID: 0}
     - Class: 60
       Script: {instanceID: 0}
     - Class: 61
@@ -323,137 +356,147 @@ ScriptsOnlyBuild:
     - Class: 104
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 11818}
+      Script: {instanceID: 1456}
     - Class: 114
-      Script: {instanceID: 11820}
+      Script: {instanceID: 1458}
     - Class: 114
-      Script: {instanceID: 11824}
+      Script: {instanceID: 1460}
     - Class: 114
-      Script: {instanceID: 11832}
+      Script: {instanceID: 1478}
     - Class: 114
-      Script: {instanceID: 11846}
+      Script: {instanceID: 1492}
     - Class: 114
-      Script: {instanceID: 11884}
+      Script: {instanceID: 1526}
     - Class: 114
-      Script: {instanceID: 11926}
+      Script: {instanceID: 1546}
     - Class: 114
-      Script: {instanceID: 11988}
+      Script: {instanceID: 1628}
     - Class: 114
-      Script: {instanceID: 12034}
+      Script: {instanceID: 1680}
     - Class: 114
-      Script: {instanceID: 12046}
+      Script: {instanceID: 1704}
     - Class: 114
-      Script: {instanceID: 12092}
+      Script: {instanceID: 1718}
     - Class: 114
-      Script: {instanceID: 12160}
+      Script: {instanceID: 1722}
     - Class: 114
-      Script: {instanceID: 12164}
+      Script: {instanceID: 1752}
     - Class: 114
-      Script: {instanceID: 12234}
+      Script: {instanceID: 1792}
     - Class: 114
-      Script: {instanceID: 12278}
+      Script: {instanceID: 1796}
     - Class: 114
-      Script: {instanceID: 12284}
+      Script: {instanceID: 1798}
     - Class: 114
-      Script: {instanceID: 12320}
+      Script: {instanceID: 1838}
     - Class: 114
-      Script: {instanceID: 12354}
+      Script: {instanceID: 1846}
     - Class: 114
-      Script: {instanceID: 12384}
+      Script: {instanceID: 1952}
     - Class: 114
-      Script: {instanceID: 12428}
+      Script: {instanceID: 2016}
     - Class: 114
-      Script: {instanceID: 12474}
+      Script: {instanceID: 2078}
     - Class: 114
-      Script: {instanceID: 12526}
+      Script: {instanceID: 2122}
     - Class: 114
-      Script: {instanceID: 12578}
+      Script: {instanceID: 2140}
     - Class: 114
-      Script: {instanceID: 12592}
+      Script: {instanceID: 2166}
     - Class: 114
-      Script: {instanceID: 12616}
+      Script: {instanceID: 2282}
     - Class: 114
-      Script: {instanceID: 12660}
+      Script: {instanceID: 2326}
     - Class: 114
-      Script: {instanceID: 12686}
+      Script: {instanceID: 2354}
     - Class: 114
-      Script: {instanceID: 12754}
+      Script: {instanceID: 2424}
     - Class: 114
-      Script: {instanceID: 12768}
+      Script: {instanceID: 2496}
     - Class: 114
-      Script: {instanceID: 12796}
+      Script: {instanceID: 2564}
     - Class: 114
-      Script: {instanceID: 12804}
+      Script: {instanceID: 2570}
     - Class: 114
-      Script: {instanceID: 12822}
+      Script: {instanceID: 2608}
     - Class: 114
-      Script: {instanceID: 12824}
+      Script: {instanceID: 2640}
     - Class: 114
-      Script: {instanceID: 12860}
+      Script: {instanceID: 2712}
     - Class: 114
-      Script: {instanceID: 12862}
+      Script: {instanceID: 2752}
     - Class: 114
-      Script: {instanceID: 12908}
+      Script: {instanceID: 2796}
     - Class: 114
-      Script: {instanceID: 12990}
+      Script: {instanceID: 2810}
     - Class: 114
-      Script: {instanceID: 13012}
+      Script: {instanceID: 2832}
     - Class: 114
-      Script: {instanceID: 13028}
+      Script: {instanceID: 2894}
     - Class: 114
-      Script: {instanceID: 13060}
+      Script: {instanceID: 2896}
     - Class: 114
-      Script: {instanceID: 13156}
+      Script: {instanceID: 2956}
     - Class: 114
-      Script: {instanceID: 13246}
+      Script: {instanceID: 2972}
     - Class: 114
-      Script: {instanceID: 13250}
+      Script: {instanceID: 3006}
     - Class: 114
-      Script: {instanceID: 13306}
+      Script: {instanceID: 3106}
     - Class: 114
-      Script: {instanceID: 13322}
+      Script: {instanceID: 3200}
     - Class: 114
-      Script: {instanceID: 13374}
+      Script: {instanceID: 3292}
     - Class: 114
-      Script: {instanceID: 13390}
+      Script: {instanceID: 3314}
     - Class: 114
-      Script: {instanceID: 13422}
+      Script: {instanceID: 3332}
     - Class: 114
-      Script: {instanceID: 13472}
+      Script: {instanceID: 3356}
     - Class: 114
-      Script: {instanceID: 13488}
+      Script: {instanceID: 3372}
     - Class: 114
-      Script: {instanceID: 13724}
+      Script: {instanceID: 3386}
     - Class: 114
-      Script: {instanceID: 13728}
+      Script: {instanceID: 3396}
     - Class: 114
-      Script: {instanceID: 13740}
+      Script: {instanceID: 3408}
     - Class: 114
-      Script: {instanceID: 13764}
+      Script: {instanceID: 3540}
     - Class: 114
-      Script: {instanceID: 14082}
+      Script: {instanceID: 3606}
     - Class: 114
-      Script: {instanceID: 14094}
+      Script: {instanceID: 3732}
     - Class: 114
-      Script: {instanceID: 14130}
+      Script: {instanceID: 3744}
     - Class: 114
-      Script: {instanceID: 14168}
+      Script: {instanceID: 3754}
     - Class: 114
-      Script: {instanceID: 14170}
+      Script: {instanceID: 3768}
     - Class: 114
-      Script: {instanceID: 14186}
+      Script: {instanceID: 3784}
     - Class: 114
-      Script: {instanceID: 14206}
+      Script: {instanceID: 3804}
     - Class: 114
-      Script: {instanceID: 14212}
+      Script: {instanceID: 3820}
     - Class: 114
-      Script: {instanceID: 14226}
+      Script: {instanceID: 3860}
     - Class: 114
-      Script: {instanceID: 14256}
+      Script: {instanceID: 3862}
     - Class: 114
-      Script: {instanceID: 14270}
+      Script: {instanceID: 3900}
     - Class: 114
-      Script: {instanceID: 14286}
+      Script: {instanceID: 3962}
+    - Class: 114
+      Script: {instanceID: 3984}
+    - Class: 114
+      Script: {instanceID: 3996}
+    - Class: 114
+      Script: {instanceID: 4012}
+    - Class: 114
+      Script: {instanceID: 4058}
+    - Class: 114
+      Script: {instanceID: 151702}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -496,51 +539,77 @@ ScriptsOnlyBuild:
     - Class: 104
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 11818}
+      Script: {instanceID: 1456}
     - Class: 114
-      Script: {instanceID: 11820}
+      Script: {instanceID: 1458}
     - Class: 114
-      Script: {instanceID: 11846}
+      Script: {instanceID: 1460}
     - Class: 114
-      Script: {instanceID: 11964}
+      Script: {instanceID: 1500}
     - Class: 114
-      Script: {instanceID: 12014}
+      Script: {instanceID: 1552}
     - Class: 114
-      Script: {instanceID: 12092}
+      Script: {instanceID: 1574}
     - Class: 114
-      Script: {instanceID: 12154}
+      Script: {instanceID: 1650}
     - Class: 114
-      Script: {instanceID: 12544}
+      Script: {instanceID: 1824}
     - Class: 114
-      Script: {instanceID: 12592}
+      Script: {instanceID: 1850}
     - Class: 114
-      Script: {instanceID: 12884}
+      Script: {instanceID: 1886}
     - Class: 114
-      Script: {instanceID: 12916}
+      Script: {instanceID: 1958}
     - Class: 114
-      Script: {instanceID: 12980}
+      Script: {instanceID: 2112}
     - Class: 114
-      Script: {instanceID: 13260}
+      Script: {instanceID: 2162}
     - Class: 114
-      Script: {instanceID: 13472}
+      Script: {instanceID: 2288}
     - Class: 114
-      Script: {instanceID: 13478}
+      Script: {instanceID: 2292}
     - Class: 114
-      Script: {instanceID: 13494}
+      Script: {instanceID: 2346}
     - Class: 114
-      Script: {instanceID: 13740}
+      Script: {instanceID: 2466}
     - Class: 114
-      Script: {instanceID: 13868}
+      Script: {instanceID: 2642}
     - Class: 114
-      Script: {instanceID: 14046}
+      Script: {instanceID: 2650}
     - Class: 114
-      Script: {instanceID: 14174}
+      Script: {instanceID: 2822}
     - Class: 114
-      Script: {instanceID: 14186}
+      Script: {instanceID: 2892}
     - Class: 114
-      Script: {instanceID: 14228}
+      Script: {instanceID: 2894}
     - Class: 114
-      Script: {instanceID: 14246}
+      Script: {instanceID: 2960}
+    - Class: 114
+      Script: {instanceID: 3064}
+    - Class: 114
+      Script: {instanceID: 3106}
+    - Class: 114
+      Script: {instanceID: 3112}
+    - Class: 114
+      Script: {instanceID: 3304}
+    - Class: 114
+      Script: {instanceID: 3314}
+    - Class: 114
+      Script: {instanceID: 3372}
+    - Class: 114
+      Script: {instanceID: 3516}
+    - Class: 114
+      Script: {instanceID: 3570}
+    - Class: 114
+      Script: {instanceID: 3752}
+    - Class: 114
+      Script: {instanceID: 3762}
+    - Class: 114
+      Script: {instanceID: 3784}
+    - Class: 114
+      Script: {instanceID: 3812}
+    - Class: 114
+      Script: {instanceID: 3894}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -599,33 +668,33 @@ ScriptsOnlyBuild:
     - Class: 104
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 11818}
+      Script: {instanceID: 1456}
     - Class: 114
-      Script: {instanceID: 11820}
+      Script: {instanceID: 1458}
     - Class: 114
-      Script: {instanceID: 11846}
+      Script: {instanceID: 1460}
     - Class: 114
-      Script: {instanceID: 12092}
+      Script: {instanceID: 1608}
     - Class: 114
-      Script: {instanceID: 12592}
+      Script: {instanceID: 1796}
     - Class: 114
-      Script: {instanceID: 12688}
+      Script: {instanceID: 2486}
     - Class: 114
-      Script: {instanceID: 12756}
+      Script: {instanceID: 2894}
     - Class: 114
-      Script: {instanceID: 12762}
+      Script: {instanceID: 3042}
     - Class: 114
-      Script: {instanceID: 12792}
+      Script: {instanceID: 3106}
     - Class: 114
-      Script: {instanceID: 12956}
+      Script: {instanceID: 3148}
     - Class: 114
-      Script: {instanceID: 13472}
+      Script: {instanceID: 3314}
     - Class: 114
-      Script: {instanceID: 13740}
+      Script: {instanceID: 3372}
     - Class: 114
-      Script: {instanceID: 13764}
+      Script: {instanceID: 3784}
     - Class: 114
-      Script: {instanceID: 14186}
+      Script: {instanceID: 3794}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -668,49 +737,49 @@ ScriptsOnlyBuild:
     - Class: 104
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 11818}
+      Script: {instanceID: 1456}
     - Class: 114
-      Script: {instanceID: 11820}
+      Script: {instanceID: 1458}
     - Class: 114
-      Script: {instanceID: 11846}
+      Script: {instanceID: 1460}
     - Class: 114
-      Script: {instanceID: 12014}
+      Script: {instanceID: 1578}
     - Class: 114
-      Script: {instanceID: 12092}
+      Script: {instanceID: 1698}
     - Class: 114
-      Script: {instanceID: 12154}
+      Script: {instanceID: 1746}
     - Class: 114
-      Script: {instanceID: 12378}
+      Script: {instanceID: 2026}
     - Class: 114
-      Script: {instanceID: 12450}
+      Script: {instanceID: 2406}
     - Class: 114
-      Script: {instanceID: 12544}
+      Script: {instanceID: 2506}
     - Class: 114
-      Script: {instanceID: 12592}
+      Script: {instanceID: 2612}
     - Class: 114
-      Script: {instanceID: 12916}
+      Script: {instanceID: 2894}
     - Class: 114
-      Script: {instanceID: 12976}
+      Script: {instanceID: 2914}
     - Class: 114
-      Script: {instanceID: 13132}
+      Script: {instanceID: 3056}
     - Class: 114
-      Script: {instanceID: 13260}
+      Script: {instanceID: 3106}
     - Class: 114
-      Script: {instanceID: 13472}
+      Script: {instanceID: 3314}
     - Class: 114
-      Script: {instanceID: 13494}
+      Script: {instanceID: 3326}
     - Class: 114
-      Script: {instanceID: 13740}
+      Script: {instanceID: 3372}
     - Class: 114
-      Script: {instanceID: 13994}
+      Script: {instanceID: 3614}
     - Class: 114
-      Script: {instanceID: 14046}
+      Script: {instanceID: 3666}
     - Class: 114
-      Script: {instanceID: 14186}
+      Script: {instanceID: 3784}
     - Class: 114
-      Script: {instanceID: 14228}
+      Script: {instanceID: 3836}
     - Class: 114
-      Script: {instanceID: 14246}
+      Script: {instanceID: 4078}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -738,7 +807,13 @@ ScriptsOnlyBuild:
   scriptHashData:
   - hash:
       serializedVersion: 2
-      Hash: f087c23fbfa15475a0d110af46fb0496
+      Hash: a6e561615949734e9f12f9b61661f43e
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Image
+  - hash:
+      serializedVersion: 2
+      Hash: 69415240821be7986b27e72bf9609a30
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
     className: Button
@@ -750,166 +825,64 @@ ScriptsOnlyBuild:
     className: Text
   - hash:
       serializedVersion: 2
-      Hash: e42402cf327db4c899d9e172b20cafc3
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: G_Pai_Guest
-  - hash:
-      serializedVersion: 2
-      Hash: cc66894def2ef9333ffc197c93a5e9b0
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: Money_Range
-  - hash:
-      serializedVersion: 2
-      Hash: 4bc4346a71a8df53a6b106f68ef3a190
-    assemblyName: UnityEngine.UI.dll
-    namespaceName: UnityEngine.UI
-    className: CanvasScaler
-  - hash:
-      serializedVersion: 2
-      Hash: f40fedccd4adbc76605bea6d67537e4b
-    assemblyName: Unity.TextMeshPro.dll
-    namespaceName: TMPro
-    className: TMP_SelectionCaret
-  - hash:
-      serializedVersion: 2
-      Hash: 15e7d96ecf8e326f42b2ac828a721dc0
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: Settings
-  - hash:
-      serializedVersion: 2
-      Hash: 87ff43d2baf3385cba327d8f803a4ebb
-    assemblyName: Unity.Timeline.dll
-    namespaceName: UnityEngine.Timeline
-    className: AudioPlayableAsset
-  - hash:
-      serializedVersion: 2
-      Hash: 4298152c7490141086c39d1836a5a43a
-    assemblyName: Unity.TextMeshPro.dll
-    namespaceName: TMPro
-    className: TMP_Dropdown
-  - hash:
-      serializedVersion: 2
-      Hash: 917b9b3eb2e84cd068388eabfda538f5
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: Note_To_Meat3
-  - hash:
-      serializedVersion: 2
-      Hash: 3053967afec4070ba920d129f1b88a48
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: Tsai_Pu_Dan_Zoom7
-  - hash:
-      serializedVersion: 2
-      Hash: e7a73f5f78ba6445195ec23b74a1ce2d
-    assemblyName: Unity.TextMeshPro.dll
-    namespaceName: TMPro
-    className: TMP_ScrollbarEventHandler
-  - hash:
-      serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: UnityEngine.TestRunner.dll
-    namespaceName: UnityEngine.TestTools.TestRunner.Callbacks
-    className: PlayerQuitHandler
-  - hash:
-      serializedVersion: 2
-      Hash: bbb39145fc0d9451db3bb3c3ee9ae002
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
-    className: Meat_To_Cook2
-  - hash:
-      serializedVersion: 2
-      Hash: c3d3430df9e3ea95e3e3d587961390fb
-    assemblyName: Unity.Timeline.dll
-    namespaceName: UnityEngine.Timeline
-    className: GroupTrack
+    className: Loading_HotFried
   - hash:
       serializedVersion: 2
       Hash: a97020c12af3abbd490b3b234aa12438
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
-    className: Type_Writer_Effect
+    className: Meat_To_Cook1
   - hash:
       serializedVersion: 2
-      Hash: a5781dc71a671b1ad2b38de19f24b71f
-    assemblyName: Unity.Timeline.dll
-    namespaceName: UnityEngine.Timeline
-    className: ActivationTrack
-  - hash:
-      serializedVersion: 2
-      Hash: d2695b6764699f76bd9d84ee9bc6067a
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: expanation_Base
   - hash:
       serializedVersion: 2
-      Hash: 63df94cdfd6d365163aada3758508716
+      Hash: ac5f0c8364c1c2ecfe895cc255999dcd
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
-    className: Note_To_Meat7
+    className: Tsai_Memory17
   - hash:
       serializedVersion: 2
-      Hash: d03803b74414b1a5e9fe4a476e587cee
+      Hash: d8f87b72b1efa53d127913055d950078
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
-    className: Tsai_Tan_Quiz
+    className: Ran_quest
   - hash:
       serializedVersion: 2
-      Hash: fd8b23ad3c9e81bc85b197495bc510ac
-    assemblyName: UnityEngine.UI.dll
-    namespaceName: UnityEngine.UI
-    className: Scrollbar
+      Hash: 5ab533713adae59372fb3e10a585c186
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: AnimationPlayableAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 16f045f20bd3797f20bf635efa0dcf93
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Note_To_Meat5
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: UnityEngine.UI.dll
-    namespaceName: UnityEngine.UI
-    className: PositionAsUV1
-  - hash:
-      serializedVersion: 2
-      Hash: abf1930d8126d0b2e00e9449129a0190
-    assemblyName: UnityEngine.UI.dll
-    namespaceName: UnityEngine.EventSystems
-    className: TouchInputModule
-  - hash:
-      serializedVersion: 2
-      Hash: a6e561615949734e9f12f9b61661f43e
-    assemblyName: UnityEngine.UI.dll
-    namespaceName: UnityEngine.UI
-    className: Image
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: UnityEngine.TestRunner.dll
-    namespaceName: UnityEngine.TestTools.TestRunner.Callbacks
-    className: TestResultRendererCallback
-  - hash:
-      serializedVersion: 2
-      Hash: 5f206dd3b0d6b103c9456019be49d644
-    assemblyName: Unity.TextMeshPro.dll
-    namespaceName: TMPro
-    className: TMP_InputField
-  - hash:
-      serializedVersion: 2
-      Hash: bbb39145fc0d9451db3bb3c3ee9ae002
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
-    className: Type_Writer_Effect2
+    className: Note_To_Meat
   - hash:
       serializedVersion: 2
-      Hash: 7ab0e790220bdca831fdd886b339039d
-    assemblyName: UnityEngine.UI.dll
-    namespaceName: UnityEngine.UI
-    className: GridLayoutGroup
-  - hash:
-      serializedVersion: 2
-      Hash: 05537081f457394bcd45c5dad8b7c441
+      Hash: 3482d0594b129e2a16f644c72706649d
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
-    className: Spawn_Guest4
+    className: Tsai_Memory9
+  - hash:
+      serializedVersion: 2
+      Hash: a69d43aaf56e7eba6d3c55d077d03762
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Shop_Quiz
   - hash:
       serializedVersion: 2
       Hash: 8aa3d6ccbcb54ee8db6c1229854adaaa
@@ -919,153 +892,9 @@ ScriptsOnlyBuild:
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Unity.Timeline.dll
-    namespaceName: UnityEngine.Timeline
-    className: SignalAsset
-  - hash:
-      serializedVersion: 2
-      Hash: a86d440a9d08c9c6670e26d46e0aaa02
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
-    className: Go_To_Konsingtasi
-  - hash:
-      serializedVersion: 2
-      Hash: 0dbc3be398b4869a5c8d0d8481ee402c
-    assemblyName: UnityEngine.UI.dll
-    namespaceName: UnityEngine.UI
-    className: LayoutElement
-  - hash:
-      serializedVersion: 2
-      Hash: 18c222bef9ae745ce69ddde9b74337ca
-    assemblyName: UnityEngine.UI.dll
-    namespaceName: UnityEngine.EventSystems
-    className: PhysicsRaycaster
-  - hash:
-      serializedVersion: 2
-      Hash: 8100b966a9fb569401ee7ec5e51ece2f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: Teacher_Quiz
-  - hash:
-      serializedVersion: 2
-      Hash: d5ead0e072ebf6330170985fc9e5b1b5
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: Note_To_Meat6
-  - hash:
-      serializedVersion: 2
-      Hash: a97020c12af3abbd490b3b234aa12438
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: Note_To_Meat1
-  - hash:
-      serializedVersion: 2
-      Hash: 5f1470d25b698d3c6263bd2bdd734b99
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: G_Pai_Quiz
-  - hash:
-      serializedVersion: 2
-      Hash: bd3cf68c8964d3c66d1c43f4f98508c9
-    assemblyName: Unity.Timeline.dll
-    namespaceName: UnityEngine.Timeline
-    className: AnimationTrack
-  - hash:
-      serializedVersion: 2
-      Hash: cf9f5cf2c3145a37ac07f00e50e460f9
-    assemblyName: UnityEngine.UI.dll
-    namespaceName: UnityEngine.UI
-    className: AspectRatioFitter
-  - hash:
-      serializedVersion: 2
-      Hash: 74dcf3dc79e1f4d221742f0ce4ce1396
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: simp_
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: Print_Chop1
-  - hash:
-      serializedVersion: 2
-      Hash: ef5c43f921427d03730f6ea4c848f07d
-    assemblyName: UnityEngine.UI.dll
-    namespaceName: UnityEngine.UI
-    className: RectMask2D
-  - hash:
-      serializedVersion: 2
-      Hash: 05537081f457394bcd45c5dad8b7c441
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: Spawn_Guest1
-  - hash:
-      serializedVersion: 2
-      Hash: 6980e81ddc615a861309d2d659cc3760
-    assemblyName: Unity.TextMeshPro.dll
-    namespaceName: TMPro
-    className: TMP_SubMeshUI
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: sc3_zoom
-  - hash:
-      serializedVersion: 2
-      Hash: ba24e9c333b0a5f02a827fb33c806634
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: Note_To_Meat4
-  - hash:
-      serializedVersion: 2
-      Hash: 381f52f39c4156a11a49b1986c623ac8
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: Book
-  - hash:
-      serializedVersion: 2
-      Hash: 5ab533713adae59372fb3e10a585c186
-    assemblyName: Unity.Timeline.dll
-    namespaceName: UnityEngine.Timeline
-    className: AnimationPlayableAsset
-  - hash:
-      serializedVersion: 2
-      Hash: 66d3808f159c1c84ec093af52e212655
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: Part_Time_Guest
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: sc2_zoom
-  - hash:
-      serializedVersion: 2
-      Hash: aba7b2852ef61d175dd9602e7723d5e5
-    assemblyName: UnityEngine.UI.dll
-    namespaceName: UnityEngine.UI
-    className: Mask
-  - hash:
-      serializedVersion: 2
-      Hash: caa533b001ae39b864ba8425019e2268
-    assemblyName: UnityEngine.UI.dll
-    namespaceName: UnityEngine.UI
-    className: Shadow
-  - hash:
-      serializedVersion: 2
-      Hash: 47d5e68ccd60803655f7b5c9fbefce93
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: Veg_Base
-  - hash:
-      serializedVersion: 2
-      Hash: 12d42ec021e1ca8afd72c92e6c063e34
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: close_menu
+    className: Tsai_Pu_Dan_Zoom3
   - hash:
       serializedVersion: 2
       Hash: 16f045f20bd3797f20bf635efa0dcf93
@@ -1074,106 +903,10 @@ ScriptsOnlyBuild:
     className: Type_Writer_Effect5
   - hash:
       serializedVersion: 2
-      Hash: 16f045f20bd3797f20bf635efa0dcf93
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: Note_To_Meat5
-  - hash:
-      serializedVersion: 2
-      Hash: cc4274b586df3c02688bac01b88bd16c
-    assemblyName: UnityEngine.UI.dll
-    namespaceName: UnityEngine.EventSystems
-    className: EventSystem
-  - hash:
-      serializedVersion: 2
-      Hash: a69d43aaf56e7eba6d3c55d077d03762
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: Shop_Quiz
-  - hash:
-      serializedVersion: 2
-      Hash: 0fb27be807aa299702f28ad0bcad1f46
-    assemblyName: Unity.Timeline.dll
-    namespaceName: UnityEngine.Timeline
-    className: ControlPlayableAsset
-  - hash:
-      serializedVersion: 2
-      Hash: 87dc80329fa947ca5849331a6bc5406e
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: Shop
-  - hash:
-      serializedVersion: 2
-      Hash: ecef5cc8d5734a81e4b35feb9358b9c8
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: Spawn_Teach
-  - hash:
-      serializedVersion: 2
-      Hash: 5cc439bf63c0539d39588e69465ac2ab
+      Hash: 77aaaaa51f7a8d8ff333a879741e47d2
     assemblyName: Unity.TextMeshPro.dll
     namespaceName: TMPro
-    className: TMP_SpriteAsset
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: GameStart
-  - hash:
-      serializedVersion: 2
-      Hash: c3d3430df9e3ea95e3e3d587961390fb
-    assemblyName: Unity.Timeline.dll
-    namespaceName: UnityEngine.Timeline
-    className: ControlTrack
-  - hash:
-      serializedVersion: 2
-      Hash: 8dc90e648ac06f43bdd31ac9fa8f4579
-    assemblyName: UnityEngine.UI.dll
-    namespaceName: UnityEngine.UI
-    className: Selectable
-  - hash:
-      serializedVersion: 2
-      Hash: e469f64a28f834387ccb5db019d87a14
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: CloseHowPlayMeat
-  - hash:
-      serializedVersion: 2
-      Hash: 5168f10394b68e1576faec8cfdbaafdb
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: Add_Meat_Money
-  - hash:
-      serializedVersion: 2
-      Hash: 91235679107ae2de4f7952caead6887a
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: SpawnMeat
-  - hash:
-      serializedVersion: 2
-      Hash: bf20a5c75d209e04e91b066948f135f0
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: Tsai_Tan_Guest
-  - hash:
-      serializedVersion: 2
-      Hash: b429c163d22a93f0135d90b84265fb51
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: Player
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: PointMeat
-  - hash:
-      serializedVersion: 2
-      Hash: 05537081f457394bcd45c5dad8b7c441
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: Simp_Spawn_Guest_2
+    className: TMP_InputField
   - hash:
       serializedVersion: 2
       Hash: c0cc203444a47e6b3ca62d56fd3ccc2b
@@ -1182,16 +915,142 @@ ScriptsOnlyBuild:
     className: Meat_Base
   - hash:
       serializedVersion: 2
+      Hash: 5b5996c453df130084867954e53bcac2
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Simp_Gpai_print
+  - hash:
+      serializedVersion: 2
+      Hash: 16f045f20bd3797f20bf635efa0dcf93
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Tsai_Memory5
+  - hash:
+      serializedVersion: 2
+      Hash: caa533b001ae39b864ba8425019e2268
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Outline
+  - hash:
+      serializedVersion: 2
+      Hash: a97020c12af3abbd490b3b234aa12438
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Teach_Text1
+  - hash:
+      serializedVersion: 2
+      Hash: 4f57b6e302ec0e385d7e906539622252
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Quest01
+  - hash:
+      serializedVersion: 2
+      Hash: c4c4545d75873506a42e573cdd2eed32
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Part_Time_Quiz
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: SignalAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: sc2_zoom
+  - hash:
+      serializedVersion: 2
+      Hash: bcaee4c2a83047257b5f47d6ed264b75
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Toggle
+  - hash:
+      serializedVersion: 2
+      Hash: 5f1470d25b698d3c6263bd2bdd734b99
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: G_Pai_Quiz
+  - hash:
+      serializedVersion: 2
+      Hash: 5178cf73b5c9978365ec1beeff9af0f8
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Game_teaching
+  - hash:
+      serializedVersion: 2
+      Hash: a1deb96146b0066d55a746ebadd232dd
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Camera_Right
+  - hash:
+      serializedVersion: 2
+      Hash: 0dbc3be398b4869a5c8d0d8481ee402c
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: LayoutElement
+  - hash:
+      serializedVersion: 2
       Hash: 05537081f457394bcd45c5dad8b7c441
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
-    className: Spawn_Guest2
+    className: Simp_Spawn_Guest_4
   - hash:
       serializedVersion: 2
-      Hash: 917b9b3eb2e84cd068388eabfda538f5
+      Hash: c3d3430df9e3ea95e3e3d587961390fb
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: PlayableTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
-    className: Meat_To_Cook3
+    className: sc4_zoom
+  - hash:
+      serializedVersion: 2
+      Hash: ba24e9c333b0a5f02a827fb33c806634
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Note_To_Meat4
+  - hash:
+      serializedVersion: 2
+      Hash: 6bc76e17f0d5e93f3eea7f5a2fe227f3
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Selectable
+  - hash:
+      serializedVersion: 2
+      Hash: ecef5cc8d5734a81e4b35feb9358b9c8
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Spawn_Teach
+  - hash:
+      serializedVersion: 2
+      Hash: 3164bc883ff663a5cdb32d1ef7e7c0c5
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: VerticalLayoutGroup
+  - hash:
+      serializedVersion: 2
+      Hash: a86d440a9d08c9c6670e26d46e0aaa02
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Go_To_Konsingtasi
+  - hash:
+      serializedVersion: 2
+      Hash: 21a9c6dbf300fc1f6dc15ca7e2c39a37
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Slider
+  - hash:
+      serializedVersion: 2
+      Hash: 6192d60142ac8d48d5026d3fc125d177
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: SceneChanges
   - hash:
       serializedVersion: 2
       Hash: 05537081f457394bcd45c5dad8b7c441
@@ -1200,28 +1059,274 @@ ScriptsOnlyBuild:
     className: Spawn_Guest3
   - hash:
       serializedVersion: 2
-      Hash: 0c36418869d311900dbae24f428347fe
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: Note_To_Meat8
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: check_menu
-  - hash:
-      serializedVersion: 2
-      Hash: 040dd48e3a027d5424519a5fa2009df4
+      Hash: 3164bc883ff663a5cdb32d1ef7e7c0c5
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
-    className: ScrollRect
+    className: HorizontalLayoutGroup
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UnityEngine.TestRunner.dll
+    namespaceName: UnityEngine.TestTools.TestRunner.Callbacks
+    className: PlayerQuitHandler
+  - hash:
+      serializedVersion: 2
+      Hash: 917b9b3eb2e84cd068388eabfda538f5
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Tsai_Memory3
+  - hash:
+      serializedVersion: 2
+      Hash: 6263bd5c5af4bcb2d0829f82eac650b0
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Shop_Guest
+  - hash:
+      serializedVersion: 2
+      Hash: bbb39145fc0d9451db3bb3c3ee9ae002
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Meat_To_Cook2
+  - hash:
+      serializedVersion: 2
+      Hash: 3053967afec4070ba920d129f1b88a48
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Tsai_Pu_Dan_Zoom7
+  - hash:
+      serializedVersion: 2
+      Hash: caa533b001ae39b864ba8425019e2268
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Shadow
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.EventSystems
+    className: BaseInput
+  - hash:
+      serializedVersion: 2
+      Hash: 653d0065e71ed1bfe20283b8156a0e32
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Mein_Bao_Quiz
+  - hash:
+      serializedVersion: 2
+      Hash: 63df94cdfd6d365163aada3758508716
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Tsai_Memory7
+  - hash:
+      serializedVersion: 2
+      Hash: f0786811516f7de8befd7a3e181e567a
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_FontAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 8eb3e4379badd52712404126659f45d0
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: meatboss_base
+  - hash:
+      serializedVersion: 2
+      Hash: 74dcf3dc79e1f4d221742f0ce4ce1396
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: simp_
+  - hash:
+      serializedVersion: 2
+      Hash: d5ead0e072ebf6330170985fc9e5b1b5
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Tsai_Memory6
+  - hash:
+      serializedVersion: 2
+      Hash: 18c222bef9ae745ce69ddde9b74337ca
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.EventSystems
+    className: Physics2DRaycaster
+  - hash:
+      serializedVersion: 2
+      Hash: a2612813f45d0ced02c3e4bc9dbea8b4
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TextMeshPro
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UnityEngine.TestRunner.dll
+    namespaceName: UnityEngine.TestTools.TestRunner.Callbacks
+    className: PlayModeRunnerCallback
+  - hash:
+      serializedVersion: 2
+      Hash: c508151e4a93f319bf183084a5f35840
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Print_Chop1
+  - hash:
+      serializedVersion: 2
+      Hash: bd3cf68c8964d3c66d1c43f4f98508c9
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: AnimationTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 05537081f457394bcd45c5dad8b7c441
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Spawn_Guest1
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: PositionAsUV1
+  - hash:
+      serializedVersion: 2
+      Hash: e0d42146d2aca7a9a81a22cdb9f61f84
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Do_Hua_Quiz
+  - hash:
+      serializedVersion: 2
+      Hash: d5ead0e072ebf6330170985fc9e5b1b5
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Type_Writer_Effect6
+  - hash:
+      serializedVersion: 2
+      Hash: 917b9b3eb2e84cd068388eabfda538f5
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Note_To_Meat3
+  - hash:
+      serializedVersion: 2
+      Hash: 87ff43d2baf3385cba327d8f803a4ebb
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: AudioPlayableAsset
+  - hash:
+      serializedVersion: 2
+      Hash: f3fc00a883f77512cd66de27439e8132
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Tsai_Memory18
+  - hash:
+      serializedVersion: 2
+      Hash: 63df94cdfd6d365163aada3758508716
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Note_To_Meat7
+  - hash:
+      serializedVersion: 2
+      Hash: 05537081f457394bcd45c5dad8b7c441
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Simp_Spawn_Guest_3
+  - hash:
+      serializedVersion: 2
+      Hash: 8ae968f52afbdbb87a4a930ee09c35cb
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Tsai_Memory21
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
-    className: Tsai_Pu_Dan_Zoom3
+    className: Mid_Take_Finish
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UnityEngine.TestRunner.dll
+    namespaceName: UnityEngine.TestTools.TestRunner.Callbacks
+    className: RemoteTestResultSender
+  - hash:
+      serializedVersion: 2
+      Hash: 134322c9293c1896357cce271b819ce4
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.EventSystems
+    className: EventTrigger
+  - hash:
+      serializedVersion: 2
+      Hash: bd6c34bdfd8b924b6a65b40e1be2b5ea
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Storys
+  - hash:
+      serializedVersion: 2
+      Hash: 2e2c15d7ec4ae236c281dc923cd95832
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Ran_explanation
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Tsai_Pu_Dan_Zoom6
+  - hash:
+      serializedVersion: 2
+      Hash: bbb39145fc0d9451db3bb3c3ee9ae002
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Tsai_Memory2
+  - hash:
+      serializedVersion: 2
+      Hash: a81d4c2c1cf3ad164d277d927a193679
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Dropdown
+  - hash:
+      serializedVersion: 2
+      Hash: c3d3430df9e3ea95e3e3d587961390fb
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: GroupTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 95c3430b9339618ae51355174f9984c3
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Do_Hua_Guest
+  - hash:
+      serializedVersion: 2
+      Hash: a5781dc71a671b1ad2b38de19f24b71f
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: ActivationTrack
+  - hash:
+      serializedVersion: 2
+      Hash: ba24e9c333b0a5f02a827fb33c806634
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Tsai_Memory4
+  - hash:
+      serializedVersion: 2
+      Hash: 06fa53a52b049ecf2c3285860f87593c
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Mein_Bao_Guest
+  - hash:
+      serializedVersion: 2
+      Hash: 4401eb990a7a41ae1aad70ae15b139b7
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: PointVeg
+  - hash:
+      serializedVersion: 2
+      Hash: d791aa6007fa3640be1164ea75bb087d
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_StyleSheet
+  - hash:
+      serializedVersion: 2
+      Hash: 63df94cdfd6d365163aada3758508716
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Type_Writer_Effect7
   - hash:
       serializedVersion: 2
       Hash: c3d3430df9e3ea95e3e3d587961390fb
@@ -1230,22 +1335,448 @@ ScriptsOnlyBuild:
     className: SignalTrack
   - hash:
       serializedVersion: 2
+      Hash: 0974ac8c15257eaec7013dd94a393ca5
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Teacher_Guest
+  - hash:
+      serializedVersion: 2
+      Hash: 0c36418869d311900dbae24f428347fe
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Tsai_Memory8
+  - hash:
+      serializedVersion: 2
+      Hash: d03803b74414b1a5e9fe4a476e587cee
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Tsai_Tan_Quiz
+  - hash:
+      serializedVersion: 2
+      Hash: f1d735cc1a21c3704ab52568f4fbfcf8
+    assemblyName: UnityEngine.TestRunner.dll
+    namespaceName: UnityEngine.TestTools.TestRunner
+    className: PlaymodeTestsController
+  - hash:
+      serializedVersion: 2
+      Hash: 91235679107ae2de4f7952caead6887a
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: SpawnMeat
+  - hash:
+      serializedVersion: 2
+      Hash: dc6528d1bd5db2ab2ad9deda83a8328f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Simp_Dohua_print
+  - hash:
+      serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
-    className: Note_To_Meat
+    className: sc1_zoom
   - hash:
       serializedVersion: 2
-      Hash: ba24e9c333b0a5f02a827fb33c806634
+      Hash: 05537081f457394bcd45c5dad8b7c441
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
-    className: Type_Writer_Effect4
+    className: Spawn_Guest4
+  - hash:
+      serializedVersion: 2
+      Hash: aba7b2852ef61d175dd9602e7723d5e5
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Mask
+  - hash:
+      serializedVersion: 2
+      Hash: c1d728126ff1918728036c59106d32b2
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: RawImage
+  - hash:
+      serializedVersion: 2
+      Hash: 1e1a91acbf212fc538c527bf6ca9c10b
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Money_Range
+  - hash:
+      serializedVersion: 2
+      Hash: bbb39145fc0d9451db3bb3c3ee9ae002
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Type_Writer_Effect2
+  - hash:
+      serializedVersion: 2
+      Hash: 447eb3a07f73bf820b5b4a70da2e7a23
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Simp_Shop_print
+  - hash:
+      serializedVersion: 2
+      Hash: 7f8c62536bd0993f8cbaf84e6557f484
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Tsai_Memory13
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Tsai_Pu_Dan_Zoom1
+  - hash:
+      serializedVersion: 2
+      Hash: c8e80e08c21b89666b8f62028b3e039a
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Simp_Tsai_print
+  - hash:
+      serializedVersion: 2
+      Hash: c3d3430df9e3ea95e3e3d587961390fb
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: ControlTrack
+  - hash:
+      serializedVersion: 2
+      Hash: c7401f8af7678693e14c398487ef4d13
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Ro_Tan_Quiz
+  - hash:
+      serializedVersion: 2
+      Hash: c06649b35c2ae4a675b41093f87e6f19
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: NPC_Hint
+  - hash:
+      serializedVersion: 2
+      Hash: 75216a5f5a8b5e0683ca28429bae7b44
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Go_To_Tsaibonun
+  - hash:
+      serializedVersion: 2
+      Hash: 5f170942ee57c7a568f5bcfc7521adea
+    assemblyName: UnityEngine.TestRunner.dll
+    namespaceName: UnityEngine.TestTools
+    className: EnumerableTestState
+  - hash:
+      serializedVersion: 2
+      Hash: 3165968ba45c74472d279ba04455fccb
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_ColorGradient
+  - hash:
+      serializedVersion: 2
+      Hash: 908b3077da284d11de0450423ca1808e
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: SignalReceiver
+  - hash:
+      serializedVersion: 2
+      Hash: 040dd48e3a027d5424519a5fa2009df4
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: ScrollRect
+  - hash:
+      serializedVersion: 2
+      Hash: f4e912b0cf11825633e92efe2f6a051e
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Simp_Part_print
+  - hash:
+      serializedVersion: 2
+      Hash: e6356fb99073ac1e4486f36fdd6daa3f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Tsai_Memory1
+  - hash:
+      serializedVersion: 2
+      Hash: 8785b0f45e085e17635af4dfb8902cdf
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Ro_Tan_Guest
+  - hash:
+      serializedVersion: 2
+      Hash: 18c222bef9ae745ce69ddde9b74337ca
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.EventSystems
+    className: PhysicsRaycaster
+  - hash:
+      serializedVersion: 2
+      Hash: 0fb27be807aa299702f28ad0bcad1f46
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: ControlPlayableAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 386a11b43eb98705add1cb2e08f246d4
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Tsai_Memory19
+  - hash:
+      serializedVersion: 2
+      Hash: a1aa98c78061c6f03a8c124cda576e67
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: CanvasScaler
+  - hash:
+      serializedVersion: 2
+      Hash: 05537081f457394bcd45c5dad8b7c441
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Simp_Spawn_Guest_2
+  - hash:
+      serializedVersion: 2
+      Hash: e469f64a28f834387ccb5db019d87a14
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: HowPlayMeat
+  - hash:
+      serializedVersion: 2
+      Hash: 917b9b3eb2e84cd068388eabfda538f5
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Type_Writer_Effect3
+  - hash:
+      serializedVersion: 2
+      Hash: ef5c43f921427d03730f6ea4c848f07d
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: RectMask2D
+  - hash:
+      serializedVersion: 2
+      Hash: cd18e79c89ae3406bf8de379dc4f6441
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Go_To_Diguayeah
+  - hash:
+      serializedVersion: 2
+      Hash: 87ad3705a58f19c47136728d4a6e9c47
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_Settings
+  - hash:
+      serializedVersion: 2
+      Hash: bf20a5c75d209e04e91b066948f135f0
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Tsai_Tan_Guest
+  - hash:
+      serializedVersion: 2
+      Hash: 068f8465c9e7a9fb494f3c9e100586bd
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Tsai_Memory10
+  - hash:
+      serializedVersion: 2
+      Hash: 16f045f20bd3797f20bf635efa0dcf93
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Meat_To_Cook5
+  - hash:
+      serializedVersion: 2
+      Hash: 05537081f457394bcd45c5dad8b7c441
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Spawn_Guest5
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: GameStart
+  - hash:
+      serializedVersion: 2
+      Hash: be25b36ead0315e80834b168cb84984a
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Note_To_Meat5_5
   - hash:
       serializedVersion: 2
       Hash: 9d566448f61b2b5c27294e6e326da6a2
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: LongPressEffect
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: sc3_zoom
+  - hash:
+      serializedVersion: 2
+      Hash: befdb93a9cf07e552e743ae395c3791a
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Tsai_Memory14
+  - hash:
+      serializedVersion: 2
+      Hash: cf9f5cf2c3145a37ac07f00e50e460f9
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: AspectRatioFitter
+  - hash:
+      serializedVersion: 2
+      Hash: cc4274b586df3c02688bac01b88bd16c
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.EventSystems
+    className: EventSystem
+  - hash:
+      serializedVersion: 2
+      Hash: 3b1fcafbbf9e689d390bb58023f4ae8c
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Tsai_Memory12
+  - hash:
+      serializedVersion: 2
+      Hash: fe64a45214940b510a0ec79c96d43498
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_Dropdown
+  - hash:
+      serializedVersion: 2
+      Hash: f336e086360abe49a3323e5f1583c35a
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: AudioTrack
+  - hash:
+      serializedVersion: 2
+      Hash: a74405a4829a834d107a0c6e072719ed
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: TimelineAsset
+  - hash:
+      serializedVersion: 2
+      Hash: b429c163d22a93f0135d90b84265fb51
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Player
+  - hash:
+      serializedVersion: 2
+      Hash: 760787567e1b60d64a3e421ab83ee14a
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TextMeshProUGUI
+  - hash:
+      serializedVersion: 2
+      Hash: 66d3808f159c1c84ec093af52e212655
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Part_Time_Guest
+  - hash:
+      serializedVersion: 2
+      Hash: 6980e81ddc615a861309d2d659cc3760
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_SubMeshUI
+  - hash:
+      serializedVersion: 2
+      Hash: 41aa347a68d839f7380260b886524426
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: PressPlayer
+  - hash:
+      serializedVersion: 2
+      Hash: 05537081f457394bcd45c5dad8b7c441
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Spawn_Guest2
+  - hash:
+      serializedVersion: 2
+      Hash: 812ed807245bb5dc51b9f75499cf9ecd
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Tsai_Memory22
+  - hash:
+      serializedVersion: 2
+      Hash: a12792bb868823030e3d1dbf9aa0e0d1
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Game_Manager
+  - hash:
+      serializedVersion: 2
+      Hash: 0c36418869d311900dbae24f428347fe
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Type_Writer_Effect8
+  - hash:
+      serializedVersion: 2
+      Hash: 7ad9ce6a2d1e06e3bcecf90b938080b4
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Simp_Mein_print
+  - hash:
+      serializedVersion: 2
+      Hash: fd68d84f33fad85aac38f2739c0ee270
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_SpriteAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: BuyMeat_Start
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UnityEngine.TestRunner.dll
+    namespaceName: UnityEngine.TestRunner.Utils
+    className: TestRunCallbackListener
+  - hash:
+      serializedVersion: 2
+      Hash: ae83e830e7a90c0aff918c4c2e520825
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: GraphicRaycaster
+  - hash:
+      serializedVersion: 2
+      Hash: e469f64a28f834387ccb5db019d87a14
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: CloseHowPlayMeat
+  - hash:
+      serializedVersion: 2
+      Hash: a97020c12af3abbd490b3b234aa12438
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Note_To_Meat1
+  - hash:
+      serializedVersion: 2
+      Hash: 917b9b3eb2e84cd068388eabfda538f5
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Meat_To_Cook3
+  - hash:
+      serializedVersion: 2
+      Hash: bbb39145fc0d9451db3bb3c3ee9ae002
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Note_To_Meat2
+  - hash:
+      serializedVersion: 2
+      Hash: e7a73f5f78ba6445195ec23b74a1ce2d
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_ScrollbarEventHandler
+  - hash:
+      serializedVersion: 2
+      Hash: 04cab81eeeaae6b52511ca29fc924237
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Setting_Debug
+  - hash:
+      serializedVersion: 2
+      Hash: f40fedccd4adbc76605bea6d67537e4b
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_SelectionCaret
+  - hash:
+      serializedVersion: 2
+      Hash: a306e12d896ddcca949923c805691027
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: InputField
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
@@ -1257,13 +1788,61 @@ ScriptsOnlyBuild:
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
-    className: sc1_zoom
+    className: NewBehaviourScript
+  - hash:
+      serializedVersion: 2
+      Hash: a669ef231584920a1ca0a74cc327e804
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Tsai_Memory20
+  - hash:
+      serializedVersion: 2
+      Hash: 15e7d96ecf8e326f42b2ac828a721dc0
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Settings
+  - hash:
+      serializedVersion: 2
+      Hash: 47d5e68ccd60803655f7b5c9fbefce93
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Veg_Base
+  - hash:
+      serializedVersion: 2
+      Hash: 85a810a7ac99b4068d6fbe40c39ae614
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Tsai_Memory11
+  - hash:
+      serializedVersion: 2
+      Hash: 8e37e7f3ffdb643917324796bb3bdf50
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Simp_Meat_print
+  - hash:
+      serializedVersion: 2
+      Hash: ba24e9c333b0a5f02a827fb33c806634
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Type_Writer_Effect4
+  - hash:
+      serializedVersion: 2
+      Hash: 381f52f39c4156a11a49b1986c623ac8
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Book
+  - hash:
+      serializedVersion: 2
+      Hash: a97020c12af3abbd490b3b234aa12438
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Type_Writer_Effect
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: Tsai_Pu_Dan_Zoom4
+    assemblyName: UnityEngine.TestRunner.dll
+    namespaceName: UnityEngine.TestTools.TestRunner.Callbacks
+    className: TestResultRendererCallback
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
@@ -1272,10 +1851,16 @@ ScriptsOnlyBuild:
     className: Go_Tsai_Bo_Nun
   - hash:
       serializedVersion: 2
-      Hash: 4401eb990a7a41ae1aad70ae15b139b7
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
-    className: PointVeg
+    className: check_menu
+  - hash:
+      serializedVersion: 2
+      Hash: afd63eaeba39247d42c866794af4fa72
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Tsai_Memory15
   - hash:
       serializedVersion: 2
       Hash: 05537081f457394bcd45c5dad8b7c441
@@ -1284,370 +1869,16 @@ ScriptsOnlyBuild:
     className: Simp_Spawn_Guest_1
   - hash:
       serializedVersion: 2
-      Hash: 75216a5f5a8b5e0683ca28429bae7b44
+      Hash: 65d47569a7e470c84dc7a719861a73b8
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
-    className: Go_To_Tsaibonun
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: UnityEngine.TestRunner.dll
-    namespaceName: UnityEngine.TestTools.TestRunner.Callbacks
-    className: RemoteTestResultSender
-  - hash:
-      serializedVersion: 2
-      Hash: bbb39145fc0d9451db3bb3c3ee9ae002
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: Note_To_Meat2
-  - hash:
-      serializedVersion: 2
-      Hash: 4fd8bf02e3089425d3502e26c44ba31a
-    assemblyName: Unity.TextMeshPro.dll
-    namespaceName: TMPro
-    className: TextContainer
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: sc4_zoom
-  - hash:
-      serializedVersion: 2
-      Hash: 2e2c15d7ec4ae236c281dc923cd95832
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: Ran_explanation
-  - hash:
-      serializedVersion: 2
-      Hash: c1d728126ff1918728036c59106d32b2
-    assemblyName: UnityEngine.UI.dll
-    namespaceName: UnityEngine.UI
-    className: RawImage
-  - hash:
-      serializedVersion: 2
-      Hash: ca29c14b0829b1fbbf548f5b032271b3
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: Press_GameStart
-  - hash:
-      serializedVersion: 2
-      Hash: 0974ac8c15257eaec7013dd94a393ca5
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: Teacher_Guest
-  - hash:
-      serializedVersion: 2
-      Hash: 95c3430b9339618ae51355174f9984c3
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: Do_Hua_Guest
-  - hash:
-      serializedVersion: 2
-      Hash: 3164bc883ff663a5cdb32d1ef7e7c0c5
-    assemblyName: UnityEngine.UI.dll
-    namespaceName: UnityEngine.UI
-    className: VerticalLayoutGroup
+    className: Tsai_Memory16
   - hash:
       serializedVersion: 2
       Hash: d5ead0e072ebf6330170985fc9e5b1b5
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
-    className: Type_Writer_Effect6
-  - hash:
-      serializedVersion: 2
-      Hash: be25b36ead0315e80834b168cb84984a
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: Note_To_Meat5_5
-  - hash:
-      serializedVersion: 2
-      Hash: 6263bd5c5af4bcb2d0829f82eac650b0
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: Shop_Guest
-  - hash:
-      serializedVersion: 2
-      Hash: a1deb96146b0066d55a746ebadd232dd
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: Camera_Right
-  - hash:
-      serializedVersion: 2
-      Hash: f7bb6096199e0cf058d5d69878184cf4
-    assemblyName: UnityEngine.UI.dll
-    namespaceName: UnityEngine.UI
-    className: InputField
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: Player_Quiz
-  - hash:
-      serializedVersion: 2
-      Hash: 908b3077da284d11de0450423ca1808e
-    assemblyName: Unity.Timeline.dll
-    namespaceName: UnityEngine.Timeline
-    className: SignalReceiver
-  - hash:
-      serializedVersion: 2
-      Hash: d8f87b72b1efa53d127913055d950078
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: Ran_quest
-  - hash:
-      serializedVersion: 2
-      Hash: a97020c12af3abbd490b3b234aa12438
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: Meat_To_Cook1
-  - hash:
-      serializedVersion: 2
-      Hash: 3164bc883ff663a5cdb32d1ef7e7c0c5
-    assemblyName: UnityEngine.UI.dll
-    namespaceName: UnityEngine.UI
-    className: HorizontalLayoutGroup
-  - hash:
-      serializedVersion: 2
-      Hash: 344a8c2e106a0a4e098e91a52e0af063
-    assemblyName: Unity.TextMeshPro.dll
-    namespaceName: TMPro
-    className: TMP_FontAsset
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: BuyMeat_Start
-  - hash:
-      serializedVersion: 2
-      Hash: 87ad3705a58f19c47136728d4a6e9c47
-    assemblyName: Unity.TextMeshPro.dll
-    namespaceName: TMPro
-    className: TMP_Settings
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Unity.Timeline.dll
-    namespaceName: UnityEngine.Timeline
-    className: ActivationPlayableAsset
-  - hash:
-      serializedVersion: 2
-      Hash: 18c222bef9ae745ce69ddde9b74337ca
-    assemblyName: UnityEngine.UI.dll
-    namespaceName: UnityEngine.EventSystems
-    className: Physics2DRaycaster
-  - hash:
-      serializedVersion: 2
-      Hash: 12d42ec021e1ca8afd72c92e6c063e34
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: Game_Manager
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: Tsai_Pu_Dan_Zoom2
-  - hash:
-      serializedVersion: 2
-      Hash: 8785b0f45e085e17635af4dfb8902cdf
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: Ro_Tan_Guest
-  - hash:
-      serializedVersion: 2
-      Hash: 63df94cdfd6d365163aada3758508716
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: Type_Writer_Effect7
-  - hash:
-      serializedVersion: 2
-      Hash: c1933cc0a2f4ff6eb13333347497beb3
-    assemblyName: Unity.Timeline.dll
-    namespaceName: UnityEngine.Timeline
-    className: TimelineAsset
-  - hash:
-      serializedVersion: 2
-      Hash: 760787567e1b60d64a3e421ab83ee14a
-    assemblyName: Unity.TextMeshPro.dll
-    namespaceName: TMPro
-    className: TextMeshProUGUI
-  - hash:
-      serializedVersion: 2
-      Hash: f336e086360abe49a3323e5f1583c35a
-    assemblyName: Unity.Timeline.dll
-    namespaceName: UnityEngine.Timeline
-    className: AudioTrack
-  - hash:
-      serializedVersion: 2
-      Hash: cd18e79c89ae3406bf8de379dc4f6441
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: Go_To_Diguayeah
-  - hash:
-      serializedVersion: 2
-      Hash: 5178cf73b5c9978365ec1beeff9af0f8
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: Game_teaching
-  - hash:
-      serializedVersion: 2
-      Hash: ae83e830e7a90c0aff918c4c2e520825
-    assemblyName: UnityEngine.UI.dll
-    namespaceName: UnityEngine.UI
-    className: GraphicRaycaster
-  - hash:
-      serializedVersion: 2
-      Hash: 88cc9df3c6fc697bfbeacd24c0d6f2d7
-    assemblyName: UnityEngine.TestRunner.dll
-    namespaceName: UnityEngine.TestTools
-    className: BeforeAfterTestCommandState
-  - hash:
-      serializedVersion: 2
-      Hash: 6192d60142ac8d48d5026d3fc125d177
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: SceneChanges
-  - hash:
-      serializedVersion: 2
-      Hash: c4c4545d75873506a42e573cdd2eed32
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: Part_Time_Quiz
-  - hash:
-      serializedVersion: 2
-      Hash: e0d42146d2aca7a9a81a22cdb9f61f84
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: Do_Hua_Quiz
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: NewBehaviourScript
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: Tsai_Pu_Dan_Zoom6
-  - hash:
-      serializedVersion: 2
-      Hash: e469f64a28f834387ccb5db019d87a14
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: HowPlayMeat
-  - hash:
-      serializedVersion: 2
-      Hash: c3d3430df9e3ea95e3e3d587961390fb
-    assemblyName: Unity.Timeline.dll
-    namespaceName: UnityEngine.Timeline
-    className: MarkerTrack
-  - hash:
-      serializedVersion: 2
-      Hash: 05537081f457394bcd45c5dad8b7c441
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: Spawn_Guest5
-  - hash:
-      serializedVersion: 2
-      Hash: d791aa6007fa3640be1164ea75bb087d
-    assemblyName: Unity.TextMeshPro.dll
-    namespaceName: TMPro
-    className: TMP_StyleSheet
-  - hash:
-      serializedVersion: 2
-      Hash: bd6c34bdfd8b924b6a65b40e1be2b5ea
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: Storys
-  - hash:
-      serializedVersion: 2
-      Hash: 04cab81eeeaae6b52511ca29fc924237
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: Setting_Debug
-  - hash:
-      serializedVersion: 2
-      Hash: c7401f8af7678693e14c398487ef4d13
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: Ro_Tan_Quiz
-  - hash:
-      serializedVersion: 2
-      Hash: 156692778153d0f804e938219e33203a
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: sc5_zoom
-  - hash:
-      serializedVersion: 2
-      Hash: 8eb3e4379badd52712404126659f45d0
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: meatboss_base
-  - hash:
-      serializedVersion: 2
-      Hash: 0c36418869d311900dbae24f428347fe
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: Type_Writer_Effect8
-  - hash:
-      serializedVersion: 2
-      Hash: a2612813f45d0ced02c3e4bc9dbea8b4
-    assemblyName: Unity.TextMeshPro.dll
-    namespaceName: TMPro
-    className: TextMeshPro
-  - hash:
-      serializedVersion: 2
-      Hash: 3165968ba45c74472d279ba04455fccb
-    assemblyName: Unity.TextMeshPro.dll
-    namespaceName: TMPro
-    className: TMP_ColorGradient
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: UnityEngine.TestRunner.dll
-    namespaceName: UnityEngine.TestTools.TestRunner.Callbacks
-    className: PlayModeRunnerCallback
-  - hash:
-      serializedVersion: 2
-      Hash: 05537081f457394bcd45c5dad8b7c441
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: Simp_Spawn_Guest_4
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: UnityEngine.UI.dll
-    namespaceName: UnityEngine.EventSystems
-    className: BaseInput
-  - hash:
-      serializedVersion: 2
-      Hash: 16f045f20bd3797f20bf635efa0dcf93
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: Meat_To_Cook5
-  - hash:
-      serializedVersion: 2
-      Hash: caa533b001ae39b864ba8425019e2268
-    assemblyName: UnityEngine.UI.dll
-    namespaceName: UnityEngine.UI
-    className: Outline
-  - hash:
-      serializedVersion: 2
-      Hash: 41aa347a68d839f7380260b886524426
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: PressPlayer
-  - hash:
-      serializedVersion: 2
-      Hash: 134322c9293c1896357cce271b819ce4
-    assemblyName: UnityEngine.UI.dll
-    namespaceName: UnityEngine.EventSystems
-    className: EventTrigger
+    className: Note_To_Meat6
   - hash:
       serializedVersion: 2
       Hash: 5dea360fb0b147724ac344e6f399c2f3
@@ -1656,58 +1887,46 @@ ScriptsOnlyBuild:
     className: TMP_SubMesh
   - hash:
       serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: UnityEngine.TestRunner.dll
-    namespaceName: UnityEngine.TestRunner.Utils
-    className: TestRunCallbackListener
-  - hash:
-      serializedVersion: 2
-      Hash: c60c5cba0d5ed4f4a018240d6339217f
-    assemblyName: UnityEngine.TestRunner.dll
-    namespaceName: UnityEngine.TestTools.TestRunner
-    className: PlaymodeTestsController
-  - hash:
-      serializedVersion: 2
-      Hash: 0fd689b29ca4e350893b80d82ac126b1
-    assemblyName: UnityEngine.UI.dll
-    namespaceName: UnityEngine.UI
-    className: Dropdown
-  - hash:
-      serializedVersion: 2
-      Hash: 05537081f457394bcd45c5dad8b7c441
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: Simp_Spawn_Guest_3
-  - hash:
-      serializedVersion: 2
-      Hash: c06649b35c2ae4a675b41093f87e6f19
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: NPC_Hint
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: Tsai_Pu_Dan_Zoom1
-  - hash:
-      serializedVersion: 2
-      Hash: 653d0065e71ed1bfe20283b8156a0e32
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: Mein_Bao_Quiz
-  - hash:
-      serializedVersion: 2
-      Hash: 4f57b6e302ec0e385d7e906539622252
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: Quest01
-  - hash:
-      serializedVersion: 2
       Hash: 748dd2a2a28da4e618912da5ac45684b
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.EventSystems
     className: StandaloneInputModule
+  - hash:
+      serializedVersion: 2
+      Hash: f7858108331b563fb41b80b729297acd
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Scrollbar
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: PointMeat
+  - hash:
+      serializedVersion: 2
+      Hash: c3d3430df9e3ea95e3e3d587961390fb
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: MarkerTrack
+  - hash:
+      serializedVersion: 2
+      Hash: d69319141d425e0af4d07c11e08fc4be
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Add_Meat_Money
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Tsai_Pu_Dan_Zoom4
+  - hash:
+      serializedVersion: 2
+      Hash: 79f87b897dce12ec8d8575542c739ebf
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Simp_Teacher_print
   - hash:
       serializedVersion: 2
       Hash: de675914ccefd55b5548d0ac076742df
@@ -1716,28 +1935,10 @@ ScriptsOnlyBuild:
     className: SpawnVeg
   - hash:
       serializedVersion: 2
-      Hash: 0ffaf073d4b1fa4e8036cf7ad52ddba7
-    assemblyName: UnityEngine.UI.dll
-    namespaceName: UnityEngine.UI
-    className: Toggle
-  - hash:
-      serializedVersion: 2
       Hash: 8220b46879dc5e37db1b940c938f5744
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: SignalEmitter
-  - hash:
-      serializedVersion: 2
-      Hash: 06fa53a52b049ecf2c3285860f87593c
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: Mein_Bao_Guest
-  - hash:
-      serializedVersion: 2
-      Hash: 0c05f2bfb402def3f0a85a62a2323c7f
-    assemblyName: UnityEngine.UI.dll
-    namespaceName: UnityEngine.UI
-    className: Slider
   - hash:
       serializedVersion: 2
       Hash: 3482d0594b129e2a16f644c72706649d
@@ -1746,16 +1947,10 @@ ScriptsOnlyBuild:
     className: Type_Writer_Effect9
   - hash:
       serializedVersion: 2
-      Hash: 917b9b3eb2e84cd068388eabfda538f5
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: Type_Writer_Effect3
-  - hash:
-      serializedVersion: 2
-      Hash: 0fd6822f6177297bd0eb4d83cc7a9030
-    assemblyName: UnityEngine.UI.dll
-    namespaceName: UnityEngine.UI
-    className: ToggleGroup
+      Hash: 8e6ceabfd38a184413d69b7db56c89cc
+    assemblyName: UnityEngine.TestRunner.dll
+    namespaceName: UnityEngine.TestTools
+    className: BeforeAfterTestCommandState
   - hash:
       serializedVersion: 2
       Hash: a1deb96146b0066d55a746ebadd232dd
@@ -1764,16 +1959,106 @@ ScriptsOnlyBuild:
     className: Camera_Left
   - hash:
       serializedVersion: 2
-      Hash: c3d3430df9e3ea95e3e3d587961390fb
-    assemblyName: Unity.Timeline.dll
-    namespaceName: UnityEngine.Timeline
-    className: PlayableTrack
-  - hash:
-      serializedVersion: 2
       Hash: ba24e9c333b0a5f02a827fb33c806634
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: Meat_To_Cook4
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Tsai_Pu_Dan_Zoom2
+  - hash:
+      serializedVersion: 2
+      Hash: 0fd6822f6177297bd0eb4d83cc7a9030
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: ToggleGroup
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: ActivationPlayableAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 87dc80329fa947ca5849331a6bc5406e
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Shop
+  - hash:
+      serializedVersion: 2
+      Hash: ca29c14b0829b1fbbf548f5b032271b3
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Press_GameStart
+  - hash:
+      serializedVersion: 2
+      Hash: 8100b966a9fb569401ee7ec5e51ece2f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Teacher_Quiz
+  - hash:
+      serializedVersion: 2
+      Hash: 7ab0e790220bdca831fdd886b339039d
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: GridLayoutGroup
+  - hash:
+      serializedVersion: 2
+      Hash: abf1930d8126d0b2e00e9449129a0190
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.EventSystems
+    className: TouchInputModule
+  - hash:
+      serializedVersion: 2
+      Hash: 0c36418869d311900dbae24f428347fe
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Note_To_Meat8
+  - hash:
+      serializedVersion: 2
+      Hash: 12d42ec021e1ca8afd72c92e6c063e34
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: close_menu
+  - hash:
+      serializedVersion: 2
+      Hash: 4e31b165d0772f3cf341f9222f2061c9
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Teaching
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Player_Quiz
+  - hash:
+      serializedVersion: 2
+      Hash: e42402cf327db4c899d9e172b20cafc3
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: G_Pai_Guest
+  - hash:
+      serializedVersion: 2
+      Hash: 4fd8bf02e3089425d3502e26c44ba31a
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TextContainer
+  - hash:
+      serializedVersion: 2
+      Hash: 156692778153d0f804e938219e33203a
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: sc5_zoom
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Simple_Destroy
   platform: 13
   scenePathNames:
   - "Assets/Scenes/\u6B61\u8FCE\u9801.unity"
@@ -1783,4 +2068,4 @@ ScriptsOnlyBuild:
   - Assets/Scenes/Quest.unity
   - Assets/Scenes/Make_TsaiPuDan.unity
   - "Assets/Scenes/\u83DC\u5703\u86CB\u7684\u56DE\u61B6.unity"
-  playerPath: D:/GitHub_works/Baodao_Guanghui/Baodao_Guanghui/Dao_Hue2.apk
+  playerPath: D:/GitHub_works/Baodao_Guanghui/Baodao_Guanghui/Dao_Hue_Simp.apk
