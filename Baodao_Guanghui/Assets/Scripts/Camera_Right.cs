@@ -25,7 +25,7 @@ public class Camera_Right : MonoBehaviour
 
         public void Cam_Right()
         {
-            cam.transform.Translate(new Vector3(18f, 0, 0));
+            cam.transform.Translate(new Vector3(25f, 0, 0));
         }
         //private void OnMouseDown()
         //{
