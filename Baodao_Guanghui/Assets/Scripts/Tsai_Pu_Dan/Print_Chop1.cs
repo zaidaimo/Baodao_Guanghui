@@ -12,6 +12,7 @@ public class Print_Chop1 : MonoBehaviour
     public GameObject Blend_Zoom;//詹版特寫區(1)
     public GameObject step6;
     public GameObject step6_5;
+    public GameObject back;
 
     public void Update()
     {
@@ -30,6 +31,7 @@ public class Print_Chop1 : MonoBehaviour
             Blend_Zoom.SetActive(true);
             step6.SetActive(false);
             step6_5.SetActive(true);
+            back.SetActive(true);
         }
         else if (Blend == 4)//攪拌第三次時
         {
