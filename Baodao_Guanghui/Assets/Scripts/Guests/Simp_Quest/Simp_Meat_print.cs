@@ -6,6 +6,7 @@ public class Simp_Meat_print : MonoBehaviour
 {
     public float DestroyTime=5;
     public GameObject Meat_Take_Dish;
+    public GameObject Money1;
     private void Start()
     {
         //Destroy(gameObject, DestroyTime);
@@ -17,6 +18,7 @@ public class Simp_Meat_print : MonoBehaviour
         //PressGetMoney();
         Destroy(gameObject);
         Meat_Take_Dish.SetActive(true);
+        Money1.SetActive(true);
     }
     
 }

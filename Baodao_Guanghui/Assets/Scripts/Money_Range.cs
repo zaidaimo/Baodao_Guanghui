@@ -12,6 +12,12 @@ public class Money_Range : MonoBehaviour
     public GameObject Mid;
     public GameObject Simp_Guest;
     public GameObject Mid_Guest;
+
+    public GameObject Meat_Lock;
+    public GameObject Kitchen_Lock;
+    public GameObject Meat_Lock_Start;
+    public GameObject Kitchen_Lock_Start;
+    public GameObject Point_prompt;
     #endregion
 
     //public GameObject Left;
@@ -25,27 +31,31 @@ public class Money_Range : MonoBehaviour
         BuyMeat();
         Note_Meat();
         Tsaibonun();
+
+        Point();
+    }
+
+    public void Point()  //解鎖買肉
+    {
+        if (Money.PocketMoney >= 20099)
+        {
+            Point_prompt.SetActive(false);
+        }
+       
     }
     public void BuyMeat()  //解鎖買肉
     {
         if (Money.PocketMoney == 21200)
         {
             bulb_BuyMeat.SetActive(true);
-            //bulb_tsaibonun.SetActive(false);
-            //Left.SetActive(true);
-            //Right.SetActive(false);
-            //Left1.SetActive(false);
-            //Right1.SetActive(true);
-           // Meat_Lock.SetActive(false);
-           // Kitchen_Lock.SetActive(true);
-           // Meat_Teaching.SetActive(true);
-            //Meat_Start.SetActive(true);
-
-        }
-        else if (Money.PocketMoney > 21000)
-        {
-            //bulb_BuyMeat.SetActive(false);
             
+        }
+        else if (Money.PocketMoney >= 21200)
+        {
+            Meat_Lock.SetActive(false);
+            Kitchen_Lock.SetActive(true);
+            Meat_Lock_Start.SetActive(true);
+            Kitchen_Lock_Start.SetActive(false);
         }
 
     }
@@ -59,12 +69,6 @@ public class Money_Range : MonoBehaviour
             Mid.SetActive(true);
             Simp_Guest.SetActive(false);
             Mid_Guest.SetActive(true);
-            //Left.SetActive(true);
-            //Right.SetActive(false);
-            //Left1.SetActive(false);
-            //Right1.SetActive(true);
-            //Meat_Lock.SetActive(false);
-            //Kitchen_Lock.SetActive(true);
         }
         else
         {
@@ -77,20 +81,12 @@ public class Money_Range : MonoBehaviour
         if (Money.PocketMoney >= 22500)
         {
             bulb_tsaibonun.SetActive(true);
-            Simp.SetActive(false);
-            Mid.SetActive(true);
-            //Left.SetActive(true);
-            //Right.SetActive(true);
-            //Left1.SetActive(true);
-            //Right1.SetActive(true);
-            //Meat_Lock.SetActive(false);
-            //Kitchen_Lock.SetActive(false);
+            Meat_Lock.SetActive(false);
+            Kitchen_Lock.SetActive(false);
+            Meat_Lock_Start.SetActive(true);
+            Kitchen_Lock_Start.SetActive(true);
         }
-        else
-        {
-            //bulb_tsaibonun.SetActive(false);
-        }
-
+        
     }
     
 }

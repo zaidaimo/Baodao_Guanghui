@@ -6,6 +6,7 @@ public class Simp_Gpai_print : MonoBehaviour
 {
     public float DestroyTime=5;
     public GameObject Gpai_Take_Dish;
+    public GameObject Money3;
     private void Start()
     {
         //Destroy(gameObject, DestroyTime);
@@ -17,6 +18,7 @@ public class Simp_Gpai_print : MonoBehaviour
         //PressGetMoney();
         Destroy(gameObject);
         Gpai_Take_Dish.SetActive(true);
+        Money3.SetActive(true);
     }
 
     
