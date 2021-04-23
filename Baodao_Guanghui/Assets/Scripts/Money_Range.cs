@@ -31,7 +31,7 @@ public class Money_Range : MonoBehaviour
         BuyMeat();
         Note_Meat();
         Tsaibonun();
-
+        No_Tsaibonun();
         Point();
     }
 
@@ -62,7 +62,7 @@ public class Money_Range : MonoBehaviour
 
     public void Note_Meat()  //普通客人
     {
-        if (Money.PocketMoney >= 21500)
+        if (Money.PocketMoney >= 22000)
         {
 
             Simp.SetActive(false);
@@ -78,15 +78,29 @@ public class Money_Range : MonoBehaviour
     }
     public void Tsaibonun()  //菜圃但
     {
-        if (Money.PocketMoney >= 22500)
+        if (Money.PocketMoney >= 22600 && Money.PocketMoney < 30000)
         {
             bulb_tsaibonun.SetActive(true);
             Meat_Lock.SetActive(false);
             Kitchen_Lock.SetActive(false);
             Meat_Lock_Start.SetActive(true);
             Kitchen_Lock_Start.SetActive(true);
+
         }
-        
+       
     }
-    
+
+    public void No_Tsaibonun()  //菜圃但
+    {
+        if (Money.PocketMoney >= 30000)
+        {
+            bulb_tsaibonun.SetActive(false);
+            Meat_Lock.SetActive(false);
+            Kitchen_Lock.SetActive(false);
+            Meat_Lock_Start.SetActive(true);
+            Kitchen_Lock_Start.SetActive(true);
+        }
+
+    }
+
 }

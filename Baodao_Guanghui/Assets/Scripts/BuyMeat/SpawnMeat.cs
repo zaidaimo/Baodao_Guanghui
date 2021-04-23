@@ -13,11 +13,21 @@ public class SpawnMeat : MonoBehaviour
 
     private void Start()
     {
-        isGame = true;
+        isGame = false;
         if(isGame==true)
         {
             InvokeRepeating("CreateMeats", spawnTime, spawnTime);  //反覆呼叫 (1秒生成,每1秒生成一次)
         }
+        Debug.Log("需點擊教學以開始遊戲");
+    }
+    public void Start_Playing()
+    {
+        isGame = true;
+        if (isGame == true)
+        {
+            InvokeRepeating("CreateMeats", spawnTime, spawnTime);  //反覆呼叫 (1秒生成,每1秒生成一次)
+        }
+        Debug.Log("開始遊戲");
     }
 
     private void Update()
