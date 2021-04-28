@@ -11,9 +11,6 @@ public class Destroy_Note_Meat : MonoBehaviour
     // Start is called before the first frame update
     public void Destroy()
     {
-        if (Money.PocketMoney >= 2000)
-        {
-            Destroy(gameObject);
-        }
+        Destroy(gameObject);
     }
 }

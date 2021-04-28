@@ -36,7 +36,7 @@ public class Money_Range : MonoBehaviour
         Point();
     }
 
-    public void Point()  //解鎖買肉
+    public void Point()  
     {
         if (Money.PocketMoney >= 1)
         {
@@ -46,15 +46,15 @@ public class Money_Range : MonoBehaviour
     }
     public void BuyMeat()  //解鎖買肉
     {
-        if (Money.PocketMoney == 1200)
+        if (Money.PocketMoney == 900)
         {
             bulb_BuyMeat.SetActive(true);
             
         }
-        else if (Money.PocketMoney >= 1200)
+        else if (Money.PocketMoney >= 900)
         {
-            Meat_Lock.SetActive(false);
-            Kitchen_Lock.SetActive(true);
+            //Meat_Lock.SetActive(false);
+            //Kitchen_Lock.SetActive(true);
             Meat_Lock_Start.SetActive(true);
             Kitchen_Lock_Start.SetActive(false);
         }
@@ -63,7 +63,7 @@ public class Money_Range : MonoBehaviour
 
     public void Note_Meat()  //普通客人
     {
-        if (Money.PocketMoney >= 2000)
+        if (Money.PocketMoney >= 1700)
         {
 
             //Simp.SetActive(false);
@@ -75,15 +75,20 @@ public class Money_Range : MonoBehaviour
     }
     public void Tsaibonun()  //菜圃但
     {
-        if (Money.PocketMoney >= 2800 && Money.PocketMoney < 3100)
+        if (Money.PocketMoney >= 2500 && Money.PocketMoney <2800)
         {
             bulb_tsaibonun.SetActive(true);
-            Meat_Lock.SetActive(false);
-            Kitchen_Lock.SetActive(false);
+            //Meat_Lock.SetActive(false);
+            //Kitchen_Lock.SetActive(false);
+            
+        }
+        if (Money.PocketMoney >= 2500 )
+        {
+            
             Meat_Lock_Start.SetActive(true);
             Kitchen_Lock_Start.SetActive(true);
         }
-       
+
     }
 
     public void No_Tsaibonun()  //菜圃但
@@ -91,8 +96,8 @@ public class Money_Range : MonoBehaviour
         if (Money.PocketMoney >= 30000)
         {
             bulb_tsaibonun.SetActive(false);
-            Meat_Lock.SetActive(false);
-            Kitchen_Lock.SetActive(false);
+            //Meat_Lock.SetActive(false);
+            //Kitchen_Lock.SetActive(false);
             Meat_Lock_Start.SetActive(true);
             Kitchen_Lock_Start.SetActive(true);
 

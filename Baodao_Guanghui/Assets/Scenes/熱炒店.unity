@@ -19753,8 +19753,10 @@ GameObject:
   m_Component:
   - component: {fileID: 510363644}
   - component: {fileID: 510363643}
+  - component: {fileID: 510363646}
+  - component: {fileID: 510363645}
   m_Layer: 0
-  m_Name: Note_to_Meat
+  m_Name: Destroy_Sth
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -19786,6 +19788,30 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &510363645
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 510363642}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 751d42f89a1e539448cefedb952acc46, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &510363646
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 510363642}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 799ff13b7ab1153419324aa47cf57361, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &511983043
 GameObject:
   m_ObjectHideFlags: 0
@@ -38175,6 +38201,7 @@ GameObject:
   m_Component:
   - component: {fileID: 978283238}
   - component: {fileID: 978283239}
+  - component: {fileID: 978283240}
   m_Layer: 0
   m_Name: "\u8089\u6524-\u80CC\u666F\u9396"
   m_TagString: Untagged
@@ -38247,6 +38274,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &978283240
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 978283237}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6b68841a4e7bafd49981efe70acf75ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &978917641
 GameObject:
   m_ObjectHideFlags: 0
@@ -56598,7 +56637,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1427083675}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
   m_Name: 
@@ -60070,6 +60109,7 @@ GameObject:
   - component: {fileID: 1505039396}
   - component: {fileID: 1505039399}
   - component: {fileID: 1505039397}
+  - component: {fileID: 1505039398}
   m_Layer: 0
   m_Name: "\u5EDA\u623F-\u80CC\u666F\u9396"
   m_TagString: Untagged
@@ -60117,6 +60157,18 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 17.124075, y: 10.8}
   m_EdgeRadius: 0
+--- !u!114 &1505039398
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1505039395}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 015095dcddf04f149a14815143979c87, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!212 &1505039399
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -79020,7 +79072,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2039351333}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
   m_Name: 
@@ -85629,6 +85681,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4446051187905779405, guid: 87e9a3d0eeb724b4a8d00d76e0f1737b,
         type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[16].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4446051187905779405, guid: 87e9a3d0eeb724b4a8d00d76e0f1737b,
+        type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
       value: 
       objectReference: {fileID: 1505039395}
@@ -85684,6 +85741,11 @@ PrefabInstance:
       objectReference: {fileID: 307380723}
     - target: {fileID: 4446051187905779405, guid: 87e9a3d0eeb724b4a8d00d76e0f1737b,
         type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[16].m_Target
+      value: 
+      objectReference: {fileID: 510363645}
+    - target: {fileID: 4446051187905779405, guid: 87e9a3d0eeb724b4a8d00d76e0f1737b,
+        type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[7].m_CallState
       value: 2
       objectReference: {fileID: 0}
@@ -85725,6 +85787,11 @@ PrefabInstance:
     - target: {fileID: 4446051187905779405, guid: 87e9a3d0eeb724b4a8d00d76e0f1737b,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[15].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4446051187905779405, guid: 87e9a3d0eeb724b4a8d00d76e0f1737b,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[16].m_CallState
       value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 4446051187905779405, guid: 87e9a3d0eeb724b4a8d00d76e0f1737b,
@@ -85774,6 +85841,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4446051187905779405, guid: 87e9a3d0eeb724b4a8d00d76e0f1737b,
         type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[16].m_MethodName
+      value: Destroy
+      objectReference: {fileID: 0}
+    - target: {fileID: 4446051187905779405, guid: 87e9a3d0eeb724b4a8d00d76e0f1737b,
+        type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[7].m_TargetAssemblyTypeName
       value: Camera_Right, Assembly-CSharp
       objectReference: {fileID: 0}
@@ -85816,6 +85888,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[15].m_TargetAssemblyTypeName
       value: UnityEngine.GameObject, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 4446051187905779405, guid: 87e9a3d0eeb724b4a8d00d76e0f1737b,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[16].m_TargetAssemblyTypeName
+      value: Destroy_Meat_Tsai, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 4446051187905779405, guid: 87e9a3d0eeb724b4a8d00d76e0f1737b,
         type: 3}
@@ -85865,6 +85942,11 @@ PrefabInstance:
     - target: {fileID: 4446051187905779405, guid: 87e9a3d0eeb724b4a8d00d76e0f1737b,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[15].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 4446051187905779405, guid: 87e9a3d0eeb724b4a8d00d76e0f1737b,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[16].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     m_RemovedComponents: []
