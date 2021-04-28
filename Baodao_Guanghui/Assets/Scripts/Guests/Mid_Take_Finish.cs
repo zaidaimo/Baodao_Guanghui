@@ -5,7 +5,7 @@ using UnityEngine;
 public class Mid_Take_Finish : MonoBehaviour
 {
     //public float DestroyTime;
-    int time_int = 4;//宣告倒數的時間 (time_int )為整數( int) 5。
+    int time_int = 2;//宣告倒數的時間 (time_int )為整數( int) 5。
     
     
     // Start is called before the first frame update

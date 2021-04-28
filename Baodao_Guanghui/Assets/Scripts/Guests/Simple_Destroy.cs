@@ -5,19 +5,17 @@ using UnityEngine.UI;
 
 public class Simple_Destroy : MonoBehaviour
 {
-    
-    // Start is called before the first frame update
-    void Start()
+    void Update()
     {
-        if (Money.PocketMoney >= 22000)
+        Destroy();
+    }
+    // Start is called before the first frame update
+    public void Destroy()
+    {
+        if (Money.PocketMoney >= 2000)
         {
             Destroy(gameObject);
         }
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
 }

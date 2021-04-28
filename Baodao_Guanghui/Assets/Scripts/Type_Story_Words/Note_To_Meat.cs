@@ -10,7 +10,7 @@ public class Note_To_Meat : MonoBehaviour
         Destroy(gameObject);
     }
 
-    private void OnMouseDown()
+    public void OnMouseDown()
     {
         Destroy(gameObject);
     }

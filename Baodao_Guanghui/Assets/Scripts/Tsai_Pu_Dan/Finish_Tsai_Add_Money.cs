@@ -9,7 +9,7 @@ public class Finish_Tsai_Add_Money : MonoBehaviour
 
     public void Finish_Tsai()
     {
-        Money.PocketMoney = Money.PocketMoney + 10000;
+        Money.PocketMoney = Money.PocketMoney + 30000;
         //GetComponent<Text>().text = Money.PocketMoney.ToString();
     }
 }
