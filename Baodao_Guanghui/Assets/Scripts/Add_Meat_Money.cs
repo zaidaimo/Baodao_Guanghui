@@ -134,6 +134,12 @@ public class Add_Meat_Money : MonoBehaviour
         Money.PocketMoney = Money.PocketMoney + Player.Meat_Total_Score + Player_Quiz.Quiz_Total_Score + Finish_Tsai_Add_Money.Finish_Tsai_Score;//+ simp_.Simple_Guest_Total_Score;
         //現有零用錢 = 已擁有的零用錢 + 接肉獲得的錢 + 驚嘆號獲得的錢 + 點擊簡單客人獲得的錢
         GetComponent<Text>().text = Money.PocketMoney.ToString();
+
+        if (!simp_refri)
+        {
+            DontDestroyOnLoad(simp_refri);
+        }
+
     }
 
     // Update is called once per frame
@@ -159,6 +165,8 @@ public class Add_Meat_Money : MonoBehaviour
             Shop.SetActive(false);  //關閉商店
             simp_refri_Buy_Btn.SetActive(false);  //購買按鈕關閉
             use_simp_refri.SetActive(true);  //套用按鈕開啟
+
+            //DontDestroyOnLoad(simp_refri);
         }
         else
         {
@@ -176,8 +184,11 @@ public class Add_Meat_Money : MonoBehaviour
         origin_refri.SetActive(false);
 
         Shop.SetActive(false);  //關閉商店
+
+        //DontDestroyOnLoad(simp_refri);
     }
 
+    
     public void adv_refri_Sure_to_buy()  //進階冰箱
     {
         if (Money.PocketMoney >= 5000)
@@ -194,6 +205,8 @@ public class Add_Meat_Money : MonoBehaviour
             Shop.SetActive(false);
             adv_refri_Buy_Btn.SetActive(false);  //購買按鈕關閉
             use_adv_refri.SetActive(true);  //套用按鈕開啟
+
+            //DontDestroyOnLoad(adv_refri);
         }
         else
         {
@@ -211,6 +224,8 @@ public class Add_Meat_Money : MonoBehaviour
         origin_refri.SetActive(false);
 
         Shop.SetActive(false);  //關閉商店
+
+        //DontDestroyOnLoad(adv_refri);
     }
 
     public void highlevel_refri_Sure_to_buy()  //高階冰箱
@@ -229,6 +244,8 @@ public class Add_Meat_Money : MonoBehaviour
             Shop.SetActive(false);
             highlevel_refri_Buy_Btn.SetActive(false);  //購買按鈕關閉
             use_highlevel_refri.SetActive(true);  //套用按鈕開啟
+
+            //DontDestroyOnLoad(highlevel_refri);
         }
         else
         {
@@ -246,6 +263,8 @@ public class Add_Meat_Money : MonoBehaviour
         origin_refri.SetActive(false);
 
         Shop.SetActive(false);  //關閉商店
+
+        //DontDestroyOnLoad(highlevel_refri);
     }
     #endregion
 

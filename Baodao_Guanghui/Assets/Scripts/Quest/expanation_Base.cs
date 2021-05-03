@@ -11,6 +11,13 @@ public class expanation_Base : MonoBehaviour
     //public GameObject mid_Guest;
 
     //public GameObject Left;
+
+    //public Add_Meat_Money Script;
+
+    public GameObject simp_refri;  //普通冰箱
+    
+    public GameObject adv_refri;  //進階冰箱
+    public GameObject highlevel_refri;  //高階冰箱
     public void OnMouseDown()
     {
         SceneManager.LoadScene(4);
@@ -22,5 +29,12 @@ public class expanation_Base : MonoBehaviour
         //mid_Guest.SetActive(true);
 
         //Left.SetActive(true);
+
+        if (simp_refri.activeSelf)
+        {
+            DontDestroyOnLoad(simp_refri);
+        }
     }
+
+    
 }
