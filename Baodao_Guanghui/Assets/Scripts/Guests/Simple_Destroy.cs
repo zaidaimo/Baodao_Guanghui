@@ -12,7 +12,7 @@ public class Simple_Destroy : MonoBehaviour
     // Start is called before the first frame update
     public void Destroy()
     {
-        if (Money.PocketMoney >= 1700)
+        if (Money.PocketMoney >= 1000)
         {
             Destroy(gameObject);
         }

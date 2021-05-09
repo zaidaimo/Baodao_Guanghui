@@ -11,7 +11,7 @@ public class Destroy_Kitchen_Lock : MonoBehaviour
     // Start is called before the first frame update
     public void Destroy()
     {
-        if (Money.PocketMoney >= 2500)
+        if (Money.PocketMoney >= 1800)
         {
             Destroy(gameObject);
         }

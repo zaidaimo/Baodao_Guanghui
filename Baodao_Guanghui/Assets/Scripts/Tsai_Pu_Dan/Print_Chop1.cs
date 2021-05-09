@@ -13,6 +13,7 @@ public class Print_Chop1 : MonoBehaviour
     public GameObject step6;
     public GameObject step6_5;
     public GameObject back;
+    public GameObject step_words6;
 
     public void Update()
     {
@@ -32,14 +33,9 @@ public class Print_Chop1 : MonoBehaviour
             step6.SetActive(false);
             step6_5.SetActive(true);
             back.SetActive(true);
+            step_words6.SetActive(false);
         }
-        else if (Blend == 4)//攪拌第三次時
-        {
-            Blending3.SetActive(true);
-            Blend_Zoom.SetActive(true);
-           
-            step6_5.SetActive(false);
-        }
+        
     }
     public void OnMouseDown()
     {

@@ -38,7 +38,7 @@ public class Player : MonoBehaviour
     public float MoveSpeed;
     #endregion
     
-    public Meat_Base camera_touch;  //遊戲結束時無法再點擊畫面
+    //public Meat_Base camera_touch;  //遊戲結束時無法再點擊畫面
     public SpawnMeat[] Drop;  //陣列
     public Button Right, Left;
 

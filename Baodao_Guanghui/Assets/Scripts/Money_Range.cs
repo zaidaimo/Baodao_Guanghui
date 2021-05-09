@@ -63,7 +63,7 @@ public class Money_Range : MonoBehaviour
 
     public void Note_Meat()  //普通客人
     {
-        if (Money.PocketMoney >= 1700)
+        if (Money.PocketMoney >= 1000)
         {
 
             //Simp.SetActive(false);
@@ -75,14 +75,14 @@ public class Money_Range : MonoBehaviour
     }
     public void Tsaibonun()  //菜圃但
     {
-        if (Money.PocketMoney >= 2500 && Money.PocketMoney <2800)
+        if (Money.PocketMoney >= 1800 && Money.PocketMoney <2100)
         {
             bulb_tsaibonun.SetActive(true);
             //Meat_Lock.SetActive(false);
             //Kitchen_Lock.SetActive(false);
             
         }
-        if (Money.PocketMoney >= 2500 )
+        if (Money.PocketMoney >= 1800 )
         {
             
             Meat_Lock_Start.SetActive(true);
